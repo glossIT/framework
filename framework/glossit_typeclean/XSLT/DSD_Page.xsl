@@ -5,6 +5,8 @@
     Content: 
             Creates an Index HTML based on the Gloss / Textline in the Framework, where the Image of the resp. page is shown, with the snippet in question highlighted; 
             Tech Stack: XSLT; XPATH; HTML; Inline CSS; SVG; 
+            
+            ToDo: Add Zoom Function; Add Infos in sidenav
  -->
 
 
@@ -46,35 +48,49 @@
                     padding-top: 20px;
                     
                     }
-                    .sidenav p {
-                    padding: 6px 8px 6px 16px;
-                    text-decoration: none;
-                    font-size: 25px;
-                    color: #818181;
-                    display: block;}
-                    
+                
                     .main {
                     margin-left: 200px; /* Same as the width of the sidenav */
                    
                     padding: 0px 10px;
+                    
+                    }
+                    img {
+                    border-radius: 8px;
+                    border: 3px solid #03b6fc;
+                    margin-left: 25px;}
+                    
+                    .brand {
+                    color: #03b6fc;
+                    font-family: monospace;
+                    font-size: 2em;
+                    font-weight: bold;
+                    padding-top: 1px;
+                    margin-left: 15px;}
+                    
+                    
+                    .brandname {
+                    color: grey;
+                    font-family: monospace;
+                    font-size: small;
+                    font-weight: bold;
+                    padding-top: 1px;
+                    margin-left: 33px;}
+                    
                 </style>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
                 
                 
                 <body>
                   <div class="sidenav">
+                   <div class="head">
+                    <p class="brand"> GlossIT DSD</p>
                     <p><img src="../../FW-satellite/Detective.png" height="130px" width="130px"/></p> <!-- Change path to correct nextcloud path --> 
-                       <p> GlossIT DSD</p>
-                       <p>Dörtl Snippet Detector</p>
-               
+                       <p class="brandname">Dörtl Snippet Detector</p></div>
                     </div>
-                   <!-- <div style=" top: 0px; background:white;"><div style="display:flex;">
-                        <img src="../MIAU/Detective.png" height="130px" width="130px"/>
-                        <div style="display:block;">
-                            <h1>GlossIT DSD</h1>
-                            <h2>Dörtl Snippet Detector</h2>
-                        </div>
-                     </div>
+                    <div class="info"></div>
+                    <div class="zoom"></div>
+                   <!--
                     <div style="border-top:dotted;">
                          <div style="padding:10px;">
                              <p>
@@ -96,7 +112,7 @@
                                 <!-- height="1200px" width="1064px" --> 
                                 <image id="myimage" href="{$imagepath}"/>                                 
                                 <polygon id="One"
-                                    points="{./pg:Coords/@points}" style="fill:none;stroke:lime;stroke-width:4;"></polygon>
+                                    points="{./pg:Coords/@points}" style="fill:none;stroke:#03e0fc;stroke-width:5;"></polygon>
                                 <!--<rect width="{number(substring-before($Xmax, ',')) - number(substring-before($X, ','))}" height="{number(substring-before($Ymax, ',')) - number(substring-before($Y, ','))}" x="{number(substring-before($X, ','))}" y="{number(substring-before($Y, ','))}" style="fill:none;stroke-width:3;stroke:#03b6fc" />-->                            
                             </svg>                    
                         </div>
