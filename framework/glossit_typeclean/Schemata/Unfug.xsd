@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"  xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"  targetNamespace="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"> 
+    <!--    Ghost Schema  ～(へ^^)へ BOOO -->
+    <xs:element name="PcGts">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Metadata"/>
+                <xs:element name="Page"/>              
+            </xs:sequence>
+            <xs:attributeGroup ref="start"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:attributeGroup name="start">
+        <xs:attribute name="rendition"/>
+    </xs:attributeGroup>
+
+
+</xs:schema>

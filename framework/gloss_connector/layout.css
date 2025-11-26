@@ -1,0 +1,270 @@
+
+/* Connection ICON: <a href="https://www.flaticon.com/free-icons/chain" title="chain icons">Chain icons created by Smashicons - Flaticon</a>
+ * Validation ICON: <a href="https://www.flaticon.com/free-icons/validation" title="validation icons">Validation icons created by Uniconlabs - Flaticon</a> 
+ * Plus sign Icon: <a href="https://www.flaticon.com/de/kostenlose-icons/ui" title="ui Icons">Ui Icons erstellt von Smashicons - Flaticon</a>*/
+ /* Magnifying glass Icon: <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Freepik - Flaticon</a> */
+ /*  Hide Icon: <a href="https://www.flaticon.com/free-icons/password" title="password icons">Password icons created by th studio - Flaticon</a> */
+ /*  Show Icon: <a href="https://www.flaticon.com/free-icons/password" title="password icons">Password icons created by th studio - Flaticon</a> */
+/*   Broom Icon <a href="https://www.freepik.com/icon/broom_3776958#fromView=keyword&page=1&position=92&uuid=ff78ebb9-b813-49e2-a808-2e3f12592959">Icon by Freepik</a>
+*/
+/*  Frameworktype/task:
+    Connect multipleline Glosses (mostly marginal ones);
+    How and Hide interlinear glosses
+    Clean upo the connections afterwards and connect recalculate the rectangle 
+    ToDo:     
+     * Update Validator XSLT to recalculate points of multiline glosses
+     * Update DSD to get two or more rectangles*/
+
+@namespace oxy "http://www.oxygenxml.com/extensions/author";
+@namespace xi url('http://www.w3.org/2001/XInclude');
+@media oxygen AND (min-width : 25cm) {
+
+/* ---------------------------------------------------------- PAGE ----------------------------------------------------------*/
+    oxy|document {
+        background-color: grey;
+    }
+
+    /* Padding inside the page. */
+    TEI {
+        padding-top: 1em;
+        padding-right: 0.5em;
+        padding-left: 1em;
+        padding-bottom: 1em;
+        background-color: white;
+        -oxy-display-tags: none !important;
+        color: black;
+        font-family: 'Junicode', 'Arial', 'Helvetica', 'Arial Unicode MS', sans-serif;
+        font-size: 14pt;
+        border: 1px solid grey;    
+        content:
+        oxy_label(text, 'Tasktype: ', styles, 'font-size:large; font-weight:bold;')
+        oxy_combobox(edit, '@rendition', editable, false, values, 'gloss-connect, glossit, sign-connect, proofread', labels, 'Connect marginal Glosses, Glossit, Connect Signs with Glosses, Proofread', fontInherit, true)
+    }
+
+
+oxy|comment {
+    display: none !important;
+}
+* {
+    -oxy-display-tags: none;
+}
+TEI:before {
+display: block;
+    font-size: 30pt;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    margin-bottom: 1em;  
+  content:
+  oxy_xpath('//div[@type="chapter"]/@xml:id')
+ }
+ 
+
+}
+
+/*MEDIA DONE */
+
+
+
+teiHeader {
+    display: none; 
+}
+
+/* Header Hidden  */
+publicationStmt,
+titleStmt,
+fw,
+seriesStmt,
+encodingDesc,
+profileDesc,
+facsimile {
+    display: none;
+}
+
+
+ab[type= "MarginTextZone:inner"]:empty,
+ab[type= "MarginTextZone:outer"]:empty,
+ab[type= "MarginTextZone:upper"]:empty,
+ab[type= "MarginTextZone:lower"]:empty {
+    display:none;
+}
+
+/*ab[type = MainZone],*/
+ab[type = "MainZone:column#a"],
+ab[type = "MainZone:column#b"],
+ab[type = "MainZone:column#c"],
+ab[type = "Mainzone:column#d"]{
+    display: none;
+}
+
+/* */ 
+
+/*  Sectiontitle and Task-Description */
+body:before{
+    display:block;
+    font-size: xx-large;
+    font-weight:bold;
+    color: green;
+    text-align:center;
+    border-top: 3px solid black;
+    content: 
+    oxy_label(text,'Task:', styles, "text-decoration: underline;")
+    oxy_label( text, 'Combine Multiline Glosses in the Margins')
+}
+
+
+body{
+    display:block;
+    text-align: left;
+}
+
+/* Folio Number */
+
+pb {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+    display: block;
+      border-top: 2px solid black;
+    content: 
+    oxy_label(text, 'FOLIO   ')
+    oxy_editor(type, text, edit, '@n', fontInherit, true)
+    oxy_label(text, '   !! Enter folionumber if missing. The pattern depends on the manuscript - either fol. + number + r/v or p. + number + r/v  !!', styles, 'font-size:small; font-style:italic; font-weight:normal;')
+    
+
+}
+
+lb {
+display: none;
+}
+
+
+ab[type=textline]{
+font-weight:normal;
+text-align:left;
+    display: block;
+    content: 
+    
+    oxy_label(text, 'Main Text:     ', styles, 'font-weight:bold; color: #000000; font-size:xx-large; font-family: Consolas, "Courier New", monospace;')        
+}
+
+gloss[rendition*=Marginal],
+gloss[rendition*=Interlinear][ana="show"]{
+
+ content:
+    '        '
+    oxy_editor(type, button, actionID, "viewer_generator", height, 5%)
+}
+
+gloss[rendition*=Interlinear], 
+gloss[rendition*=signe], 
+gloss[rendition*=sign],
+gloss[rendition*=correction]{
+    display:none;
+}
+
+
+ab[rendition="gloss"]{
+font-weight:normal;
+    display:block;
+    text-align:left;
+    content:
+    oxy_label(text, '!! select linetype:', styles, "font-weight:bold; color:red")
+    oxy_combobox(edit, '@rendition', values, 'textline, gloss', editable, false, labels, 'Textline, ')
+    
+}
+
+
+ab[subtype=hidden] {
+    display:none;
+}
+
+
+gloss[rendition='InterlinearLine:gloss'] > gloss:before {
+    display: inline-block;
+    content: ' '
+}
+
+body:after {
+ content:
+    '        '
+    oxy_editor(type, button, actionID, "validator_transformator", height, 5%)
+}
+
+
+head {
+    display: block;
+    font-weight:bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+gloss[rendition*='gloss']:has(gloss) {
+    font-size:large;
+    font-weight:bold;
+
+    content:
+    '🔗'
+    oxy_label(text, '  Connected Gloss ')
+    '🔗    '
+}
+
+gloss[rendition*='gloss']:has(gloss):after {
+     font-size:large;
+    font-weight:bold;
+
+    content:
+    '    🔗'
+    oxy_label(text, '  Connected  ')
+    '🔗'
+}
+
+gloss[rendition='InterlinearLine:gloss'] > gloss {
+    display: inline-block;
+    content: '     '
+}
+
+
+gloss[rendition=""]{
+font-weight:normal;
+    content:
+    oxy_label(text, 'select Glosstype:')
+    oxy_combobox(edit, '@rendition', editable, false, values, oxy_xpath("string-join(doc('./../lists/glosstypes.xml')//item/@n, ',')"), width, 200px)
+    
+}
+
+
+gloss[rendition="textline"]{
+font-weight:normal;
+    display:block;
+    text-align:left;
+    content:
+    oxy_label(text, '!! select glosstype:', styles, "font-weight:bold; color:red")
+    oxy_combobox(edit, '@rendition', values, oxy_xpath("string-join(doc('./../lists/glosstypes.xml')//item/@n, ',')"), width, 200px)
+    
+}
+text {
+    color: black;
+}
+
+gloss:after {
+ text-align:right;
+ content:
+    '        '
+    oxy_editor(type, button, actionID, "viewer_generator", height, 5%)
+}
+
+gloss[rendition*=Marginal],
+gloss[rendition*=Interlinear][ana="show"]{
+    
+    font-weight:normal;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    content: 
+    oxy_label(text, 'Gloss ', styles, 'font-weight:bold; color: #f68b45;  font-family: Consolas, "Courier New", monospace;')
+    oxy_label(text, '  Type:   ', styles, "font-size:small;  font-family: Consolas, 'Courier New', monospace;")
+    oxy_combobox(edit, "@rendition", editable, false, values, oxy_xpath("string-join(doc('./../lists/glosstypes.xml')//item/@n, ',')"), width, 180px)
+    oxy_label(text, '    Text:   ', styles, "font-size:small;  font-family: Consolas, 'Courier New', monospace;")
+}

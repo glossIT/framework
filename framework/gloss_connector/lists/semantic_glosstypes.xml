@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list xml:id="semantic_glosstypes">
+                <item n="commentary">
+                    <label>Gloss generally commenting on the main text</label>
+                </item>
+                <item n="computistical">
+                    <label>Gloss elaborating on computistical facts</label>
+                </item>      
+                <item n="commentary">
+                    <label>Gloss generally commenting on the main text</label>
+                </item>                
+                <item n="grammatical">
+                    <label>Gloss on the grammar of the main text</label>
+                </item>
+                <item n="grammatical:etymological">
+                    <label>Gloss on the etymology of a lemma</label>
+                </item>
+                <item n="grammatical:lexical">
+                    <label>Gloss on the lexicon of a gloss</label>
+                </item>
+                <item n="grammatical:morphological">
+                    <label>Gloss on the morphology of a lemma</label>
+                </item>
+                <item n="grammatical:syntactical">
+                    <label>Gloss on the syntax of lemmata</label>
+                </item>
+                <item n="guiding">
+                    <label>Gloss that helps the reader to a better understanding of the main text</label>
+                </item>
+                <item n="prosodical">
+                    <label>Gloss on prosody</label>
+                </item>
+                <item n="quote">
+                    <label>Gloss containing a quote from another work</label>
+                </item>
+                <item n="source">
+                    <label>Gloss revealing a source found in the main text</label>
+                </item>
+                <item n="translation">
+                    <label>Gloss translating a lemma or a gloss</label>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

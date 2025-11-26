@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata externalRef="mets//Pen540.zip/14_cbf07_default.jpg">
+	<Creator>escriptorium</Creator>
+	<Created>2025-04-28T09:07:17.638958+00:00</Created>
+        <LastChange>2025-04-28T15:47:21.370820+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="14_cbf07_default.jpg" imageWidth="1056" imageHeight="1200">
+    <TextRegion id="eSc_textblock_045f3389"  custom="structure {type:MarginTextZone:outer;}">
+      <Coords points="234,138 234,968 414,968 414,138"/>
+      <TextLine id="eSc_line_b1c5d47c" custom="structure {type:MarginalLine:gloss;}">
+        <Coords points="401,609 403,600 405,578 344,569 311,566 252,557 247,579 246,584"/>
+        <Baseline points="247,579 403,600"/>
+        <TextEquiv>
+          <Unicode>.i. uiii dies st̃ sñ nocte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_badd49e7" custom="structure {type:MarginalLine:gloss;}">
+        <Coords points="383,606 379,603 245,585 242,604 240,611 415,633 414,625 414,629 414,620 413,609"/>
+        <Baseline points="242,604 414,629"/>
+        <TextEquiv>
+          <Unicode>ĩ solstitio estiualie ⁊ uiii</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6f5bc816" custom="structure {type:MarginalLine:gloss;}">
+        <Coords points="239,604 236,631 413,654 414,648 415,640 407,629"/>
+        <Baseline points="237,624 414,648"/>
+        <TextEquiv>
+          <Unicode>noctes sñ dieb; ĩ solstitio</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c0266b13" custom="structure {type:MarginalLine:gloss;}">
+        <Coords points="236,651 275,655 275,656 413,671 415,663 418,648 238,630 237,641 237,646"/>
+        <Baseline points="237,646 415,663"/>
+        <TextEquiv>
+          <Unicode>hiemalium nõie pse§§</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_cf61dff7" custom="structure {type:InterlinearLine:signe_de_renvoi;}">
+        <Coords points="324,892 324,902 334,902 336,902 336,892 336,871 324,871 324,892"/>
+        <Baseline points="324,892 336,892"/>
+        <TextEquiv>
+          <Unicode>⸫</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fd69fa5a" custom="structure {type:MarginalLine:gloss;}">
+        <Coords points="319,919 330,920 331,920 332,920 333,920 333,919 342,911 359,917 360,917 361,917 362,917 383,911 399,919 402,904 401,877 363,872 362,872 354,873 335,877 321,871 320,903 319,919"/>
+        <Baseline points="320,903 402,904"/>
+        <TextEquiv>
+          <Unicode>.i. ad aqionẽ</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="eSc_textblock_c5939833"  custom="structure {type:MainZone;}">
+      <Coords points="417,135 417,969 930,963 904,305 908,283 903,144"/>
+      <TextLine id="eSc_line_bfc3d745" custom="structure {type:DefaultLine;}">
+        <Coords points="865,144 840,153 814,153 795,143 786,142 735,143 719,149 703,144 661,155 425,151 426,187 510,185 532,191 546,184 569,184 604,195 641,194 653,186 663,190 668,184 684,191 723,183 736,193 768,193 783,183 819,182 834,191 865,186 898,190 898,150 865,144"/>
+        <Baseline points="426,178 689,182 900,168"/>
+        <TextEquiv>
+          <Unicode>§§§§§§§§ ẽ horar̃ xu.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e75f2d62" custom="structure {type:DefaultLine;}">
+        <Coords points="900,212 891,185 727,187 694,182 671,191 655,186 607,191 598,182 581,182 548,191 516,182 505,192 427,192 428,208"/>
+        <Baseline points="428,208 889,207"/>
+        <TextEquiv>
+          <Unicode>§§§§§§§§§§§§§§ ab alt̓a</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8b2dce14" custom="structure {type:InterlinearLine:signe_de_renvoi;}">
+        <Coords points="850,208 840,208 840,215 840,221 850,225 852,215 852,208 850,208"/>
+        <Baseline points="840,215 852,215"/>
+        <TextEquiv>
+          <Unicode>:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_aed738ae" custom="structure {type:DefaultLine;}">
+        <Coords points="848,208 841,214 828,208 786,208 779,215 719,215 703,208 689,208 665,215 602,208 580,208 567,215 531,215 522,208 416,211 418,241 906,231 903,203 890,203 889,207"/>
+        <Baseline points="430,233 906,231"/>
+        <TextEquiv>
+          <Unicode>§§§§§§§§§ ꝑ tͣcie adũsa</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ca9e9f85" custom="structure {type:DefaultLine;}">
+        <Coords points="912,260 905,239 861,234 841,241 824,234 787,241 739,237 732,243 617,243 604,234 560,234 544,241 498,234 488,242 418,241 420,263"/>
+        <Baseline points="424,258 907,258"/>
+        <TextEquiv>
+          <Unicode>§§§§§ t᷑nsalpinã galliam</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_806c8a59" custom="structure {type:InterlinearLine:gloss;}">
+        <Coords points="887,259 877,259 867,259 857,259 847,259 837,259 838,275 838,278 916,276 916,272 913,256 897,256 897,259"/>
+        <Baseline points="838,275 916,272"/>
+        <TextEquiv>
+          <Unicode>.i. respondent</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a06ea9e6" custom="structure {type:DefaultLine;}">
+        <Coords points="908,296 907,273 721,276 709,264 665,264 637,275 533,268 521,274 470,274 460,266 422,262 422,286"/>
+        <Baseline points="422,286 904,291"/>
+        <TextEquiv>
+          <Unicode>§§§ xxxu. umbre xxx</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_494619aa" custom="structure {type:DefaultLine;}">
+        <Coords points="541,288 522,295 408,291 407,320 901,319 899,293 856,300 839,292 796,291 733,294 725,301 681,293 585,299 570,288"/>
+        <Baseline points="428,309 901,319"/>
+        <TextEquiv>
+          <Unicode>§§§§ qͥntar̃ partiũ§§§</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1959cfd5" custom="structure {type:DefaultLine;}">
+        <Coords points="861,329 844,319 820,324 759,318 734,325 718,318 645,316 603,329 528,329 520,321 422,322 412,350 904,355 890,322 880,319"/>
+        <Baseline points="426,341 890,348"/>
+        <TextEquiv>
+          <Unicode>§§§§§§§§§§§§§§§§§</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_15c7c9ce" custom="structure {type:DefaultLine;}">
+        <Coords points="766,347 743,354 678,345 642,345 631,351 616,348 597,352 582,350 482,342 432,342 419,344 411,373 917,384 921,355 782,347"/>
+        <Baseline points="422,368 905,380"/>
+        <TextEquiv>
+          <Unicode>§§§§§§§ galliã ĩgredit᷑.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_acad3348" custom="structure {type:DefaultLine;}">
+        <Coords points="843,379 837,383 831,378 774,377 759,384 746,376 731,382 709,375 701,383 685,375 640,377 636,374 590,372 581,377 569,373 421,376 418,398 902,404 901,380 892,380"/>
+        <Baseline points="422,393 902,404"/>
+        <TextEquiv>
+          <Unicode>lõgissi §§§§§§ antiqͥ</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fdd7b9fb" custom="structure {type:DefaultLine;}">
+        <Coords points="421,429 465,428 509,435 519,429 534,434 595,430 708,439 760,435 818,442 860,436 904,443 906,435 906,414 859,408 830,414 797,405 787,413 761,404 741,414 685,401 631,411 574,411 558,404 498,408 488,399 422,395 422,424"/>
+        <Baseline points="422,424 906,435"/>
+        <TextEquiv>
+          <Unicode>duos ꝓponunt §§§§ ĩsolã meroen ⁊ ꝑtoloma</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_bb7409ef" custom="structure {type:DefaultLine;}">
+        <Coords points="421,424 420,459 901,475 901,435"/>
+        <Baseline points="421,455 903,466"/>
+        <TextEquiv>
+          <Unicode>idã rubri mariᷤ urbẽ urbẽ uͥ lõgissimꝰ dieᷤ xii</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_84b18195" custom="structure {type:DefaultLine;}">
+        <Coords points="901,466 848,465 843,470 806,464 778,468 772,464 757,463 744,468 708,462 688,465 675,461 551,458 526,458 519,462 513,458 468,456 421,458 420,485 452,485 474,493 513,488 524,495 545,488 568,496 594,490 626,490 634,498 675,492 715,493 721,500 771,495 779,503 841,505 867,498 880,507 905,507 906,458 902,458 901,466"/>
+        <Baseline points="421,481 906,496"/>
+        <TextEquiv>
+          <Unicode>horarũ ??? ãplior. et alt̓ũ ꝑsienen eg</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_bffb455a" custom="structure {type:DefaultLine;}">
+        <Coords points="421,522 541,522 602,530 627,525 636,531 684,532 690,527 698,533 782,530 799,536 902,539 904,531 904,509 891,509 878,498 843,497 828,507 816,495 801,501 795,495 729,497 725,492 720,492 715,497 693,491 657,496 634,510 612,510 591,494 586,494 540,494 462,495 438,491 434,491 422,495 422,515"/>
+        <Baseline points="422,515 904,531"/>
+        <TextEquiv>
+          <Unicode>ipti qͥ ẽ horar̃ xiiii duosq; subiciunt. pͥmũ ꝑ hiꝑ</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_500b4092" custom="structure {type:DefaultLine;}">
+        <Coords points="800,528 766,531 750,526 735,533 716,526 703,525 679,531 668,524 660,524 642,531 557,529 527,520 512,519 494,519 482,523 421,522 420,552 472,555 481,547 519,547 532,555 550,549 606,558 619,551 679,564 698,558 715,566 754,567 767,561 774,567 779,567 792,559 905,571 906,536 888,539 878,532 839,530 812,535 800,528"/>
+        <Baseline points="421,541 907,563"/>
+        <TextEquiv>
+          <Unicode>ẽ dieᷤ logissimꝰ horar̃ xuii;</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e15c4d30" custom="structure {type:DefaultLine;}">
+        <Coords points="902,563 828,560 815,564 808,559 744,556 714,561 705,554 692,554 680,558 655,552 643,563 614,567 585,567 575,558 540,565 472,563 471,584 518,582 525,587 605,584 645,591 674,586 718,593 741,589 808,596 909,595 910,561 902,560 902,563"/>
+        <Baseline points="472,576 910,589"/>
+        <TextEquiv>
+          <Unicode>§§§§§§§§§§pheis iugis ĩtilẽn ĩ qͦ dies cõ</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ca53e0dd" custom="structure {type:InterlinearLine:signe_de_renvoi;}">
+        <Coords points="794,601 792,614 802,615 804,602 805,586 795,586"/>
+        <Baseline points="794,601 804,602"/>
+        <TextEquiv>
+          <Unicode>‥</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0cb42474" custom="structure {type:InterlinearLine:signe_de_renvoi;}">
+        <Coords points="819,603 819,612 824,615 829,615 829,615 831,603 830,587 819,588 819,603"/>
+        <Baseline points="819,603 831,603"/>
+        <TextEquiv>
+          <Unicode>‥</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_76193ab3" custom="structure {type:DefaultLine;}">
+        <Coords points="850,588 833,595 804,586 782,592 749,584 723,588 718,584 639,581 612,594 519,592 504,582 440,589 440,614 459,609 470,616 505,610 571,619 609,615 619,620 637,614 668,622 699,616 743,624 760,619 807,619 815,626 832,620 852,627 899,623 900,600 868,598 857,588 850,588"/>
+        <Baseline points="440,605 900,619"/>
+        <TextEquiv>
+          <Unicode>inet᷑ noctesq; ꝑuices; Umbilici quẽ gno</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6dbf552f" custom="structure {type:InterlinearLine:signe_de_renvoi;}">
+        <Coords points="728,614 718,614 718,618 718,623 730,621 730,618 729,614 728,614"/>
+        <Baseline points="718,618 730,618"/>
+        <TextEquiv>
+          <Unicode>:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8b9e58b7" custom="structure {type:DefaultLine;}">
+        <Coords points="622,611 560,613 552,609 532,608 432,610 431,640 460,636 475,645 503,645 513,638 546,638 595,645 616,640 638,648 726,644 778,652 814,645 863,654 894,644 894,620 665,617 622,611"/>
+        <Baseline points="432,632 894,644"/>
+        <TextEquiv>
+          <Unicode>mon apellat̃ ũbra ĩ egipto meridiano tẽpore</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_cad014ed" custom="structure {type:InterlinearLine:gloss;}">
+        <Coords points="537,635 527,635 527,649 526,664 536,664 546,665 556,665 557,650 556,635 547,635"/>
+        <Baseline points="527,649 557,650"/>
+        <TextEquiv>
+          <Unicode>.i. ĩd.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e0b0952f" custom="structure {type:MarginalLine:gloss;}">
+        <Coords points="509,635 504,634 499,637 499,652 499,663 507,663 517,659 517,652 515,635 509,635"/>
+        <Baseline points="499,652 517,652"/>
+        <TextEquiv>
+          <Unicode>//</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9bc972f9" custom="structure {type:DefaultLine;}">
+        <Coords points="428,663 427,666 448,673 463,668 477,674 499,668 505,674 524,669 557,675 611,671 617,678 661,679 675,673 686,680 710,675 728,681 783,678 837,684 911,676 910,646 879,652 868,645 839,651 822,644 771,648 762,642 673,640 655,646 576,638 541,643 524,636 483,641 465,634 428,639 428,663"/>
+        <Baseline points="428,663 911,676"/>
+        <TextEquiv>
+          <Unicode>eqͥnaxii die paulo plꝗ̃ demediã gnomĩs mẽsurã</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3bfb8189" custom="structure {type:InterlinearLine:gloss;}">
+        <Coords points="466,665 467,676 467,679 484,678 484,675 482,665 476,665"/>
+        <Baseline points="467,676 484,675"/>
+        <TextEquiv>
+          <Unicode>:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_06a14aaf" custom="structure {type:InterlinearLine:gloss;}">
+        <Coords points="896,676 886,676 887,689 887,701 897,701 907,701 914,699 914,688 911,668 906,669 906,676"/>
+        <Baseline points="887,689 914,688"/>
+        <TextEquiv>
+          <Unicode>.i. ab</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c4ad8486" custom="structure {type:DefaultLine;}">
+        <Coords points="856,677 815,674 803,678 739,677 729,671 712,671 699,675 687,670 629,673 572,667 540,666 528,670 496,665 487,669 432,665 431,694 910,705 908,676 902,676"/>
+        <Baseline points="432,693 555,691 909,703"/>
+        <TextEquiv>
+          <Unicode>efficit. In urbe roma nona pars gnomĩs đẽ ũbra</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fbba4e42" custom="structure {type:InterlinearLine:gloss;}">
+        <Coords points="680,696 670,695 660,695 650,695 640,694 630,694 630,702 629,708 673,708 694,714 697,708 696,696 690,696"/>
+        <Baseline points="630,702 664,705 697,708"/>
+        <TextEquiv>
+          <Unicode>.i. umbra</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_51a7f45a" custom="structure {type:InterlinearLine:gloss;}">
+        <Coords points="598,693 588,693 578,692 568,692 558,692 548,692 538,692 528,692 523,692 438,694 439,710 439,714 478,710 512,709 612,706 613,704 610,693 608,693"/>
+        <Baseline points="439,710 523,706 613,704"/>
+        <TextEquiv>
+          <Unicode>.i. maior ÷ ũbra ꝗ gnom̃</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_73a01cb9" custom="structure {type:InterlinearLine:gloss;}">
+        <Coords points="793,700 783,699 773,699 763,699 763,715 763,718 803,719 804,715 804,700 803,700"/>
+        <Baseline points="763,715 804,715"/>
+        <TextEquiv>
+          <Unicode>pars</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_021c94a5" custom="structure {type:DefaultLine;}">
+        <Coords points="892,703 872,707 807,701 798,716 768,716 763,708 757,708 744,699 693,701 688,708 629,702 623,697 615,697 609,705 467,709 439,718 438,755 499,756 547,734 569,745 588,735 616,735 664,755 690,750 706,758 731,744 763,750 771,743 788,748 829,739 862,751 874,742 898,742 897,703 892,703"/>
+        <Baseline points="439,718 616,712 783,726 899,727"/>
+        <TextEquiv>
+          <Unicode>IN opidio anchora suꝑẽ qͥnta tͥgesima. In par</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f70ca8c9" custom="structure {type:DefaultLine;}">
+        <Coords points="748,759 747,765 839,775 840,775 900,770 901,764 901,741 748,739 748,759"/>
+        <Baseline points="748,759 901,764"/>
+        <TextEquiv>
+          <Unicode>te italiȩ q̃uene</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d0e3bce2" custom="structure {type:DefaultLine;}">
+        <Coords points="786,796 838,804 839,804 914,798 915,796 915,768 787,768 787,791"/>
+        <Baseline points="787,791 915,796"/>
+        <TextEquiv>
+          <Unicode>tia appellat᷑</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_164fd454" custom="structure {type:InterlinearLine:gloss;}">
+        <Coords points="913,796 903,796 893,796 883,795 873,795 863,794 853,794 853,813 852,823 862,823 872,823 882,823 892,823 979,828 979,814 977,790 922,791 922,811"/>
+        <Baseline points="853,813 931,812 979,814"/>
+        <TextEquiv>
+          <Unicode>.i. ĩ solistitio estuiuali</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_138e85dc" custom="structure {type:DefaultLine;}">
+        <Coords points="886,813 876,813 866,813 850,808 786,803 786,822 785,825 896,834 898,825 897,813 896,813"/>
+        <Baseline points="786,822 898,825"/>
+        <TextEquiv>
+          <Unicode>hiᷤdẽ horis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fe35d549" custom="structure {type:DefaultLine;}">
+        <Coords points="763,865 785,859 804,864 819,868 820,868 821,868 906,860 907,860 906,837 772,834 763,855"/>
+        <Baseline points="763,855 907,860"/>
+        <TextEquiv>
+          <Unicode>ũbra gnomũ</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_620f1009" custom="structure {type:DefaultLine;}">
+        <Coords points="731,894 909,894 910,885 910,872 731,872 731,885"/>
+        <Baseline points="731,885 910,885"/>
+        <TextEquiv>
+          <Unicode>par sit. Similimꝰ</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b294f28e" custom="structure {type:InterlinearLine:gloss;}">
+        <Coords points="890,895 866,897 868,908 869,911 892,909 911,904 910,898 904,886 903,886"/>
+        <Baseline points="868,908 892,906 910,898"/>
+        <TextEquiv>
+          <Unicode>estutis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_100cadd9" custom="structure {type:DefaultLine;}">
+        <Coords points="426,885 424,920 901,931 903,923 902,890"/>
+        <Baseline points="427,912 645,922 903,923"/>
+        <TextEquiv>
+          <Unicode>ꝙ ẽ supͣ alaxandia qͥnq; milib; staduĩ solsticii</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a05e7e17" custom="structure {type:InterlinearLine:gloss;}">
+        <Coords points="552,918 542,918 532,917 532,929 532,943 542,943 552,944 562,945 570,946 570,929 570,919 562,919"/>
+        <Baseline points="532,929 570,929"/>
+        <TextEquiv>
+          <Unicode>.i. dñt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_24c440ab" custom="structure {type:DefaultLine;}">
+        <Coords points="562,919 557,924 537,924 511,916 494,915 473,919 451,914 431,918 430,948 603,970 639,967 650,956 689,956 713,966 756,965 761,970 766,970 776,961 799,960 840,977 897,978 897,926 801,931 768,924 641,926 631,922"/>
+        <Baseline points="431,936 656,954 899,951"/>
+        <TextEquiv>
+          <Unicode>die medio nullã ũbrã i aci; Sic̃ ⁊ĩ india supͣ</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_77ea35a5" custom="structure {type:InterlinearLine:gloss;}">
+        <Coords points="836,923 826,923 816,923 806,923 796,923 786,923 776,923 777,937 777,939 854,936 854,933 851,923 846,923"/>
+        <Baseline points="777,937 854,933"/>
+        <TextEquiv>
+          <Unicode>.i. ñiaci umƀ</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="eSc_textblock_f1e050a0"  custom="structure {type:MarginTextZone:inner;}">
+      <Coords points="1010,141 1010,964 931,964 905,144"/>
+      <TextLine id="eSc_line_dfca82b1" custom="structure {type:MarginalLine:gloss;}">
+        <Coords points="903,172 999,167 999,164 997,146 938,142 937,142 936,142 935,142 928,147 924,149 903,152"/>
+        <Baseline points="905,169 999,164"/>
+        <TextEquiv>
+          <Unicode>.i. no uncia ⁊t̃cia</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b506f0c0" custom="structure {type:MarginalLine:gloss;}">
+        <Coords points="944,167 934,168 924,168 914,169 904,169 905,181 905,193 962,193 962,179 959,166 954,167"/>
+        <Baseline points="905,181 962,179"/>
+        <TextEquiv>
+          <Unicode>pars uncie</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2074f677" custom="structure {type:MarginalLine:gloss;}">
+        <Coords points="903,282 895,285 897,302 898,314 911,308 919,307 928,303 946,302 993,296 996,291 994,275 945,272 944,272 943,272 909,281 906,296"/>
+        <Baseline points="897,302 936,296 996,291"/>
+        <TextEquiv>
+          <Unicode>cuiiii momenta</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="eSc_textblock_211fa602"  custom="structure {type:MarginTextZone:lower;}">
+      <Coords points="236,975 236,1094 1007,1094 1007,975"/>
+      <TextLine id="eSc_line_1ae8be4d" custom="structure {type:MarginalLine:gloss;}">
+        <Coords points="421,1037 418,1054 459,1058 462,1042 465,1004 425,999 421,1037"/>
+        <Baseline points="421,1037 462,1042"/>
+        <TextEquiv>
+          <Unicode>pma</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="eSc_textblock_0f28140a"  custom="structure {type:MarginTextZone:upper;}">
+      <Coords points="234,58 234,138 1005,138 1005,58"/>
+    </TextRegion>
+  </Page>
+</PcGts>

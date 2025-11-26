@@ -1,0 +1,116 @@
+@namespace oxy "http://www.oxygenxml.com/extensions/author";
+@namespace xi url('http://www.w3.org/2001/XInclude');
+/*  <a href="https://www.flaticon.com/free-icons/start-button" title="start button icons">Start button icons created by Freepik - Flaticon</a> */
+/*  <a href="https://www.flaticon.com/free-icons/uninstall" title="uninstall icons">Uninstall icons created by IYAHICON - Flaticon</a> */
+/* <a href="https://www.flaticon.com/free-icons/finish" title="finish icons">Finish icons created by Freepik - Flaticon</a> */
+@media oxygen AND (min-width : 25cm) {
+
+/* ---------------------------------------------------------- PAGE ----------------------------------------------------------*/
+    oxy|document {
+        background-color: grey;
+    }
+    
+    /* Padding inside the page. */
+    PcGts {
+    
+ 
+        padding-top: 1em;
+        padding-right: 0.5em;
+        padding-left: 1em;
+        padding-bottom: 1em;
+        background-color: white;
+        -oxy-display-tags: none !important;
+        color: black;
+        font-family: 'Junicode', 'Arial', 'Helvetica', 'Arial Unicode MS', sans-serif;
+        font-size: 14pt;
+        border: 1px solid grey;
+        background-color: #f5f5f5;
+        margin: 0 auto;
+         
+        
+
+    }
+    oxy|comment {
+        display: none !important;
+    }
+* {
+        -oxy-display-tags: none !important;
+    }
+}
+
+
+
+/*  Layout */
+
+
+
+Metadata:before {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    display:block;
+    content:
+    oxy_label(text, "Proofreading of  ")
+    oxy_label(text, oxy_xpath("substring-before(//Page/@imageFilename, 'jpg')"))
+   
+    
+}
+
+Metadata {
+border-bottom: solid grey 3px;
+padding-bottom: 2em;
+content: 
+
+    oxy_label(text, oxy_concat("File created:  ", oxy_xpath("substring-before(//Created[1], 'T')")))
+    oxy_label(text, oxy_concat(" \a File last changed:  ", oxy_xpath("substring-before(//LastChange[1], 'T')")))   
+    oxy_label(text, oxy_concat(" \a Associated Image File:  ", oxy_xpath("//Page/@imageFilename")))
+}
+
+Page {
+    padding-top: 2em;
+    border-left: 5px double #ffaa9f;
+    content:
+    oxy_label(text,'Reading Text', styles, 'font-size:xx-large;font-weight:bold;')
+    
+}
+PcGts {
+    Content:
+        oxy_label(text, 'Change Taskset: ')
+        oxy_combobox(edit,'@rendition', editable, false, labels, "Sanity Check, Proofreading", values, "glossit_typing, proofreading", fontInherit, true)
+
+}
+
+Coords, Baseline {
+    display:none;
+}
+
+Unicode:before {
+
+    content: 
+    '|        '
+}
+TextRegion{
+    padding:0;
+}
+Unicode {
+border-bottom: 1px solid #ccc;
+  text-indent: 25px;
+    display: block;
+}
+/*
+TextRegion > TextLine > TextEquiv > Unicode {
+
+    content: 
+    oxy_editor(type, text, edit, '#content')
+    " \a"
+}*/
+/*
+TextLine {
+    Content: 
+    'Text'
+}
+
+TextRegion {
+     Content: 
+    'Text'
+}*/

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list xml:id="glosstypes">
+            <item n="IntercolumnarLine:addition">
+               <label>Intercolumnar addition</label>
+            </item>
+            <item n="IntercolumnarLine:correction">
+               <label>Intercolumnar correction</label>
+            </item>
+            <item n="IntercolumnarLine:gloss">
+               <label>Intercolumnar gloss</label>
+            </item>
+            <item n="IntercolumnarLine:number">
+               <label>Intercolumnar number</label>
+            </item>
+            <item n="IntercolumnarLine:reference_sign">
+               <label>Intercolumnar reference sign</label>
+            </item>
+            <item n="IntercolumnarLine:signe_de_renvoi">
+               <label>Intercolumnar signe de renvoi</label>
+            </item>
+            <item n="InterlinearLine:addition">
+               <label>Interlinear addition</label>
+            </item>
+            <item n="InterlinearLine:correction">
+               <label>Interlinear correction</label>
+            </item>
+            <item n="InterlinearLine:gloss">
+               <label>Interlinear gloss</label>
+            </item>
+            <item n="InterlinearLine:number">
+               <label>Interlinear number</label>
+            </item>
+            <item n="InterlinearLine:reference_sign">
+               <label>Interlinear reference sign</label>
+            </item>
+            <item n="InterlinearLine:signe_de_renvoi">
+               <label>Interlinear signe de renvoi</label>
+            </item>
+            <item n="InnerMarginalLine:addition">
+               <label>Addition in the inner margin</label>
+            </item>
+            <item n="InnerMarginalLine:correction">
+               <label>Correction in the inner margin</label>
+            </item>
+            <item n="InnerMarginalLine:gloss">
+               <label>Gloss in the inner margin</label>
+            </item>
+            <item n="InnerMarginalLine:number">
+               <label>Number in the inner margin</label>
+            </item>
+            <item n="InnerMarginalLine:reference_sign">
+               <label>Reference sign in the inner margin</label>
+            </item>
+            <item n="InnerMarginalLine:signe_de_renvoi">
+               <label>Signe de renvoi in the inner margin</label>
+            </item>           
+            <item n="LowerMarginalLine:addition">
+               <label>Addition in the lower margin</label>
+            </item>
+            <item n="LowerMarginalLine:correction">
+               <label>Correction in the lower margin</label>
+            </item>
+            <item n="LowerMarginalLine:gloss">
+               <label>Gloss in the lower margin</label>
+            </item>
+            <item n="LowerMarginalLine:number">
+               <label>Number in the lower margin</label>
+            </item>
+            <item n="LowerMarginalLine:reference_sign">
+               <label>Reference sign in the lower margin</label>
+            </item>
+            <item n="LowerMarginalLine:signe_de_renvoi">
+               <label>Signe de renvoi in the lower margin</label>
+            </item>
+            <item n="OuterMarginalLine:addition">
+               <label>Addition in the outer margin</label>
+            </item>
+            <item n="OuterMarginalLine:correction">
+               <label>Correction in the outer margin</label>
+            </item>
+            <item n="OuterMarginalLine:gloss">
+               <label>Gloss in the outer margin</label>
+            </item>
+            <item n="OuterMarginalLine:number">
+               <label>Number in the outer margin</label>
+            </item>
+            <item n="OuterMarginalLine:reference_sign">
+               <label>Reference sign in the outer margin</label>
+            </item>
+            <item n="OuterMarginalLine:signe_de_renvoi">
+               <label>Signe de renvoi in the outer margin</label>
+            </item> 
+            <item n="UpperMarginalLine:addition">
+               <label>Addition in the upper margin</label>
+            </item>
+            <item n="UpperMarginalLine:correction">
+               <label>Correction in the upper margin</label>
+            </item>
+            <item n="UpperMarginalLine:gloss">
+               <label>Gloss in the upper margin</label>
+            </item>
+            <item n="UpperMarginalLine:number">
+               <label>Number in the upper margin</label>
+            </item>
+            <item n="UpperMarginalLine:reference_sign">
+               <label>Reference sign in the upper margin</label>
+            </item>
+            <item n="UpperMarginalLine:signe_de_renvoi">
+               <label>Signe de renvoi in the upper margin</label>
+            </item>           
+         </list>
+      </body>
+   </text>
+</TEI>

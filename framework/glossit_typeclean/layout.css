@@ -1,0 +1,203 @@
+@namespace oxy "http://www.oxygenxml.com/extensions/author";
+@namespace xi url('http://www.w3.org/2001/XInclude');
+/*  <a href="https://www.flaticon.com/free-icons/start-button" title="start button icons">Start button icons created by Freepik - Flaticon</a> */
+/*  <a href="https://www.flaticon.com/free-icons/uninstall" title="uninstall icons">Uninstall icons created by IYAHICON - Flaticon</a> */
+/* <a href="https://www.flaticon.com/free-icons/finish" title="finish icons">Finish icons created by Freepik - Flaticon</a> */
+@media oxygen AND (min-width : 25cm) {
+
+/* ---------------------------------------------------------- PAGE ----------------------------------------------------------*/
+    oxy|document {
+        background-color: grey;
+    }
+    
+    /* Padding inside the page. */
+    PcGts {
+        padding-top: 1em;
+        padding-right: 0.5em;
+        padding-left: 1em;
+        padding-bottom: 1em;
+        background-color: white;
+        -oxy-display-tags: none !important;
+        color: black;
+        font-family: 'Junicode', 'Arial', 'Helvetica', 'Arial Unicode MS', sans-serif;
+        font-size: 14pt;
+        border: 1px solid grey;
+
+    }
+    oxy|comment {
+        display: none !important;
+    }
+* {
+        -oxy-display-tags: none !important;
+    }
+}
+
+Coords, Baseline, Creator, Created, LastChange,
+TextRegion:not([sanity]) > TextLine:not([sanity]){
+    display: none;
+}
+
+
+/*  Layout */
+
+TextRegion:not([sanity])!> TextLine[sanity] {
+    display: block;
+}
+
+
+TextRegion:not([sanity]) {
+    display:none;
+}
+
+Metadata:before {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    display:block;
+    content:
+    oxy_label(text, "Sanity Check Correction on Page No. ")
+    oxy_label(text, oxy_xpath("substring-before(//Page/@imageFilename, 'jpg')"))
+   
+    
+}
+
+Metadata {
+border-bottom: dotted grey 3px;
+padding-bottom: 2em;
+content: 
+
+    oxy_label(text, oxy_concat("File created:  ", oxy_xpath("substring-before(//Created[1], 'T')")))
+    oxy_label(text, oxy_concat(" \a File last changed:  ", oxy_xpath("substring-before(//LastChange[1], 'T')")))   
+    oxy_label(text, oxy_concat(" \a Associated Image File:  ", oxy_xpath("//Page/@imageFilename")))
+    oxy_label(text, oxy_concat(" \a Amount of errors:  ", oxy_xpath("count(//*/@sanity)")))  
+}
+
+Page {
+    padding-top: 2em;
+}
+
+PcGts {
+    Content:
+        oxy_label(text, 'Change Taskset: ')
+        oxy_combobox(edit,'@rendition', editable, false, labels, "Sanity Check, Proofreading", values, "glossit_typing, proofreading", fontInherit, true)
+
+}
+PcGts:after{
+display:block;
+text-align:right;
+    content:
+    oxy_label(text, "Start Correction: ")
+    oxy_editor(type, button, actionID, 'starter', fontInherit, true)
+    "         "
+    oxy_label(text, "Finish Correction:  ")
+    oxy_editor(type, button, actionID, 'finisher', fontInherit, true)
+}
+TextRegion[sanity][type=" "] {
+    Content:
+    oxy_label(text, oxy_local-name(), styles, "font-Family: Consolas; font-weight:bold")
+    oxy_label(text, "    Element is missing a type. Add a type, or delete the Element")
+    
+}
+*[custom]{
+    display:none;
+}
+
+TextLine:not(type) {
+    display:none;
+}
+
+TextRegion[sanity][type^='structure'] 
+ {display:block;
+ padding-bottom: 2em;
+content:
+     oxy_label(text, oxy_local-name(), styles, "font-Family: Consolas; font-weight:bold")    
+     "  "
+     oxy_label(text, oxy_xpath("@id"), styles, "font-Family: Consolas; font-weight:bold")
+     ":"
+            oxy_editor(type, button, actionID, 'delete', styles, "height:20px; width:20px;", fontInherit, true)
+
+         oxy_label(text, " \a ")  
+    oxy_label(text, " \a ")  
+        oxy_label(text, '   Type:   ')
+    oxy_combobox(edit,'@type', editable, false, labels, "Illustration, Mainzone, Mainzone Column A, Mainzone Column B, Mainzone Column C, Mainzone Column D, Mainzone intercolumnar, Margintextzone Inner, Margintextzone Outer, Margintextzone Upper, Margintextzone Lower, Numbering Page, Numbering Folio ", values, "structure {type:Illustration;}, structure {type:MainZone;}, structure {type:MainZone:column#a;}, structure {type:MainZone:column#b;}, structure {type:MainZone:column#c;}, structure {type:MainZone:column#d;}, structure {type:MainZone:intercolumnar;}, structure {type:MarginTextZone:inner;}, structure {type:MarginTextZone:outer;}, structure {type:MarginTextZone:upper;}, structure {type:MarginTextZone:lower;}, structure {type:NumberingZone:page;}, structure {type:NumberingZone:folio;}")
+
+}
+
+
+TextLine[sanity][type=""]{
+   padding-bottom: 2em;
+   display: block;
+    content:
+     oxy_label(text, oxy_local-name(), styles, "font-Family: Consolas; font-weight:bold")
+     "  "
+     oxy_label(text, oxy_xpath("@id"), styles, "font-Family: Consolas; font-weight:bold")
+     ":"
+        oxy_editor(type, button, actionID, 'delete', styles, "height:20px; width:20px;", fontInherit, true)
+
+         oxy_label(text, " \a ")  
+    oxy_label(text, " \a ")  
+     oxy_label(text, '    Typing is missing. Select a type or delete the Element!' ,styles, "font-size:small;")
+    oxy_label(text, '   Type:   ')
+   oxy_combobox(edit,'@type', editable, false, labels, "Title, DefaultLine, Default, InterlinearLine Gloss, IntercolumnarLine Gloss, MarginalLine Gloss, InterlinearLine Correction, InterlinearLine Sign de renvoi, InterlinearLine Number, Reference Sign", values, "structure {type:HeadingLine:title;}, structure {type:DefaultLine;}, structure {type:default;}, structure {type:InterlinearLine:gloss;}, structure {type:IntercolumnarLine:gloss;}, structure {type:MarginalLine:gloss;}, structure {type:InterlinearLine:correction;}, structure {type:InterlinearLine:signe_de_renvoi;}, structure {type:InterlinearLine:number;}, structure {type:Reference_sign;}", fontInherit, true)     
+        oxy_editor(type, button, actionID, 'create_dörte', styles, "height:20px; width:20px;", fontInherit, true)
+    
+
+}
+
+TextLine[sanity][type] {
+    display:block;
+    padding-bottom: 1em;
+    content:
+    oxy_label(text, oxy_concat('Textline ', oxy_xpath("@id")), styles, "font-Family: Consolas; font-weight:bold")
+    oxy_label(text, ': ' "font-Family: Consolas; font-weight:bold")
+    oxy_editor(type, button, actionID, 'delete', styles, "height:20px; width:20px;", fontInherit, true)
+
+    oxy_label(text, " \a ")  
+    oxy_label(text, " \a ")  
+    oxy_label(text, '   Type:   ')
+   oxy_combobox(edit,'@type', editable, false, labels, "Title, DefaultLine, Default, InterlinearLine Gloss, IntercolumnarLine Gloss, MarginalLine Gloss, InterlinearLine Correction, InterlinearLine Sign de renvoi, InterlinearLine Number, Reference Sign", values, "structure {type:HeadingLine:title;}, structure {type:DefaultLine;}, structure {type:default;}, structure {type:InterlinearLine:gloss;}, structure {type:IntercolumnarLine:gloss;}, structure {type:MarginalLine:gloss;}, structure {type:InterlinearLine:correction;}, structure {type:InterlinearLine:signe_de_renvoi;}, structure {type:InterlinearLine:number;}, structure {type:Reference_sign;}", fontInherit, true, width, 300px)    
+        oxy_editor(type, button, actionID, 'release_Dörte', styles, "height:20px; width:20px;", fontInherit, true)
+
+
+}
+
+
+
+
+Unicode{
+    content:
+     oxy_label(text, '      Text:       ')
+    
+}
+Unicode:empty{
+    content:
+     oxy_label(text, '      Text:       ')
+     oxy_label(text, ' No Text found ', styles, "color:red; font-weight:bold;")
+    
+}
+
+TextRegion[id="eSc_dummyblock_"][type] {
+    content: 
+     oxy_label(text, oxy_local-name(), styles, "font-Family: Consolas; font-weight:bold")
+     "  "
+     oxy_label(text, oxy_xpath("@id"), styles, "font-Family: Consolas; font-weight:bold")
+     ":"
+   oxy_editor(type, button, actionID, 'delete', styles, "height:20px; width:20px;", fontInherit, true)
+
+         oxy_label(text, " \a ")  
+    oxy_label(text, " \a ")  
+     oxy_label(text, '    Typing and "speaking" ID is missing!' ,styles, "font-size:small;")
+     oxy_label(text, '   ID:   ')
+     oxy_editor(type,text,edit, "@id", fontInherit,true)
+     oxy_label(text, '   (Pattern= eSc_textblock_{numbers}  ', styles, "font-size:small;")
+    oxy_label(text, '   Type:   ')
+    oxy_combobox(edit,'@type', editable, false, labels, "Mainzone, Mainzone Column A, Mainzone Column B, Mainzone Column C, Mainzone Column D, Mainzone intercolumnar, Margintextzone Inner, Margintextzone Outer, Margintextzone Upper, Margintextzone Lower, Numbering Page, Numbering Folio ", values, "structure {type:MainZone;}, structure {type:MainZone:column#a;}, structure {type:MainZone:column#b;}, structure {type:MainZone:column#c;}, structure {type:MainZone:column#d;}, structure {type:MainZone:intercolumnar;}, structure {type:MarginTextZone:inner;}, structure {type:MarginTextZone:outer;}, structure {type:MarginTextZone:upper;}, structure {type:MarginTextZone:lower;}, structure {type:NumberingZone:page;}, structure {type:NumberingZone:folio;}")
+        oxy_label(text, " \a ")
+         oxy_label(text, " \a ")
+ oxy_label(text, '   Contained Text: \a  ')
+ oxy_label(text, " \a ")
+    oxy_label(text, oxy_concat('   ', oxy_xpath('.//TextLine[1]//Unicode/text()')))
+    oxy_label(text, oxy_concat(' ', oxy_xpath('.//TextLine[2]//Unicode/text()')))
+    oxy_label(text, '...')
+}
+

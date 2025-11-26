@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="glossit"><teiHeader xml:lang="en"><fileDesc><titleStmt><title/><author ana="marcrelator:aut"><persName ref="http://d-nb.info/gnd/118508237">Beda
+                                Venerabilis</persName></author><editor ana="marcrelator:edt"><persName><forename>Bernhard</forename><surname>Bauer</surname></persName></editor><respStmt ana="marcrelator:trc"><resp>Transcription from Original MS</resp><persName><forename>Bernhard</forename><surname>Bauer</surname></persName><persName><forename>Francesca</forename><surname>Guido</surname></persName></respStmt><respStmt ana="marcrelator:mrk"><resp>XML encoding</resp><persName><forename>Bernhard</forename><surname>Bauer</surname></persName><persName><forename>Sina</forename><surname>Krottmaier</surname></persName></respStmt><funder ana="marcrelator:fnd"><orgName ref="https://erc.europa.eu/homepage/">European Research
+                                Council</orgName><num>Grant agreement No. 101123203</num><name type="award">EU Horizon Europe ERC Consolidator-Grant</name></funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Department of Digital Humanities, University of
+                                Graz</orgName></publisher><authority ana="marcrelator:his"><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Department of
+                                Digital Humanities, University of Graz</orgName></authority><distributor ana="marcrelator:rps"><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons BY-NC 4.0</licence></availability><date when="2017" ana="dcterms:issued">2017</date><pubPlace ana="marcrelator:pup">Graz</pubPlace><idno type="PID">o:pid.1</idno></publicationStmt><seriesStmt><title ref="https://gams.uni-graz.at/glossit"> GlossIT: Celtic and Latin
+                            glossing traditions: uncovering early medieval language contact and
+                            knowledge transfer </title><title ref="https://gams.uni-graz.at/glossit" xml:lang="de"> GlossIT: Keltische und
+                            lateinische Glossen als Quellen für frühmittelalterlichen Sprachkontakt
+                            und Wissenstransfer </title><respStmt ana="marcrelator:pdr"><resp>Principal Investigator</resp><persName><forename>Bernhard</forename><surname>Bauer</surname></persName></respStmt><respStmt ana="marcrelator:res"><resp>ZIM Mitarbeiter</resp><persName><forename>Francesca</forename><surname>Guido</surname></persName><persName><forename>Sina</forename><surname>Krottmaier</surname></persName><persName><forename>Carolina</forename><surname>Mairinger</surname></persName><persName><forename>Annabelle</forename><surname>Kienzl</surname></persName></respStmt></seriesStmt><sourceDesc><msDesc ana="gams:Manuscript"><msIdentifier><settlement/><repository/><idno ana="dcterms:source"/><altIdentifier><idno type="GlossIT"/></altIdentifier></msIdentifier><msContents><msItem ana="gams:MsItem"><locus from="" to=""/><author ana="dcterms:author"/><title ana="dcterms:title"/><textLang n="text" mainLang="" ana="dcterms:language"/><textLang n="gloss" mainLang="" otherLangs=""/></msItem></msContents><physDesc><objectDesc><supportDesc><support ana="dcterms:medium"><p/></support></supportDesc></objectDesc></physDesc><history><origin><origDate ana="dcterms:date"><date notBefore="" notAfter=""/></origDate></origin></history><additional><surrogates><listRef><ref n="catalogue" corresp="link" ana="rdfs:seeAlso"/><ref n="facsimile" corresp="link"/></listRef></surrogates></additional></msDesc><note type="progress" n="finished"/><note xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" type="progress" n=""/></sourceDesc></fileDesc><encodingDesc><editorialDecl><p>was über die editionsregeln und kodierungsrichtlinien</p></editorialDecl><projectDesc><ab><ref target="context:glossit" type="context">GlossIT Context</ref><note xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" type="progress" n=""/></ab><p>Glosses are fingerprints of the society in which texts were composed,
+                            copied, and read. Most importantly, they play a much more significant
+                            role than previous research has acknowledged and offer insights about
+                            the multilingual and multi-ethnic environment of medieval manuscript and
+                            text production the principal texts cannot: they are first-hand
+                            testimonies of the close linguistic and cultural connections between
+                            Insular Celtic (Old Breton, Old Irish, Old Welsh) and Latin speakers.
+                            GLOSSIT researches these contacts combining methods of comparative
+                            philology and historical linguistics, digital humanities (handwritten
+                            text recognition, network analysis, natural language processing),
+                            (cultural) history, and biological computation (applying DNA-sequence
+                            alignment methods to glosses).</p></projectDesc><listPrefixDef><prefixDef ident="marcrelator" matchPattern="([a-z]+)" replacementPattern="http://id.loc.gov/vocabulary/relators/$1"><p>Taxonomie Rollen MARC</p></prefixDef><prefixDef ident="dcterms" matchPattern="([a-z]+)" replacementPattern="http://purl.org/dc/terms/$1"><p>DCterms</p></prefixDef></listPrefixDef></encodingDesc><profileDesc><langUsage><language ident="la">Latin</language></langUsage><textClass><keywords scheme="#"><list><item><term>Digital Humanities</term></item><item><term>Early Medieval</term></item><item><term>Glossing</term></item></list></keywords></textClass></profileDesc></teiHeader>
+            <facsimile>
+        <surface ulx="0" uly="0" lrx="1064" lry="1200" xml:id="facs_1">
+            <graphic url="7_1337a_default.jpg" height="1200px" width="1064px" xml:id="IMAGE.1"/>
+        
+        <zone ulx="41" uly="135" lrx="158" lry="950" rend="41,135 158,135 158,950 41,950" rotate="0" xml:id="eSc_textblock_0f6a994e" rendtion="TextRegion">
+        
+        <zone rend="72,136 91,136 91,159 72,159" rotate="0" xml:id="eSc_line_9778bc5f" rendtion="TextLine"/>
+        
+        <zone rend="92,481 125,481 125,503 92,503" rotate="0" xml:id="eSc_line_5cdc5b55" rendtion="TextLine"/>
+        
+        <zone rend="66,491 149,491 149,531 66,531" rotate="0" xml:id="eSc_line_f56cd95d" rendtion="TextLine"/></zone>
+        
+        <zone ulx="94" uly="129" lrx="695" lry="1063" rend="94,129 695,129 695,1063 94,1063" rotate="0" xml:id="eSc_textblock_4d98fbb7" rendtion="TextRegion">
+        
+        <zone rend="314,132 342,132 342,158 314,158" rotate="0" xml:id="eSc_line_5e517533" rendtion="TextLine"/>
+        
+        <zone rend="161,135 669,135 669,174 161,174" rotate="0" xml:id="eSc_line_da37bbec" rendtion="TextLine"/>
+        
+        <zone rend="160,168 665,168 665,210 160,210" rotate="0" xml:id="eSc_line_aac37c14" rendtion="TextLine"/>
+        
+        <zone rend="436,198 552,198 552,216 436,216" rotate="0" xml:id="eSc_line_d28f5cd4" rendtion="TextLine"/>
+        
+        <zone rend="160,199 624,199 624,238 160,238" rotate="0" xml:id="eSc_line_41aa767d" rendtion="TextLine"/>
+        
+        <zone rend="164,227 621,227 621,261 164,261" rotate="0" xml:id="eSc_line_efb8ac39" rendtion="TextLine"/>
+        
+        <zone rend="430,253 536,253 536,269 430,269" rotate="0" xml:id="eSc_line_eb468dff" rendtion="TextLine"/>
+        
+        <zone rend="163,243 642,243 642,288 163,288" rotate="0" xml:id="eSc_line_bfb8f867" rendtion="TextLine"/>
+        
+        <zone rend="161,281 625,281 625,319 161,319" rotate="0" xml:id="eSc_line_62a44322" rendtion="TextLine"/>
+        
+        <zone rend="165,308 630,308 630,352 165,352" rotate="0" xml:id="eSc_line_27532b34" rendtion="TextLine"/>
+        
+        <zone rend="541,337 612,337 612,351 541,351" rotate="0" xml:id="eSc_line_405a270e" rendtion="TextLine"/>
+        
+        <zone rend="159,337 637,337 637,379 159,379" rotate="0" xml:id="eSc_line_f1b5d2d1" rendtion="TextLine"/>
+        
+        <zone rend="163,366 177,366 177,385 163,385" rotate="0" xml:id="eSc_line_5961f467" rendtion="TextLine"/>
+        
+        <zone rend="160,365 628,365 628,409 160,409" rotate="0" xml:id="eSc_line_1d5525cb" rendtion="TextLine"/>
+        
+        <zone rend="427,398 449,398 449,411 427,411" rotate="0" xml:id="eSc_line_ee97fc7d" rendtion="TextLine"/>
+        
+        <zone rend="261,399 333,399 333,412 261,412" rotate="0" xml:id="eSc_line_41cf3a95" rendtion="TextLine"/>
+        
+        <zone rend="167,399 641,399 641,435 167,435" rotate="0" xml:id="eSc_line_6d8f425b" rendtion="TextLine"/>
+        
+        <zone rend="159,423 638,423 638,464 159,464" rotate="0" xml:id="eSc_line_a4dbb645" rendtion="TextLine"/>
+        
+        <zone rend="209,453 222,453 222,473 209,473" rotate="0" xml:id="eSc_line_ef5922f1" rendtion="TextLine"/>
+        
+        <zone rend="159,452 630,452 630,498 159,498" rotate="0" xml:id="eSc_line_b8640c78" rendtion="TextLine"/>
+        
+        <zone rend="162,489 632,489 632,531 162,531" rotate="0" xml:id="eSc_line_45b8c22f" rendtion="TextLine"/>
+        
+        <zone rend="214,517 224,517 224,535 214,535" rotate="0" xml:id="eSc_line_348a09c2" rendtion="TextLine"/>
+        
+        <zone rend="163,517 639,517 639,561 163,561" rotate="0" xml:id="eSc_line_03371756" rendtion="TextLine"/>
+        
+        <zone rend="162,548 625,548 625,587 162,587" rotate="0" xml:id="eSc_line_412e61e6" rendtion="TextLine"/>
+        
+        <zone rend="364,578 402,578 402,604 364,604" rotate="0" xml:id="eSc_line_dab9b3f7" rendtion="TextLine"/>
+        
+        <zone rend="183,588 658,588 658,612 183,612" rotate="0" xml:id="eSc_line_06dfc05e" rendtion="TextLine"/>
+        
+        <zone rend="261,606 273,606 273,623 261,623" rotate="0" xml:id="eSc_line_c5a6be5d" rendtion="TextLine"/>
+        
+        <zone rend="382,606 394,606 394,632 382,632" rotate="0" xml:id="eSc_line_f0694e9a" rendtion="TextLine"/>
+        
+        <zone rend="504,606 517,606 517,632 504,632" rotate="0" xml:id="eSc_line_1e5e15e4" rendtion="TextLine"/>
+        
+        <zone rend="567,606 578,606 578,632 567,632" rotate="0" xml:id="eSc_line_c8e96dc1" rendtion="TextLine"/>
+        
+        <zone rend="226,600 650,600 650,646 226,646" rotate="0" xml:id="eSc_line_f8331542" rendtion="TextLine"/>
+        
+        <zone rend="628,636 640,636 640,667 628,667" rotate="0" xml:id="eSc_line_dcd7fc23" rendtion="TextLine"/>
+        
+        <zone rend="253,637 267,637 267,671 253,671" rotate="0" xml:id="eSc_line_49e1f72e" rendtion="TextLine"/>
+        
+        <zone rend="163,634 651,634 651,676 163,676" rotate="0" xml:id="eSc_line_b9b1c217" rendtion="TextLine"/>
+        
+        <zone rend="251,672 272,672 272,690 251,690" rotate="0" xml:id="eSc_line_7986aba3" rendtion="TextLine"/>
+        
+        <zone rend="354,671 366,671 366,690 354,690" rotate="0" xml:id="eSc_line_4b457121" rendtion="TextLine"/>
+        
+        <zone rend="193,673 204,673 204,699 193,699" rotate="0" xml:id="eSc_line_b2859c6a" rendtion="TextLine"/>
+        
+        <zone rend="167,669 645,669 645,712 167,712" rotate="0" xml:id="eSc_line_4da36dcc" rendtion="TextLine"/>
+        
+        <zone rend="276,701 302,701 302,719 276,719" rotate="0" xml:id="eSc_line_9abc93f4" rendtion="TextLine"/>
+        
+        <zone rend="204,703 217,703 217,722 204,722" rotate="0" xml:id="eSc_line_a4152a57" rendtion="TextLine"/>
+        
+        <zone rend="165,697 647,697 647,741 165,741" rotate="0" xml:id="eSc_line_d9cbc5b6" rendtion="TextLine"/>
+        
+        <zone rend="258,729 301,729 301,746 258,746" rotate="0" xml:id="eSc_line_b1ff1aab" rendtion="TextLine"/>
+        
+        <zone rend="168,728 646,728 646,768 168,768" rotate="0" xml:id="eSc_line_ee063a0f" rendtion="TextLine"/>
+        
+        <zone rend="220,755 230,755 230,769 220,769" rotate="0" xml:id="eSc_line_38d0fcac" rendtion="TextLine"/>
+        
+        <zone rend="498,757 509,757 509,787 498,787" rotate="0" xml:id="eSc_line_a5f2713f" rendtion="TextLine"/>
+        
+        <zone rend="228,767 241,767 241,790 228,790" rotate="0" xml:id="eSc_line_832ef226" rendtion="TextLine"/>
+        
+        <zone rend="169,755 645,755 645,805 169,805" rotate="0" xml:id="eSc_line_a6718162" rendtion="TextLine"/>
+        
+        <zone rend="274,792 315,792 315,807 274,807" rotate="0" xml:id="eSc_line_c9cfb530" rendtion="TextLine"/>
+        
+        <zone rend="119,788 535,788 535,956 119,956" rotate="0" xml:id="eSc_line_8d6857a5" rendtion="TextLine"/>
+        
+        <zone rend="367,823 388,823 388,840 367,840" rotate="0" xml:id="eSc_line_c364263d" rendtion="TextLine"/>
+        
+        <zone rend="424,821 452,821 452,843 424,843" rotate="0" xml:id="eSc_line_63f0b0cb" rendtion="TextLine"/>
+        
+        <zone rend="214,824 229,824 229,857 214,857" rotate="0" xml:id="eSc_line_99c98fc2" rendtion="TextLine"/>
+        
+        <zone rend="201,831 649,831 649,865 201,865" rotate="0" xml:id="eSc_line_d823cd91" rendtion="TextLine"/>
+        
+        <zone rend="440,859 456,859 456,872 440,872" rotate="0" xml:id="eSc_line_8c13d284" rendtion="TextLine"/>
+        
+        <zone rend="224,859 288,859 288,876 224,876" rotate="0" xml:id="eSc_line_983ae776" rendtion="TextLine"/>
+        
+        <zone rend="173,859 647,859 647,899 173,899" rotate="0" xml:id="eSc_line_17810191" rendtion="TextLine"/>
+        
+        <zone rend="577,883 589,883 589,898 577,898" rotate="0" xml:id="eSc_line_fda777d9" rendtion="TextLine"/>
+        
+        <zone rend="354,884 374,884 374,899 354,899" rotate="0" xml:id="eSc_line_7ac3bdb5" rendtion="TextLine"/>
+        
+        <zone rend="474,884 488,884 488,907 474,907" rotate="0" xml:id="eSc_line_5c4e5d5e" rendtion="TextLine"/>
+        
+        <zone rend="180,887 654,887 654,922 180,922" rotate="0" xml:id="eSc_line_64212cd4" rendtion="TextLine"/>
+        
+        <zone rend="427,911 443,911 443,923 427,923" rotate="0" xml:id="eSc_line_08ccda50" rendtion="TextLine"/>
+        
+        <zone rend="450,908 492,908 492,926 450,926" rotate="0" xml:id="eSc_line_d20dc459" rendtion="TextLine"/>
+        
+        <zone rend="569,908 581,908 581,931 569,931" rotate="0" xml:id="eSc_line_321e9d60" rendtion="TextLine"/>
+        
+        <zone rend="374,912 421,912 421,939 374,939" rotate="0" xml:id="eSc_line_c195238b" rendtion="TextLine"/>
+        
+        <zone rend="200,912 314,912 314,944 200,944" rotate="0" xml:id="eSc_line_1118fca1" rendtion="TextLine"/>
+        
+        <zone rend="173,907 654,907 654,961 173,961" rotate="0" xml:id="eSc_line_3f237a3d" rendtion="TextLine"/></zone>
+        
+        <zone ulx="766" uly="69" lrx="801" lry="113" rend="766,69 801,69 801,113 766,113" rotate="0" xml:id="eSc_textblock_0dd88e28" rendtion="TextRegion">
+        
+        <zone rend="774,73 790,73 790,106 774,106" rotate="0" xml:id="eSc_line_976b40aa" rendtion="TextLine"/></zone>
+        
+        <zone ulx="41" uly="935" lrx="840" lry="1145" rend="41,935 840,935 840,1145 41,1145" rotate="0" xml:id="eSc_textblock_82000045" rendtion="TextRegion"/>
+        
+        <zone ulx="41" uly="55" lrx="840" lry="132" rend="41,55 840,55 840,132 41,132" rotate="0" xml:id="eSc_textblock_43598304" rendtion="TextRegion"/>
+        
+        <zone ulx="665" uly="136" lrx="843" lry="938" rend="665,136 843,136 843,938 665,938" rotate="0" xml:id="eSc_textblock_5ef69d51" rendtion="TextRegion"/></surface>
+        <surface ulx="0" uly="0" lrx="1054" lry="1200" xml:id="facs_2">
+            <graphic url="8_7c816_default.jpg" height="1200px" width="1054px" xml:id="IMAGE.2"/>
+        
+        <zone ulx="223" uly="132" lrx="355" lry="951" rend="223,132 355,132 355,951 223,951" rotate="0" xml:id="eSc_textblock_343770b7" rendtion="TextRegion">
+        
+        <zone rend="284,268 313,268 313,294 284,294" rotate="0" xml:id="eSc_line_8813cacc" rendtion="TextLine"/>
+        
+        <zone rend="266,418 294,418 294,454 266,454" rotate="0" xml:id="eSc_line_a9a687b1" rendtion="TextLine"/></zone>
+        
+        <zone ulx="357" uly="134" lrx="915" lry="954" rend="357,134 915,134 915,954 357,954" rotate="0" xml:id="eSc_textblock_bd0ea418" rendtion="TextRegion">
+        
+        <zone rend="421,145 874,145 874,183 421,183" rotate="0" xml:id="eSc_line_41d82a45" rendtion="TextLine"/>
+        
+        <zone rend="824,137 866,137 866,164 824,164" rotate="0" xml:id="eSc_line_3a4b9286" rendtion="TextLine"/>
+        
+        <zone rend="419,175 881,175 881,215 419,215" rotate="0" xml:id="eSc_line_ba82d110" rendtion="TextLine"/>
+        
+        <zone rend="513,201 577,201 577,220 513,220" rotate="0" xml:id="eSc_line_e111873b" rendtion="TextLine"/>
+        
+        <zone rend="415,201 893,201 893,244 415,244" rotate="0" xml:id="eSc_line_9fb789d9" rendtion="TextLine"/>
+        
+        <zone rend="411,226 893,226 893,270 411,270" rotate="0" xml:id="eSc_line_28b78794" rendtion="TextLine"/>
+        
+        <zone rend="721,228 768,228 768,248 721,248" rotate="0" xml:id="eSc_line_e5ae8a5e" rendtion="TextLine"/>
+        
+        <zone rend="394,254 907,254 907,315 394,315" rotate="0" xml:id="eSc_line_b2df676d" rendtion="TextLine"/>
+        
+        <zone rend="445,282 891,282 891,327 445,327" rotate="0" xml:id="eSc_line_6e04a07c" rendtion="TextLine"/>
+        
+        <zone rend="409,310 885,310 885,351 409,351" rotate="0" xml:id="eSc_line_55fcd599" rendtion="TextLine"/>
+        
+        <zone rend="414,339 457,339 457,360 414,360" rotate="0" xml:id="eSc_line_cc1babee" rendtion="TextLine"/>
+        
+        <zone rend="402,346 907,346 907,375 402,375" rotate="0" xml:id="eSc_line_14a10f11" rendtion="TextLine"/>
+        
+        <zone rend="785,365 797,365 797,380 785,380" rotate="0" xml:id="eSc_line_6e4676b8" rendtion="TextLine"/>
+        
+        <zone rend="408,371 910,371 910,403 408,403" rotate="0" xml:id="eSc_line_3967920b" rendtion="TextLine"/>
+        
+        <zone rend="750,394 768,394 768,414 750,414" rotate="0" xml:id="eSc_line_7a38e3ab" rendtion="TextLine"/>
+        
+        <zone rend="421,395 912,395 912,457 421,457" rotate="0" xml:id="eSc_line_3037c630" rendtion="TextLine"/>
+        
+        <zone rend="394,426 919,426 919,470 394,470" rotate="0" xml:id="eSc_line_379e8b9f" rendtion="TextLine"/>
+        
+        <zone rend="863,453 899,453 899,473 863,473" rotate="0" xml:id="eSc_line_be1e810c" rendtion="TextLine"/>
+        
+        <zone rend="427,461 918,461 918,501 427,501" rotate="0" xml:id="eSc_line_361499f0" rendtion="TextLine"/>
+        
+        <zone rend="603,485 629,485 629,507 603,507" rotate="0" xml:id="eSc_line_282b8315" rendtion="TextLine"/>
+        
+        <zone rend="422,493 926,493 926,532 422,532" rotate="0" xml:id="eSc_line_8ad1980c" rendtion="TextLine"/>
+        
+        <zone rend="626,517 683,517 683,538 626,538" rotate="0" xml:id="eSc_line_b98e59ab" rendtion="TextLine"/>
+        
+        <zone rend="420,524 926,524 926,563 420,563" rotate="0" xml:id="eSc_line_d0169b3d" rendtion="TextLine"/>
+        
+        <zone rend="746,522 801,522 801,545 746,545" rotate="0" xml:id="eSc_line_e42781ce" rendtion="TextLine"/>
+        
+        <zone rend="508,549 559,549 559,566 508,566" rotate="0" xml:id="eSc_line_2747d2c5" rendtion="TextLine"/>
+        
+        <zone rend="422,554 908,554 908,588 422,588" rotate="0" xml:id="eSc_line_2215ced7" rendtion="TextLine"/>
+        
+        <zone rend="665,552 719,552 719,572 665,572" rotate="0" xml:id="eSc_line_4d24abd5" rendtion="TextLine"/>
+        
+        <zone rend="417,584 894,584 894,612 417,612" rotate="0" xml:id="eSc_line_6d365423" rendtion="TextLine"/>
+        
+        <zone rend="411,606 898,606 898,648 411,648" rotate="0" xml:id="eSc_line_d923eedb" rendtion="TextLine"/>
+        
+        <zone rend="585,640 602,640 602,659 585,659" rotate="0" xml:id="eSc_line_37242d5e" rendtion="TextLine"/>
+        
+        <zone rend="732,634 807,634 807,658 732,658" rotate="0" xml:id="eSc_line_489bb31d" rendtion="TextLine"/>
+        
+        <zone rend="834,634 847,634 847,650 834,650" rotate="0" xml:id="eSc_line_1c30eef3" rendtion="TextLine"/>
+        
+        <zone rend="388,636 903,636 903,691 388,691" rotate="0" xml:id="eSc_line_92dd19bd" rendtion="TextLine"/>
+        
+        <zone rend="462,671 909,671 909,710 462,710" rotate="0" xml:id="eSc_line_215ebd2e" rendtion="TextLine"/>
+        
+        <zone rend="678,697 724,697 724,720 678,720" rotate="0" xml:id="eSc_line_61eae966" rendtion="TextLine"/>
+        
+        <zone rend="817,700 842,700 842,723 817,723" rotate="0" xml:id="eSc_line_7236eaf7" rendtion="TextLine"/>
+        
+        <zone rend="414,701 893,701 893,743 414,743" rotate="0" xml:id="eSc_line_b2d0926c" rendtion="TextLine"/>
+        
+        <zone rend="420,732 895,732 895,768 420,768" rotate="0" xml:id="eSc_line_dd184793" rendtion="TextLine"/>
+        
+        <zone rend="418,760 896,760 896,804 418,804" rotate="0" xml:id="eSc_line_bf25e361" rendtion="TextLine"/>
+        
+        <zone rend="807,790 867,790 867,812 807,812" rotate="0" xml:id="eSc_line_598fd9a7" rendtion="TextLine"/>
+        
+        <zone rend="529,790 906,790 906,832 529,832" rotate="0" xml:id="eSc_line_bf429727" rendtion="TextLine"/>
+        
+        <zone rend="741,817 773,817 773,842 741,842" rotate="0" xml:id="eSc_line_bee3dadf" rendtion="TextLine"/>
+        
+        <zone rend="419,830 908,830 908,868 419,868" rotate="0" xml:id="eSc_line_416b0dce" rendtion="TextLine"/>
+        
+        <zone rend="606,829 620,829 620,850 606,850" rotate="0" xml:id="eSc_line_df3d10e7" rendtion="TextLine"/>
+        
+        <zone rend="816,823 837,823 837,846 816,846" rotate="0" xml:id="eSc_line_eb2ae180" rendtion="TextLine"/>
+        
+        <zone rend="415,856 891,856 891,900 415,900" rotate="0" xml:id="eSc_line_8b07a764" rendtion="TextLine"/>
+        
+        <zone rend="539,884 588,884 588,905 539,905" rotate="0" xml:id="eSc_line_2c4a8ae4" rendtion="TextLine"/>
+        
+        <zone rend="650,888 673,888 673,900 650,900" rotate="0" xml:id="eSc_line_b0e7ae5b" rendtion="TextLine"/>
+        
+        <zone rend="662,885 713,885 713,902 662,902" rotate="0" xml:id="eSc_line_79e6db68" rendtion="TextLine"/>
+        
+        <zone rend="805,888 819,888 819,899 805,899" rotate="0" xml:id="eSc_line_32f795b8" rendtion="TextLine"/>
+        
+        <zone rend="408,887 893,887 893,927 408,927" rotate="0" xml:id="eSc_line_008b9617" rendtion="TextLine"/>
+        
+        <zone rend="406,916 888,916 888,961 406,961" rotate="0" xml:id="eSc_line_2e79c957" rendtion="TextLine"/>
+        
+        <zone rend="593,917 610,917 610,937 593,937" rotate="0" xml:id="eSc_line_06b539fb" rendtion="TextLine"/></zone>
+        
+        <zone ulx="893" uly="133" lrx="1017" lry="955" rend="893,133 1017,133 1017,955 893,955" rotate="0" xml:id="eSc_textblock_4714d654" rendtion="TextRegion">
+        
+        <zone rend="892,215 950,215 950,254 892,254" rotate="0" xml:id="eSc_line_58aa4d63" rendtion="TextLine"/></zone>
+        
+        <zone ulx="225" uly="958" lrx="1011" lry="1135" rend="225,958 1011,958 1011,1135 225,1135" rotate="0" xml:id="eSc_textblock_2bccff07" rendtion="TextRegion"/>
+        
+        <zone ulx="222" uly="55" lrx="1019" lry="130" rend="222,55 1019,55 1019,130 222,130" rotate="0" xml:id="eSc_textblock_18e5bf55" rendtion="TextRegion"/></surface>
+        <surface ulx="0" uly="0" lrx="1064" lry="1200" xml:id="facs_3">
+            <graphic url="9_794c1_default.jpg" height="1200px" width="1064px" xml:id="IMAGE.3"/>
+        
+        <zone ulx="26" uly="135" lrx="143" lry="985" rend="26,135 143,135 143,985 26,985" rotate="0" xml:id="eSc_textblock_ff31b0aa" rendtion="TextRegion">
+        
+        <zone rend="66,163 89,163 89,227 66,227" rotate="0" xml:id="eSc_line_32bb90ed" rendtion="TextLine"/>
+        
+        <zone rend="49,253 67,253 67,304 49,304" rotate="0" xml:id="eSc_line_43bd5256" rendtion="TextLine"/>
+        
+        <zone rend="36,617 125,617 125,649 36,649" rotate="0" xml:id="eSc_line_322e29b7" rendtion="TextLine"/></zone>
+        
+        <zone ulx="149" uly="138" lrx="683" lry="983" rend="149,138 683,138 683,983 149,983" rotate="0" xml:id="eSc_textblock_db0da064" rendtion="TextRegion">
+        
+        <zone rend="251,132 308,132 308,160 251,160" rotate="0" xml:id="eSc_line_3757fb10" rendtion="TextLine"/>
+        
+        <zone rend="163,138 640,138 640,183 163,183" rotate="0" xml:id="eSc_line_7bb73ba3" rendtion="TextLine"/>
+        
+        <zone rend="154,177 638,177 638,212 154,212" rotate="0" xml:id="eSc_line_ba2129e6" rendtion="TextLine"/>
+        
+        <zone rend="206,206 636,206 636,232 206,232" rotate="0" xml:id="eSc_line_d6e46b0b" rendtion="TextLine"/>
+        
+        <zone rend="386,225 407,225 407,245 386,245" rotate="0" xml:id="eSc_line_31112ab4" rendtion="TextLine"/>
+        
+        <zone rend="168,225 641,225 641,268 168,268" rotate="0" xml:id="eSc_line_913713d9" rendtion="TextLine"/>
+        
+        <zone rend="211,255 227,255 227,286 211,286" rotate="0" xml:id="eSc_line_a5900c70" rendtion="TextLine"/>
+        
+        <zone rend="273,258 309,258 309,286 273,286" rotate="0" xml:id="eSc_line_c815b8d2" rendtion="TextLine"/>
+        
+        <zone rend="147,256 637,256 637,312 147,312" rotate="0" xml:id="eSc_line_56920ea4" rendtion="TextLine"/>
+        
+        <zone rend="203,288 635,288 635,324 203,324" rotate="0" xml:id="eSc_line_90371f50" rendtion="TextLine"/>
+        
+        <zone rend="237,317 288,317 288,328 237,328" rotate="0" xml:id="eSc_line_783fc7bd" rendtion="TextLine"/>
+        
+        <zone rend="158,312 637,312 637,348 158,348" rotate="0" xml:id="eSc_line_6f4801c1" rendtion="TextLine"/>
+        
+        <zone rend="321,340 392,340 392,358 321,358" rotate="0" xml:id="eSc_line_391d235a" rendtion="TextLine"/>
+        
+        <zone rend="179,341 637,341 637,379 179,379" rotate="0" xml:id="eSc_line_63526de9" rendtion="TextLine"/>
+        
+        <zone rend="564,366 593,366 593,383 564,383" rotate="0" xml:id="eSc_line_659cbd77" rendtion="TextLine"/>
+        
+        <zone rend="617,357 647,357 647,381 617,381" rotate="0" xml:id="eSc_line_883cd31b" rendtion="TextLine"/>
+        
+        <zone rend="209,366 645,366 645,406 209,406" rotate="0" xml:id="eSc_line_fb7af37f" rendtion="TextLine"/>
+        
+        <zone rend="257,395 289,395 289,416 257,416" rotate="0" xml:id="eSc_line_7ee31b2d" rendtion="TextLine"/>
+        
+        <zone rend="165,397 642,397 642,435 165,435" rotate="0" xml:id="eSc_line_5e88373d" rendtion="TextLine"/>
+        
+        <zone rend="164,434 643,434 643,468 164,468" rotate="0" xml:id="eSc_line_eeb7911e" rendtion="TextLine"/>
+        
+        <zone rend="165,456 178,456 178,469 165,469" rotate="0" xml:id="eSc_line_0ea91127" rendtion="TextLine"/>
+        
+        <zone rend="186,461 198,461 198,482 186,482" rotate="0" xml:id="eSc_line_2e5d85d3" rendtion="TextLine"/>
+        
+        <zone rend="484,456 514,456 514,484 484,484" rotate="0" xml:id="eSc_line_e41333e3" rendtion="TextLine"/>
+        
+        <zone rend="163,462 638,462 638,498 163,498" rotate="0" xml:id="eSc_line_84b9ccda" rendtion="TextLine"/>
+        
+        <zone rend="168,489 195,489 195,512 168,512" rotate="0" xml:id="eSc_line_96cd930d" rendtion="TextLine"/>
+        
+        <zone rend="514,486 541,486 541,518 514,518" rotate="0" xml:id="eSc_line_cb081584" rendtion="TextLine"/>
+        
+        <zone rend="166,489 651,489 651,533 166,533" rotate="0" xml:id="eSc_line_151facad" rendtion="TextLine"/>
+        
+        <zone rend="159,520 631,520 631,564 159,564" rotate="0" xml:id="eSc_line_4f5237d3" rendtion="TextLine"/>
+        
+        <zone rend="326,548 336,548 336,570 326,570" rotate="0" xml:id="eSc_line_35fe22f8" rendtion="TextLine"/>
+        
+        <zone rend="204,546 651,546 651,590 204,590" rotate="0" xml:id="eSc_line_60f6db08" rendtion="TextLine"/>
+        
+        <zone rend="614,571 639,571 639,591 614,591" rotate="0" xml:id="eSc_line_dc703e21" rendtion="TextLine"/>
+        
+        <zone rend="308,578 327,578 327,600 308,600" rotate="0" xml:id="eSc_line_68458bc1" rendtion="TextLine"/>
+        
+        <zone rend="165,575 650,575 650,615 165,615" rotate="0" xml:id="eSc_line_f599ba26" rendtion="TextLine"/>
+        
+        <zone rend="308,602 361,602 361,624 308,624" rotate="0" xml:id="eSc_line_b362dfa0" rendtion="TextLine"/>
+        
+        <zone rend="164,602 660,602 660,648 164,648" rotate="0" xml:id="eSc_line_5223ef68" rendtion="TextLine"/>
+        
+        <zone rend="452,635 463,635 463,655 452,655" rotate="0" xml:id="eSc_line_47337799" rendtion="TextLine"/>
+        
+        <zone rend="526,628 540,628 540,653 526,653" rotate="0" xml:id="eSc_line_fb542444" rendtion="TextLine"/>
+        
+        <zone rend="165,635 649,635 649,676 165,676" rotate="0" xml:id="eSc_line_9c79420f" rendtion="TextLine"/>
+        
+        <zone rend="325,662 370,662 370,683 325,683" rotate="0" xml:id="eSc_line_895b721d" rendtion="TextLine"/>
+        
+        <zone rend="394,661 406,661 406,678 394,678" rotate="0" xml:id="eSc_line_d8411108" rendtion="TextLine"/>
+        
+        <zone rend="251,664 265,664 265,691 251,691" rotate="0" xml:id="eSc_line_cbebbf14" rendtion="TextLine"/>
+        
+        <zone rend="365,673 376,673 376,691 365,691" rotate="0" xml:id="eSc_line_fb81206e" rendtion="TextLine"/>
+        
+        <zone rend="543,661 559,661 559,683 543,683" rotate="0" xml:id="eSc_line_249218ab" rendtion="TextLine"/>
+        
+        <zone rend="166,664 653,664 653,708 166,708" rotate="0" xml:id="eSc_line_beca9372" rendtion="TextLine"/>
+        
+        <zone rend="508,695 522,695 522,717 508,717" rotate="0" xml:id="eSc_line_d31b388a" rendtion="TextLine"/>
+        
+        <zone rend="595,689 608,689 608,711 595,711" rotate="0" xml:id="eSc_line_62bb692c" rendtion="TextLine"/>
+        
+        <zone rend="170,696 658,696 658,740 170,740" rotate="0" xml:id="eSc_line_bfd92e2f" rendtion="TextLine"/>
+        
+        <zone rend="423,721 436,721 436,738 423,738" rotate="0" xml:id="eSc_line_4cc79b42" rendtion="TextLine"/>
+        
+        <zone rend="266,729 280,729 280,752 266,752" rotate="0" xml:id="eSc_line_94038f53" rendtion="TextLine"/>
+        
+        <zone rend="629,728 642,728 642,746 629,746" rotate="0" xml:id="eSc_line_c1a30e41" rendtion="TextLine"/>
+        
+        <zone rend="168,726 659,726 659,770 168,770" rotate="0" xml:id="eSc_line_7dd7427d" rendtion="TextLine"/>
+        
+        <zone rend="428,758 439,758 439,776 428,776" rotate="0" xml:id="eSc_line_aca59152" rendtion="TextLine"/>
+        
+        <zone rend="170,755 681,755 681,800 170,800" rotate="0" xml:id="eSc_line_a658c5a1" rendtion="TextLine"/>
+        
+        <zone rend="248,790 266,790 266,811 248,811" rotate="0" xml:id="eSc_line_af1ae3df" rendtion="TextLine"/>
+        
+        <zone rend="176,788 654,788 654,833 176,833" rotate="0" xml:id="eSc_line_6b2e03f7" rendtion="TextLine"/>
+        
+        <zone rend="170,816 670,816 670,864 170,864" rotate="0" xml:id="eSc_line_a2f66130" rendtion="TextLine"/>
+        
+        <zone rend="368,847 380,847 380,863 368,863" rotate="0" xml:id="eSc_line_e302d8f5" rendtion="TextLine"/>
+        
+        <zone rend="477,844 490,844 490,858 477,858" rotate="0" xml:id="eSc_line_934cacc1" rendtion="TextLine"/>
+        
+        <zone rend="562,842 575,842 575,861 562,861" rotate="0" xml:id="eSc_line_b115b79d" rendtion="TextLine"/>
+        
+        <zone rend="249,858 263,858 263,879 249,879" rotate="0" xml:id="eSc_line_bcbd792c" rendtion="TextLine"/>
+        
+        <zone rend="477,855 487,855 487,881 477,881" rotate="0" xml:id="eSc_line_90a329d4" rendtion="TextLine"/>
+        
+        <zone rend="564,855 574,855 574,874 564,874" rotate="0" xml:id="eSc_line_9a616d74" rendtion="TextLine"/>
+        
+        <zone rend="171,848 664,848 664,903 171,903" rotate="0" xml:id="eSc_line_a3bc0cc8" rendtion="TextLine"/>
+        
+        <zone rend="292,883 320,883 320,904 292,904" rotate="0" xml:id="eSc_line_e62aea4a" rendtion="TextLine"/>
+        
+        <zone rend="599,875 631,875 631,901 599,901" rotate="0" xml:id="eSc_line_c41857fd" rendtion="TextLine"/>
+        
+        <zone rend="173,885 668,885 668,927 173,927" rotate="0" xml:id="eSc_line_f8021155" rendtion="TextLine"/>
+        
+        <zone rend="175,914 681,914 681,964 175,964" rotate="0" xml:id="eSc_line_e9e1bbcd" rendtion="TextLine"/>
+        
+        <zone rend="585,939 630,939 630,980 585,980" rotate="0" xml:id="eSc_line_5bb154bf" rendtion="TextLine"/></zone>
+        
+        <zone ulx="655" uly="137" lrx="840" lry="993" rend="655,137 840,137 840,993 655,993" rotate="0" xml:id="eSc_textblock_d6c503a7" rendtion="TextRegion">
+        
+        <zone rend="694,173 764,173 764,205 694,205" rotate="0" xml:id="eSc_line_79d44f34" rendtion="TextLine"/>
+        
+        <zone rend="666,254 719,254 719,292 666,292" rotate="0" xml:id="eSc_line_8fa43379" rendtion="TextLine"/>
+        
+        <zone rend="733,632 785,632 785,672 733,672" rotate="0" xml:id="eSc_line_691bc430" rendtion="TextLine"/>
+        
+        <zone rend="687,781 809,781 809,841 687,841" rotate="0" xml:id="eSc_line_45d05078" rendtion="TextLine"/></zone>
+        
+        <zone ulx="765" uly="91" lrx="818" lry="126" rend="765,91 818,91 818,126 765,126" rotate="0" xml:id="eSc_textblock_3b15a9f3" rendtion="TextRegion">
+        
+        <zone rend="780,97 803,97 803,139 780,139" rotate="0" xml:id="eSc_line_07b75293" rendtion="TextLine"/></zone>
+        
+        <zone ulx="25" uly="58" lrx="835" lry="136" rend="25,58 835,58 835,136 25,136" rotate="0" xml:id="eSc_textblock_ed2aa39d" rendtion="TextRegion"/>
+        
+        <zone ulx="29" uly="990" lrx="839" lry="1143" rend="29,990 839,990 839,1143 29,1143" rotate="0" xml:id="eSc_textblock_35d45faf" rendtion="TextRegion"/></surface>
+        <surface ulx="0" uly="0" lrx="1082" lry="1200" xml:id="facs_4">
+            <graphic url="10_e7fde_default.jpg" height="1200px" width="1082px" xml:id="IMAGE.4"/>
+        
+        <zone ulx="411" uly="117" lrx="991" lry="963" rend="411,117 991,117 991,963 411,963" rotate="0" xml:id="eSc_textblock_7f5d67a3" rendtion="TextRegion">
+        
+        <zone rend="725,120 757,120 757,140 725,140" rotate="0" xml:id="eSc_line_a7f0480c" rendtion="TextLine"/>
+        
+        <zone rend="466,119 481,119 481,148 466,148" rotate="0" xml:id="eSc_line_197c4403" rendtion="TextLine"/>
+        
+        <zone rend="540,118 557,118 557,148 540,148" rotate="0" xml:id="eSc_line_16d9f29e" rendtion="TextLine"/>
+        
+        <zone rend="455,131 945,131 945,172 455,172" rotate="0" xml:id="eSc_line_211d9ac2" rendtion="TextLine"/>
+        
+        <zone rend="448,154 938,154 938,193 448,193" rotate="0" xml:id="eSc_line_3befff47" rendtion="TextLine"/>
+        
+        <zone rend="821,183 835,183 835,194 821,194" rotate="0" xml:id="eSc_line_4edc9d60" rendtion="TextLine"/>
+        
+        <zone rend="449,180 942,180 942,220 449,220" rotate="0" xml:id="eSc_line_71b0880e" rendtion="TextLine"/>
+        
+        <zone rend="896,211 907,211 907,236 896,236" rotate="0" xml:id="eSc_line_df4c8080" rendtion="TextLine"/>
+        
+        <zone rend="521,209 934,209 934,248 521,248" rotate="0" xml:id="eSc_line_f3623d7a" rendtion="TextLine"/>
+        
+        <zone rend="683,242 708,242 708,258 683,258" rotate="0" xml:id="eSc_line_5f7ca64c" rendtion="TextLine"/>
+        
+        <zone rend="780,241 811,241 811,259 780,259" rotate="0" xml:id="eSc_line_0f8e02d8" rendtion="TextLine"/>
+        
+        <zone rend="452,240 928,240 928,280 452,280" rotate="0" xml:id="eSc_line_69ef9573" rendtion="TextLine"/>
+        
+        <zone rend="716,267 764,267 764,288 716,288" rotate="0" xml:id="eSc_line_405472c9" rendtion="TextLine"/>
+        
+        <zone rend="452,266 937,266 937,307 452,307" rotate="0" xml:id="eSc_line_85ef997b" rendtion="TextLine"/>
+        
+        <zone rend="524,296 579,296 579,309 524,309" rotate="0" xml:id="eSc_line_9ab07fb8" rendtion="TextLine"/>
+        
+        <zone rend="851,294 938,294 938,313 851,313" rotate="0" xml:id="eSc_line_73d7db0c" rendtion="TextLine"/>
+        
+        <zone rend="447,293 943,293 943,329 447,329" rotate="0" xml:id="eSc_line_d4ad1595" rendtion="TextLine"/>
+        
+        <zone rend="853,324 864,324 864,340 853,340" rotate="0" xml:id="eSc_line_4401b546" rendtion="TextLine"/>
+        
+        <zone rend="451,321 923,321 923,358 451,358" rotate="0" xml:id="eSc_line_260153db" rendtion="TextLine"/>
+        
+        <zone rend="448,355 933,355 933,386 448,386" rotate="0" xml:id="eSc_line_58a01dba" rendtion="TextLine"/>
+        
+        <zone rend="452,381 932,381 932,425 452,425" rotate="0" xml:id="eSc_line_c12c0d84" rendtion="TextLine"/>
+        
+        <zone rend="564,412 589,412 589,430 564,430" rotate="0" xml:id="eSc_line_66cbd938" rendtion="TextLine"/>
+        
+        <zone rend="454,412 789,412 789,453 454,453" rotate="0" xml:id="eSc_line_30a4df4b" rendtion="TextLine"/>
+        
+        <zone rend="792,433 840,433 840,463 792,463" rotate="0" xml:id="eSc_line_26c42f4f" rendtion="TextLine"/>
+        
+        <zone rend="901,430 976,430 976,475 901,475" rotate="0" xml:id="eSc_line_0641225c" rendtion="TextLine"/>
+        
+        <zone rend="447,439 925,439 925,486 447,486" rotate="0" xml:id="eSc_line_303e81f5" rendtion="TextLine"/>
+        
+        <zone rend="525,470 574,470 574,485 525,485" rotate="0" xml:id="eSc_line_b00fcf4b" rendtion="TextLine"/>
+        
+        <zone rend="607,471 654,471 654,494 607,494" rotate="0" xml:id="eSc_line_64105290" rendtion="TextLine"/>
+        
+        <zone rend="765,471 849,471 849,491 765,491" rotate="0" xml:id="eSc_line_3e2b6bba" rendtion="TextLine"/>
+        
+        <zone rend="902,466 960,466 960,504 902,504" rotate="0" xml:id="eSc_line_ba209dc1" rendtion="TextLine"/>
+        
+        <zone rend="451,473 920,473 920,519 451,519" rotate="0" xml:id="eSc_line_506e7499" rendtion="TextLine"/>
+        
+        <zone rend="586,506 648,506 648,520 586,520" rotate="0" xml:id="eSc_line_bfe3896e" rendtion="TextLine"/>
+        
+        <zone rend="662,507 714,507 714,522 662,522" rotate="0" xml:id="eSc_line_04fdb4d5" rendtion="TextLine"/>
+        
+        <zone rend="904,510 914,510 914,520 904,520" rotate="0" xml:id="eSc_line_a7a6b6b5" rendtion="TextLine"/>
+        
+        <zone rend="444,507 946,507 946,548 444,548" rotate="0" xml:id="eSc_line_6f94ec25" rendtion="TextLine"/>
+        
+        <zone rend="922,509 936,509 936,534 922,534" rotate="0" xml:id="eSc_line_60a735ab" rendtion="TextLine"/>
+        
+        <zone rend="446,536 934,536 934,578 446,578" rotate="0" xml:id="eSc_line_69f684d2" rendtion="TextLine"/>
+        
+        <zone rend="668,534 679,534 679,557 668,557" rotate="0" xml:id="eSc_line_babe6384" rendtion="TextLine"/>
+        
+        <zone rend="752,535 812,535 812,555 752,555" rotate="0" xml:id="eSc_line_6b4bd7bd" rendtion="TextLine"/>
+        
+        <zone rend="889,543 901,543 901,564 889,564" rotate="0" xml:id="eSc_line_8dcf083d" rendtion="TextLine"/>
+        
+        <zone rend="644,561 658,561 658,578 644,578" rotate="0" xml:id="eSc_line_e034e9a6" rendtion="TextLine"/>
+        
+        <zone rend="445,560 924,560 924,608 445,608" rotate="0" xml:id="eSc_line_a8f12832" rendtion="TextLine"/>
+        
+        <zone rend="779,568 789,568 789,584 779,584" rotate="0" xml:id="eSc_line_ac5152d6" rendtion="TextLine"/>
+        
+        <zone rend="469,586 526,586 526,599 469,599" rotate="0" xml:id="eSc_line_08bcfe17" rendtion="TextLine"/>
+        
+        <zone rend="579,589 664,589 664,608 579,608" rotate="0" xml:id="eSc_line_e3c04522" rendtion="TextLine"/>
+        
+        <zone rend="675,591 775,591 775,609 675,609" rotate="0" xml:id="eSc_line_cac51a78" rendtion="TextLine"/>
+        
+        <zone rend="440,592 925,592 925,634 440,634" rotate="0" xml:id="eSc_line_5940e3a1" rendtion="TextLine"/>
+        
+        <zone rend="878,596 906,596 906,610 878,610" rotate="0" xml:id="eSc_line_2f83ca1b" rendtion="TextLine"/>
+        
+        <zone rend="577,618 635,618 635,639 577,639" rotate="0" xml:id="eSc_line_fe29bf7b" rendtion="TextLine"/>
+        
+        <zone rend="690,618 755,618 755,636 690,636" rotate="0" xml:id="eSc_line_b00bc386" rendtion="TextLine"/>
+        
+        <zone rend="810,620 867,620 867,644 810,644" rotate="0" xml:id="eSc_line_cf2354e1" rendtion="TextLine"/>
+        
+        <zone rend="886,612 986,612 986,664 886,664" rotate="0" xml:id="eSc_line_f77d74bc" rendtion="TextLine"/>
+        
+        <zone rend="440,623 942,623 942,667 440,667" rotate="0" xml:id="eSc_line_3f28d9a8" rendtion="TextLine"/>
+        
+        <zone rend="672,649 683,649 683,660 672,660" rotate="0" xml:id="eSc_line_af66c7f3" rendtion="TextLine"/>
+        
+        <zone rend="457,648 470,648 470,670 457,670" rotate="0" xml:id="eSc_line_e581a136" rendtion="TextLine"/>
+        
+        <zone rend="518,646 586,646 586,670 518,670" rotate="0" xml:id="eSc_line_96586ffe" rendtion="TextLine"/>
+        
+        <zone rend="662,652 728,652 728,680 662,680" rotate="0" xml:id="eSc_line_6c395089" rendtion="TextLine"/>
+        
+        <zone rend="744,650 755,650 755,667 744,667" rotate="0" xml:id="eSc_line_e399362e" rendtion="TextLine"/>
+        
+        <zone rend="440,652 921,652 921,697 440,697" rotate="0" xml:id="eSc_line_cd38f0eb" rendtion="TextLine"/>
+        
+        <zone rend="559,681 570,681 570,703 559,703" rotate="0" xml:id="eSc_line_eb1da090" rendtion="TextLine"/>
+        
+        <zone rend="640,683 756,683 756,701 640,701" rotate="0" xml:id="eSc_line_dcf464d1" rendtion="TextLine"/>
+        
+        <zone rend="443,686 940,686 940,733 443,733" rotate="0" xml:id="eSc_line_9c954a6d" rendtion="TextLine"/>
+        
+        <zone rend="518,714 575,714 575,734 518,734" rotate="0" xml:id="eSc_line_65412373" rendtion="TextLine"/>
+        
+        <zone rend="816,716 829,716 829,730 816,730" rotate="0" xml:id="eSc_line_ca11c780" rendtion="TextLine"/>
+        
+        <zone rend="438,718 946,718 946,762 438,762" rotate="0" xml:id="eSc_line_7c9e03c4" rendtion="TextLine"/>
+        
+        <zone rend="615,720 628,720 628,742 615,742" rotate="0" xml:id="eSc_line_17e1c6aa" rendtion="TextLine"/>
+        
+        <zone rend="499,746 566,746 566,762 499,762" rotate="0" xml:id="eSc_line_978326b5" rendtion="TextLine"/>
+        
+        <zone rend="437,746 944,746 944,790 437,790" rotate="0" xml:id="eSc_line_0b947832" rendtion="TextLine"/>
+        
+        <zone rend="905,750 938,750 938,769 905,769" rotate="0" xml:id="eSc_line_5cc64abb" rendtion="TextLine"/>
+        
+        <zone rend="448,767 468,767 468,788 448,788" rotate="0" xml:id="eSc_line_af58f913" rendtion="TextLine"/>
+        
+        <zone rend="436,780 934,780 934,819 436,819" rotate="0" xml:id="eSc_line_072f9d33" rendtion="TextLine"/>
+        
+        <zone rend="681,782 692,782 692,798 681,798" rotate="0" xml:id="eSc_line_b91fa77c" rendtion="TextLine"/>
+        
+        <zone rend="808,779 851,779 851,801 808,801" rotate="0" xml:id="eSc_line_bf5aa264" rendtion="TextLine"/>
+        
+        <zone rend="908,785 918,785 918,805 908,805" rotate="0" xml:id="eSc_line_b508d7b7" rendtion="TextLine"/>
+        
+        <zone rend="517,802 552,802 552,824 517,824" rotate="0" xml:id="eSc_line_e1be56a0" rendtion="TextLine"/>
+        
+        <zone rend="611,804 681,804 681,824 611,824" rotate="0" xml:id="eSc_line_01bf8583" rendtion="TextLine"/>
+        
+        <zone rend="433,810 924,810 924,856 433,856" rotate="0" xml:id="eSc_line_387d2a51" rendtion="TextLine"/>
+        
+        <zone rend="689,807 735,807 735,825 689,825" rotate="0" xml:id="eSc_line_8b6fde2f" rendtion="TextLine"/>
+        
+        <zone rend="765,809 791,809 791,831 765,831" rotate="0" xml:id="eSc_line_a82e3303" rendtion="TextLine"/>
+        
+        <zone rend="793,808 814,808 814,829 793,829" rotate="0" xml:id="eSc_line_eea88cf6" rendtion="TextLine"/>
+        
+        <zone rend="815,807 916,807 916,830 815,830" rotate="0" xml:id="eSc_line_1ef46ef0" rendtion="TextLine"/>
+        
+        <zone rend="918,793 972,793 972,835 918,835" rotate="0" xml:id="eSc_line_64f66b04" rendtion="TextLine"/>
+        
+        <zone rend="503,830 515,830 515,848 503,848" rotate="0" xml:id="eSc_line_a752b680" rendtion="TextLine"/>
+        
+        <zone rend="665,834 677,834 677,849 665,849" rotate="0" xml:id="eSc_line_976a6306" rendtion="TextLine"/>
+        
+        <zone rend="498,838 510,838 510,860 498,860" rotate="0" xml:id="eSc_line_307d17f0" rendtion="TextLine"/>
+        
+        <zone rend="434,842 931,842 931,888 434,888" rotate="0" xml:id="eSc_line_efbb3bc9" rendtion="TextLine"/>
+        
+        <zone rend="759,846 803,846 803,868 759,868" rotate="0" xml:id="eSc_line_72f56e9e" rendtion="TextLine"/>
+        
+        <zone rend="872,843 894,843 894,867 872,867" rotate="0" xml:id="eSc_line_f17f4550" rendtion="TextLine"/>
+        
+        <zone rend="710,870 722,870 722,891 710,891" rotate="0" xml:id="eSc_line_2be7887e" rendtion="TextLine"/>
+        
+        <zone rend="435,877 930,877 930,917 435,917" rotate="0" xml:id="eSc_line_3c9227cd" rendtion="TextLine"/>
+        
+        <zone rend="480,902 524,902 524,923 480,923" rotate="0" xml:id="eSc_line_561d7ee0" rendtion="TextLine"/>
+        
+        <zone rend="434,905 912,905 912,952 434,952" rotate="0" xml:id="eSc_line_b525189b" rendtion="TextLine"/>
+        
+        <zone rend="468,928 481,928 481,949 468,949" rotate="0" xml:id="eSc_line_4568e491" rendtion="TextLine"/>
+        
+        <zone rend="550,930 560,930 560,949 550,949" rotate="0" xml:id="eSc_line_045519ec" rendtion="TextLine"/></zone>
+        
+        <zone ulx="248" uly="971" lrx="1047" lry="1120" rend="248,971 1047,971 1047,1120 248,1120" rotate="0" xml:id="eSc_textblock_d93e0e95" rendtion="TextRegion"/>
+        
+        <zone ulx="993" uly="123" lrx="1054" lry="961" rend="993,123 1054,123 1054,961 993,961" rotate="0" xml:id="eSc_textblock_e422a40a" rendtion="TextRegion"/>
+        
+        <zone ulx="248" uly="120" lrx="406" lry="964" rend="248,120 406,120 406,964 248,964" rotate="0" xml:id="eSc_textblock_594a8bae" rendtion="TextRegion"/>
+        
+        <zone ulx="248" uly="37" lrx="1042" lry="116" rend="248,37 1042,37 1042,116 248,116" rotate="0" xml:id="eSc_textblock_430a9750" rendtion="TextRegion"/></surface>
+        <surface ulx="0" uly="0" lrx="1064" lry="1200" xml:id="facs_5">
+            <graphic url="11_07e8d_default.jpg" height="1200px" width="1064px" xml:id="IMAGE.5"/>
+        
+        <zone ulx="91" uly="119" lrx="674" lry="983" rend="91,119 674,119 674,983 91,983" rotate="0" xml:id="eSc_textblock_bbfae336" rendtion="TextRegion">
+        
+        <zone rend="583,120 618,120 618,140 583,140" rotate="0" xml:id="eSc_line_9bfacf42" rendtion="TextLine"/>
+        
+        <zone rend="147,124 620,124 620,167 147,167" rotate="0" xml:id="eSc_line_e2a0b8cb" rendtion="TextLine"/>
+        
+        <zone rend="522,155 545,155 545,176 522,176" rotate="0" xml:id="eSc_line_e7926bc6" rendtion="TextLine"/>
+        
+        <zone rend="143,162 603,162 603,206 143,206" rotate="0" xml:id="eSc_line_81fb9ddc" rendtion="TextLine"/>
+        
+        <zone rend="271,196 283,196 283,218 271,218" rotate="0" xml:id="eSc_line_9476bfcc" rendtion="TextLine"/>
+        
+        <zone rend="445,191 471,191 471,208 445,208" rotate="0" xml:id="eSc_line_36c0451c" rendtion="TextLine"/>
+        
+        <zone rend="133,185 614,185 614,229 133,229" rotate="0" xml:id="eSc_line_0d770fad" rendtion="TextLine"/>
+        
+        <zone rend="157,223 200,223 200,243 157,243" rotate="0" xml:id="eSc_line_2548ac32" rendtion="TextLine"/>
+        
+        <zone rend="140,209 616,209 616,259 140,259" rotate="0" xml:id="eSc_line_091131ad" rendtion="TextLine"/>
+        
+        <zone rend="139,249 383,249 383,291 139,291" rotate="0" xml:id="eSc_line_0cf57547" rendtion="TextLine"/>
+        
+        <zone rend="368,269 431,269 431,292 368,292" rotate="0" xml:id="eSc_line_f2df376f" rendtion="TextLine"/>
+        
+        <zone rend="125,266 624,266 624,324 125,324" rotate="0" xml:id="eSc_line_13dbe0dc" rendtion="TextLine"/>
+        
+        <zone rend="212,296 622,296 622,346 212,346" rotate="0" xml:id="eSc_line_db36ac44" rendtion="TextLine"/>
+        
+        <zone rend="133,327 626,327 626,381 133,381" rotate="0" xml:id="eSc_line_09ee1747" rendtion="TextLine"/>
+        
+        <zone rend="193,368 204,368 204,385 193,385" rotate="0" xml:id="eSc_line_6f575572" rendtion="TextLine"/>
+        
+        <zone rend="236,365 250,365 250,378 236,378" rotate="0" xml:id="eSc_line_4f36bd13" rendtion="TextLine"/>
+        
+        <zone rend="269,363 304,363 304,384 269,384" rotate="0" xml:id="eSc_line_70301d38" rendtion="TextLine"/>
+        
+        <zone rend="374,358 414,358 414,382 374,382" rotate="0" xml:id="eSc_line_8f828d0b" rendtion="TextLine"/>
+        
+        <zone rend="522,352 543,352 543,373 522,373" rotate="0" xml:id="eSc_line_844a046d" rendtion="TextLine"/>
+        
+        <zone rend="139,356 631,356 631,410 139,410" rotate="0" xml:id="eSc_line_ceb34822" rendtion="TextLine"/>
+        
+        <zone rend="368,386 414,386 414,409 368,409" rotate="0" xml:id="eSc_line_ff97f123" rendtion="TextLine"/>
+        
+        <zone rend="437,385 461,385 461,405 437,405" rotate="0" xml:id="eSc_line_adebf428" rendtion="TextLine"/>
+        
+        <zone rend="137,387 631,387 631,443 137,443" rotate="0" xml:id="eSc_line_205872ff" rendtion="TextLine"/>
+        
+        <zone rend="140,416 628,416 628,465 140,465" rotate="0" xml:id="eSc_line_df6a22f7" rendtion="TextLine"/>
+        
+        <zone rend="559,438 575,438 575,459 559,459" rotate="0" xml:id="eSc_line_1ae7bd65" rendtion="TextLine"/>
+        
+        <zone rend="587,437 603,437 603,452 587,452" rotate="0" xml:id="eSc_line_71648930" rendtion="TextLine"/>
+        
+        <zone rend="189,460 199,460 199,489 189,489" rotate="0" xml:id="eSc_line_a481dc31" rendtion="TextLine"/>
+        
+        <zone rend="236,453 246,453 246,486 236,486" rotate="0" xml:id="eSc_line_d21e922b" rendtion="TextLine"/>
+        
+        <zone rend="443,475 456,475 456,491 443,491" rotate="0" xml:id="eSc_line_e60d763a" rendtion="TextLine"/>
+        
+        <zone rend="114,439 625,439 625,506 114,506" rotate="0" xml:id="eSc_line_34a796f6" rendtion="TextLine"/>
+        
+        <zone rend="158,518 208,518 208,541 158,541" rotate="0" xml:id="eSc_line_bd2a0fc4" rendtion="TextLine"/>
+        
+        <zone rend="181,470 633,470 633,529 181,529" rotate="0" xml:id="eSc_line_3ef85ff0" rendtion="TextLine"/>
+        
+        <zone rend="270,516 332,516 332,533 270,533" rotate="0" xml:id="eSc_line_bc645e61" rendtion="TextLine"/>
+        
+        <zone rend="143,503 639,503 639,564 143,564" rotate="0" xml:id="eSc_line_d8f32ff3" rendtion="TextLine"/>
+        
+        <zone rend="417,542 508,542 508,557 417,557" rotate="0" xml:id="eSc_line_b49cd927" rendtion="TextLine"/>
+        
+        <zone rend="581,538 613,538 613,548 581,548" rotate="0" xml:id="eSc_line_ccac4079" rendtion="TextLine"/>
+        
+        <zone rend="147,556 162,556 162,570 147,570" rotate="0" xml:id="eSc_line_382faa82" rendtion="TextLine"/>
+        
+        <zone rend="255,542 327,542 327,569 255,569" rotate="0" xml:id="eSc_line_f66c1524" rendtion="TextLine"/>
+        
+        <zone rend="145,542 637,542 637,593 145,593" rotate="0" xml:id="eSc_line_b6881119" rendtion="TextLine"/>
+        
+        <zone rend="612,558 669,558 669,579 612,579" rotate="0" xml:id="eSc_line_309170bf" rendtion="TextLine"/>
+        
+        <zone rend="144,567 628,567 628,623 144,623" rotate="0" xml:id="eSc_line_312e69e0" rendtion="TextLine"/>
+        
+        <zone rend="265,604 278,604 278,620 265,620" rotate="0" xml:id="eSc_line_4526fbed" rendtion="TextLine"/>
+        
+        <zone rend="146,593 641,593 641,652 146,652" rotate="0" xml:id="eSc_line_5cb595e6" rendtion="TextLine"/>
+        
+        <zone rend="577,618 591,618 591,636 577,636" rotate="0" xml:id="eSc_line_171c43c5" rendtion="TextLine"/>
+        
+        <zone rend="598,617 612,617 612,638 598,638" rotate="0" xml:id="eSc_line_f2af2a0e" rendtion="TextLine"/>
+        
+        <zone rend="148,622 632,622 632,680 148,680" rotate="0" xml:id="eSc_line_abcc16f7" rendtion="TextLine"/>
+        
+        <zone rend="577,650 594,650 594,661 577,661" rotate="0" xml:id="eSc_line_3398ef90" rendtion="TextLine"/>
+        
+        <zone rend="600,678 612,678 612,694 600,694" rotate="0" xml:id="eSc_line_9ae6e744" rendtion="TextLine"/>
+        
+        <zone rend="152,652 647,652 647,712 152,712" rotate="0" xml:id="eSc_line_b87c4027" rendtion="TextLine"/>
+        
+        <zone rend="195,698 206,698 206,712 195,712" rotate="0" xml:id="eSc_line_cdba7719" rendtion="TextLine"/>
+        
+        <zone rend="235,695 247,695 247,717 235,717" rotate="0" xml:id="eSc_line_c2e6fe7e" rendtion="TextLine"/>
+        
+        <zone rend="316,692 330,692 330,708 316,708" rotate="0" xml:id="eSc_line_8b876759" rendtion="TextLine"/>
+        
+        <zone rend="154,680 636,680 636,746 154,746" rotate="0" xml:id="eSc_line_461e73ec" rendtion="TextLine"/>
+        
+        <zone rend="278,727 294,727 294,739 278,739" rotate="0" xml:id="eSc_line_3568b790" rendtion="TextLine"/>
+        
+        <zone rend="313,726 325,726 325,742 313,742" rotate="0" xml:id="eSc_line_cc1cd579" rendtion="TextLine"/>
+        
+        <zone rend="433,719 448,719 448,737 433,737" rotate="0" xml:id="eSc_line_a5895919" rendtion="TextLine"/>
+        
+        <zone rend="473,717 487,717 487,734 473,734" rotate="0" xml:id="eSc_line_4902bec6" rendtion="TextLine"/>
+        
+        <zone rend="516,714 530,714 530,731 516,731" rotate="0" xml:id="eSc_line_6a7d9255" rendtion="TextLine"/>
+        
+        <zone rend="154,715 637,715 637,774 154,774" rotate="0" xml:id="eSc_line_b4d346d8" rendtion="TextLine"/>
+        
+        <zone rend="217,764 235,764 235,779 217,779" rotate="0" xml:id="eSc_line_94da1fb0" rendtion="TextLine"/>
+        
+        <zone rend="255,762 268,762 268,786 255,786" rotate="0" xml:id="eSc_line_2ab33ada" rendtion="TextLine"/>
+        
+        <zone rend="154,743 637,743 637,819 154,819" rotate="0" xml:id="eSc_line_625e2159" rendtion="TextLine"/>
+        
+        <zone rend="293,789 304,789 304,810 293,810" rotate="0" xml:id="eSc_line_5c900ae8" rendtion="TextLine"/>
+        
+        <zone rend="310,784 364,784 364,804 310,804" rotate="0" xml:id="eSc_line_c91565f4" rendtion="TextLine"/>
+        
+        <zone rend="477,779 492,779 492,799 477,799" rotate="0" xml:id="eSc_line_3f427eda" rendtion="TextLine"/>
+        
+        <zone rend="157,777 645,777 645,838 157,838" rotate="0" xml:id="eSc_line_07ef85ca" rendtion="TextLine"/>
+        
+        <zone rend="499,804 545,804 545,828 499,828" rotate="0" xml:id="eSc_line_f6c2ab44" rendtion="TextLine"/>
+        
+        <zone rend="161,807 642,807 642,868 161,868" rotate="0" xml:id="eSc_line_9644ecdb" rendtion="TextLine"/>
+        
+        <zone rend="497,835 557,835 557,858 497,858" rotate="0" xml:id="eSc_line_f1150f4b" rendtion="TextLine"/>
+        
+        <zone rend="243,857 263,857 263,879 243,879" rotate="0" xml:id="eSc_line_51dd171b" rendtion="TextLine"/>
+        
+        <zone rend="282,853 317,853 317,874 282,874" rotate="0" xml:id="eSc_line_9c08a7ac" rendtion="TextLine"/>
+        
+        <zone rend="370,846 415,846 415,867 370,867" rotate="0" xml:id="eSc_line_22309f0c" rendtion="TextLine"/>
+        
+        <zone rend="224,838 651,838 651,898 224,898" rotate="0" xml:id="eSc_line_44b3def8" rendtion="TextLine"/>
+        
+        <zone rend="231,886 246,886 246,902 231,902" rotate="0" xml:id="eSc_line_92092671" rendtion="TextLine"/>
+        
+        <zone rend="594,899 610,899 610,915 594,915" rotate="0" xml:id="eSc_line_ceeb01d5" rendtion="TextLine"/>
+        
+        <zone rend="224,869 640,869 640,932 224,932" rotate="0" xml:id="eSc_line_49acb0cd" rendtion="TextLine"/>
+        
+        <zone rend="238,918 251,918 251,933 238,933" rotate="0" xml:id="eSc_line_aef8fc12" rendtion="TextLine"/>
+        
+        <zone rend="222,916 277,916 277,942 222,942" rotate="0" xml:id="eSc_line_18f3fadb" rendtion="TextLine"/>
+        
+        <zone rend="437,919 449,919 449,946 437,946" rotate="0" xml:id="eSc_line_45abab4c" rendtion="TextLine"/>
+        
+        <zone rend="445,910 486,910 486,936 445,936" rotate="0" xml:id="eSc_line_f684b6e2" rendtion="TextLine"/>
+        
+        <zone rend="167,905 659,905 659,972 167,972" rotate="0" xml:id="eSc_line_a566472b" rendtion="TextLine"/>
+        
+        <zone rend="493,944 508,944 508,962 493,962" rotate="0" xml:id="eSc_line_3e491df2" rendtion="TextLine"/>
+        
+        <zone rend="161,928 211,928 211,982 161,982" rotate="0" xml:id="eSc_line_146da443" rendtion="TextLine"/>
+        
+        <zone rend="463,947 480,947 480,969 463,969" rotate="0" xml:id="eSc_line_a9134f6d" rendtion="TextLine"/></zone>
+        
+        <zone ulx="651" uly="122" lrx="803" lry="956" rend="651,122 803,122 803,956 651,956" rotate="0" xml:id="eSc_textblock_4e4ef7ca" rendtion="TextRegion">
+        
+        <zone rend="676,591 696,591 696,633 676,633" rotate="0" xml:id="eSc_line_eb68b4f4" rendtion="TextLine"/></zone>
+        
+        <zone ulx="729" uly="69" lrx="769" lry="106" rend="729,69 769,69 769,106 729,106" rotate="0" xml:id="eSc_textblock_d0ed90c1" rendtion="TextRegion">
+        
+        <zone rend="735,70 757,70 757,111 735,111" rotate="0" xml:id="eSc_line_93498ebd" rendtion="TextLine"/></zone>
+        
+        <zone ulx="25" uly="126" lrx="87" lry="982" rend="25,126 87,126 87,982 25,982" rotate="0" xml:id="eSc_textblock_b9479b33" rendtion="TextRegion"/>
+        
+        <zone ulx="35" uly="56" lrx="807" lry="120" rend="35,56 807,56 807,120 35,120" rotate="0" xml:id="eSc_textblock_b24ea3bc" rendtion="TextRegion"/>
+        
+        <zone ulx="28" uly="959" lrx="801" lry="1143" rend="28,959 801,959 801,1143 28,1143" rotate="0" xml:id="eSc_textblock_8007a323" rendtion="TextRegion"/></surface>
+        <surface ulx="0" uly="0" lrx="1059" lry="1200" xml:id="facs_6">
+            <graphic url="12_eaa9e_default.jpg" height="1200px" width="1059px" xml:id="IMAGE.6"/>
+        
+        <zone ulx="231" uly="106" lrx="404" lry="965" rend="231,106 404,106 404,965 231,965" rotate="0" xml:id="eSc_textblock_217624db" rendtion="TextRegion">
+        
+        <zone rend="314,262 340,262 340,327 314,327" rotate="0" xml:id="eSc_line_70e59439" rendtion="TextLine"/>
+        
+        <zone rend="305,523 336,523 336,572 305,572" rotate="0" xml:id="eSc_line_95024351" rendtion="TextLine"/></zone>
+        
+        <zone ulx="385" uly="110" lrx="966" lry="968" rend="385,110 966,110 966,968 385,968" rotate="0" xml:id="eSc_textblock_915c00b2" rendtion="TextRegion">
+        
+        <zone rend="902,128 948,128 948,168 902,168" rotate="0" xml:id="eSc_line_cb720086" rendtion="TextLine"/>
+        
+        <zone rend="752,137 767,137 767,158 752,158" rotate="0" xml:id="eSc_line_353801c7" rendtion="TextLine"/>
+        
+        <zone rend="436,138 904,138 904,184 436,184" rotate="0" xml:id="eSc_line_c2b54466" rendtion="TextLine"/>
+        
+        <zone rend="436,166 902,166 902,213 436,213" rotate="0" xml:id="eSc_line_7a580e57" rendtion="TextLine"/>
+        
+        <zone rend="439,199 538,199 538,212 439,212" rotate="0" xml:id="eSc_line_2807d4da" rendtion="TextLine"/>
+        
+        <zone rend="437,202 895,202 895,239 437,239" rotate="0" xml:id="eSc_line_32249b1d" rendtion="TextLine"/>
+        
+        <zone rend="566,202 614,202 614,226 566,226" rotate="0" xml:id="eSc_line_3699ab71" rendtion="TextLine"/>
+        
+        <zone rend="639,205 703,205 703,218 639,218" rotate="0" xml:id="eSc_line_5a89883c" rendtion="TextLine"/>
+        
+        <zone rend="766,202 816,202 816,221 766,221" rotate="0" xml:id="eSc_line_031cd5a7" rendtion="TextLine"/>
+        
+        <zone rend="886,194 931,194 931,218 886,218" rotate="0" xml:id="eSc_line_dee18ec9" rendtion="TextLine"/>
+        
+        <zone rend="440,216 451,216 451,231 440,231" rotate="0" xml:id="eSc_line_4a22a707" rendtion="TextLine"/>
+        
+        <zone rend="431,231 899,231 899,268 431,268" rotate="0" xml:id="eSc_line_f1b7f36c" rendtion="TextLine"/>
+        
+        <zone rend="428,249 774,249 774,295 428,295" rotate="0" xml:id="eSc_line_f6178515" rendtion="TextLine"/>
+        
+        <zone rend="713,257 761,257 761,273 713,273" rotate="0" xml:id="eSc_line_1ace8cf7" rendtion="TextLine"/>
+        
+        <zone rend="519,279 544,279 544,307 519,307" rotate="0" xml:id="eSc_line_682bb87e" rendtion="TextLine"/>
+        
+        <zone rend="426,281 907,281 907,323 426,323" rotate="0" xml:id="eSc_line_8ed9bc7f" rendtion="TextLine"/>
+        
+        <zone rend="540,309 570,309 570,325 540,325" rotate="0" xml:id="eSc_line_62eb5e7a" rendtion="TextLine"/>
+        
+        <zone rend="847,312 860,312 860,331 847,331" rotate="0" xml:id="eSc_line_cc74c7a1" rendtion="TextLine"/>
+        
+        <zone rend="892,312 904,312 904,327 892,327" rotate="0" xml:id="eSc_line_0c559483" rendtion="TextLine"/>
+        
+        <zone rend="485,308 904,308 904,351 485,351" rotate="0" xml:id="eSc_line_65c72346" rendtion="TextLine"/>
+        
+        <zone rend="486,335 908,335 908,377 486,377" rotate="0" xml:id="eSc_line_8d9ba4ae" rendtion="TextLine"/>
+        
+        <zone rend="429,363 912,363 912,410 429,410" rotate="0" xml:id="eSc_line_ba523d71" rendtion="TextLine"/>
+        
+        <zone rend="608,364 674,364 674,383 608,383" rotate="0" xml:id="eSc_line_565f252b" rendtion="TextLine"/>
+        
+        <zone rend="501,388 579,388 579,408 501,408" rotate="0" xml:id="eSc_line_5559ab11" rendtion="TextLine"/>
+        
+        <zone rend="669,392 713,392 713,409 669,409" rotate="0" xml:id="eSc_line_f6acd1fd" rendtion="TextLine"/>
+        
+        <zone rend="761,394 777,394 777,408 761,408" rotate="0" xml:id="eSc_line_afa6c097" rendtion="TextLine"/>
+        
+        <zone rend="782,394 794,394 794,411 782,411" rotate="0" xml:id="eSc_line_1568245b" rendtion="TextLine"/>
+        
+        <zone rend="821,394 831,394 831,413 821,413" rotate="0" xml:id="eSc_line_8c09e599" rendtion="TextLine"/>
+        
+        <zone rend="861,394 871,394 871,405 861,405" rotate="0" xml:id="eSc_line_c5c8de17" rendtion="TextLine"/>
+        
+        <zone rend="427,400 914,400 914,437 427,437" rotate="0" xml:id="eSc_line_03b358e2" rendtion="TextLine"/>
+        
+        <zone rend="425,421 914,421 914,469 425,469" rotate="0" xml:id="eSc_line_22262b4a" rendtion="TextLine"/>
+        
+        <zone rend="431,448 903,448 903,500 431,500" rotate="0" xml:id="eSc_line_dbee673e" rendtion="TextLine"/>
+        
+        <zone rend="816,456 836,456 836,476 816,476" rotate="0" xml:id="eSc_line_26c6bd61" rendtion="TextLine"/>
+        
+        <zone rend="709,484 759,484 759,505 709,505" rotate="0" xml:id="eSc_line_5dd7a939" rendtion="TextLine"/>
+        
+        <zone rend="424,480 894,480 894,532 424,532" rotate="0" xml:id="eSc_line_a3c755fa" rendtion="TextLine"/>
+        
+        <zone rend="416,512 896,512 896,563 416,563" rotate="0" xml:id="eSc_line_32d87da0" rendtion="TextLine"/>
+        
+        <zone rend="486,544 908,544 908,595 486,595" rotate="0" xml:id="eSc_line_e9390d5a" rendtion="TextLine"/>
+        
+        <zone rend="429,575 900,575 900,622 429,622" rotate="0" xml:id="eSc_line_443f0de5" rendtion="TextLine"/>
+        
+        <zone rend="517,574 558,574 558,593 517,593" rotate="0" xml:id="eSc_line_74d1753d" rendtion="TextLine"/>
+        
+        <zone rend="687,579 753,579 753,596 687,596" rotate="0" xml:id="eSc_line_56a3ff2b" rendtion="TextLine"/>
+        
+        <zone rend="439,597 450,597 450,615 439,615" rotate="0" xml:id="eSc_line_e1b1d4af" rendtion="TextLine"/>
+        
+        <zone rend="482,599 498,599 498,616 482,616" rotate="0" xml:id="eSc_line_55fb14cd" rendtion="TextLine"/>
+        
+        <zone rend="660,608 673,608 673,620 660,620" rotate="0" xml:id="eSc_line_ad136afe" rendtion="TextLine"/>
+        
+        <zone rend="421,598 910,598 910,652 421,652" rotate="0" xml:id="eSc_line_c637bbe9" rendtion="TextLine"/>
+        
+        <zone rend="798,611 810,611 810,623 798,623" rotate="0" xml:id="eSc_line_5becac0d" rendtion="TextLine"/>
+        
+        <zone rend="860,612 872,612 872,629 860,629" rotate="0" xml:id="eSc_line_4d3957d1" rendtion="TextLine"/>
+        
+        <zone rend="687,633 701,633 701,653 687,653" rotate="0" xml:id="eSc_line_9ab410d2" rendtion="TextLine"/>
+        
+        <zone rend="422,635 914,635 914,681 422,681" rotate="0" xml:id="eSc_line_b544d2d8" rendtion="TextLine"/>
+        
+        <zone rend="527,660 538,660 538,672 527,672" rotate="0" xml:id="eSc_line_9fd16af4" rendtion="TextLine"/>
+        
+        <zone rend="422,660 896,660 896,714 422,714" rotate="0" xml:id="eSc_line_09ec7e85" rendtion="TextLine"/>
+        
+        <zone rend="480,662 495,662 495,685 480,685" rotate="0" xml:id="eSc_line_c9622e50" rendtion="TextLine"/>
+        
+        <zone rend="535,661 585,661 585,681 535,681" rotate="0" xml:id="eSc_line_4ab3e3e8" rendtion="TextLine"/>
+        
+        <zone rend="766,666 813,666 813,683 766,683" rotate="0" xml:id="eSc_line_c2295d33" rendtion="TextLine"/>
+        
+        <zone rend="615,692 627,692 627,708 615,708" rotate="0" xml:id="eSc_line_4c4ff0ed" rendtion="TextLine"/>
+        
+        <zone rend="743,697 760,697 760,713 743,713" rotate="0" xml:id="eSc_line_2faebdbc" rendtion="TextLine"/>
+        
+        <zone rend="421,693 892,693 892,741 421,741" rotate="0" xml:id="eSc_line_ee36889d" rendtion="TextLine"/>
+        
+        <zone rend="862,688 956,688 956,739 862,739" rotate="0" xml:id="eSc_line_f284fbf0" rendtion="TextLine"/>
+        
+        <zone rend="481,723 554,723 554,744 481,744" rotate="0" xml:id="eSc_line_41a204e6" rendtion="TextLine"/>
+        
+        <zone rend="419,723 896,723 896,774 419,774" rotate="0" xml:id="eSc_line_648e99af" rendtion="TextLine"/>
+        
+        <zone rend="623,727 694,727 694,751 623,751" rotate="0" xml:id="eSc_line_06aa6910" rendtion="TextLine"/>
+        
+        <zone rend="420,753 884,753 884,798 420,798" rotate="0" xml:id="eSc_line_ae538236" rendtion="TextLine"/>
+        
+        <zone rend="789,757 803,757 803,773 789,773" rotate="0" xml:id="eSc_line_2383ab44" rendtion="TextLine"/>
+        
+        <zone rend="418,775 898,775 898,831 418,831" rotate="0" xml:id="eSc_line_927ceb35" rendtion="TextLine"/>
+        
+        <zone rend="788,793 799,793 799,819 788,819" rotate="0" xml:id="eSc_line_b0461556" rendtion="TextLine"/>
+        
+        <zone rend="895,764 906,764 906,802 895,802" rotate="0" xml:id="eSc_line_119437fd" rendtion="TextLine"/>
+        
+        <zone rend="843,784 899,784 899,830 843,830" rotate="0" xml:id="eSc_line_af19807f" rendtion="TextLine"/>
+        
+        <zone rend="901,782 945,782 945,845 901,845" rotate="0" xml:id="eSc_line_dfa60d7e" rendtion="TextLine"/>
+        
+        <zone rend="417,811 733,811 733,862 417,862" rotate="0" xml:id="eSc_line_ed6a6993" rendtion="TextLine"/>
+        
+        <zone rend="537,813 597,813 597,833 537,833" rotate="0" xml:id="eSc_line_5f5bf191" rendtion="TextLine"/>
+        
+        <zone rend="406,841 888,841 888,908 406,908" rotate="0" xml:id="eSc_line_33e1ea5d" rendtion="TextLine"/>
+        
+        <zone rend="556,847 571,847 571,866 556,866" rotate="0" xml:id="eSc_line_92925bc5" rendtion="TextLine"/>
+        
+        <zone rend="511,878 578,878 578,899 511,899" rotate="0" xml:id="eSc_line_72c17e30" rendtion="TextLine"/>
+        
+        <zone rend="489,875 902,875 902,935 489,935" rotate="0" xml:id="eSc_line_1c78c7b9" rendtion="TextLine"/>
+        
+        <zone rend="580,908 590,908 590,926 580,926" rotate="0" xml:id="eSc_line_9d32017c" rendtion="TextLine"/>
+        
+        <zone rend="655,910 665,910 665,929 655,929" rotate="0" xml:id="eSc_line_c6c85fe1" rendtion="TextLine"/>
+        
+        <zone rend="720,911 732,911 732,935 720,935" rotate="0" xml:id="eSc_line_165ffc5b" rendtion="TextLine"/>
+        
+        <zone rend="423,918 901,918 901,974 423,974" rotate="0" xml:id="eSc_line_18cada37" rendtion="TextLine"/>
+        
+        <zone rend="650,921 691,921 691,940 650,940" rotate="0" xml:id="eSc_line_b1e1c1eb" rendtion="TextLine"/></zone>
+        
+        <zone ulx="969" uly="115" lrx="1025" lry="966" rend="969,115 1025,115 1025,966 969,966" rotate="0" xml:id="eSc_textblock_ab70bd8f" rendtion="TextRegion"/>
+        
+        <zone ulx="241" uly="60" lrx="1008" lry="109" rend="241,60 1008,60 1008,109 241,109" rotate="0" xml:id="eSc_textblock_88f7fc67" rendtion="TextRegion"/>
+        
+        <zone ulx="236" uly="972" lrx="1022" lry="1142" rend="236,972 1022,972 1022,1142 236,1142" rotate="0" xml:id="eSc_textblock_162374e5" rendtion="TextRegion"/></surface>
+        <surface ulx="0" uly="0" lrx="1076" lry="1200" xml:id="facs_7">
+            <graphic url="13_634e7_default.jpg" height="1200px" width="1076px" xml:id="IMAGE.7"/>
+        
+        <zone ulx="24" uly="147" lrx="178" lry="957" rend="24,147 178,147 178,957 24,957" rotate="0" xml:id="eSc_textblock_95ee4f58" rendtion="TextRegion">
+        
+        <zone rend="36,456 158,456 158,477 36,477" rotate="0" xml:id="eSc_line_e66a2e25" rendtion="TextLine"/>
+        
+        <zone rend="36,475 162,475 162,497 36,497" rotate="0" xml:id="eSc_line_718d7b3c" rendtion="TextLine"/>
+        
+        <zone rend="38,492 159,492 159,512 38,512" rotate="0" xml:id="eSc_line_8a575180" rendtion="TextLine"/>
+        
+        <zone rend="37,505 153,505 153,527 37,527" rotate="0" xml:id="eSc_line_37eff9b8" rendtion="TextLine"/>
+        
+        <zone rend="33,518 165,518 165,544 33,544" rotate="0" xml:id="eSc_line_554a56eb" rendtion="TextLine"/>
+        
+        <zone rend="35,540 154,540 154,561 35,561" rotate="0" xml:id="eSc_line_67cf66c6" rendtion="TextLine"/>
+        
+        <zone rend="35,558 161,558 161,582 35,582" rotate="0" xml:id="eSc_line_b1c5ae0f" rendtion="TextLine"/>
+        
+        <zone rend="34,575 163,575 163,595 34,595" rotate="0" xml:id="eSc_line_c06e2f1c" rendtion="TextLine"/>
+        
+        <zone rend="33,592 169,592 169,614 33,614" rotate="0" xml:id="eSc_line_243b96be" rendtion="TextLine"/>
+        
+        <zone rend="34,608 171,608 171,630 34,630" rotate="0" xml:id="eSc_line_b40e1039" rendtion="TextLine"/>
+        
+        <zone rend="34,627 165,627 165,648 34,648" rotate="0" xml:id="eSc_line_6765279f" rendtion="TextLine"/>
+        
+        <zone rend="35,644 167,644 167,663 35,663" rotate="0" xml:id="eSc_line_3c7ef5d6" rendtion="TextLine"/>
+        
+        <zone rend="35,657 165,657 165,681 35,681" rotate="0" xml:id="eSc_line_d7b63174" rendtion="TextLine"/>
+        
+        <zone rend="35,671 170,671 170,695 35,695" rotate="0" xml:id="eSc_line_14c93aca" rendtion="TextLine"/>
+        
+        <zone rend="35,685 100,685 100,709 35,709" rotate="0" xml:id="eSc_line_7f80abef" rendtion="TextLine"/></zone>
+        
+        <zone ulx="148" uly="138" lrx="656" lry="957" rend="148,138 656,138 656,957 148,957" rotate="0" xml:id="eSc_textblock_b8805f4b" rendtion="TextRegion">
+        
+        <zone rend="153,140 618,140 618,183 153,183" rotate="0" xml:id="eSc_line_db06d60b" rendtion="TextLine"/>
+        
+        <zone rend="375,166 420,166 420,185 375,185" rotate="0" xml:id="eSc_line_ca4db0e1" rendtion="TextLine"/>
+        
+        <zone rend="157,164 614,164 614,212 157,212" rotate="0" xml:id="eSc_line_099c5ca2" rendtion="TextLine"/>
+        
+        <zone rend="155,195 608,195 608,241 155,241" rotate="0" xml:id="eSc_line_80007c01" rendtion="TextLine"/>
+        
+        <zone rend="155,221 617,221 617,264 155,264" rotate="0" xml:id="eSc_line_57b768dc" rendtion="TextLine"/>
+        
+        <zone rend="156,237 619,237 619,297 156,297" rotate="0" xml:id="eSc_line_19d194f5" rendtion="TextLine"/>
+        
+        <zone rend="157,272 618,272 618,324 157,324" rotate="0" xml:id="eSc_line_bd40c0aa" rendtion="TextLine"/>
+        
+        <zone rend="157,296 613,296 613,349 157,349" rotate="0" xml:id="eSc_line_ac611a4c" rendtion="TextLine"/>
+        
+        <zone rend="157,332 616,332 616,382 157,382" rotate="0" xml:id="eSc_line_52451ede" rendtion="TextLine"/>
+        
+        <zone rend="190,370 239,370 239,398 190,398" rotate="0" xml:id="eSc_line_7576f883" rendtion="TextLine"/>
+        
+        <zone rend="159,350 630,350 630,410 159,410" rotate="0" xml:id="eSc_line_0b68b479" rendtion="TextLine"/>
+        
+        <zone rend="156,377 627,377 627,443 156,443" rotate="0" xml:id="eSc_line_e13b1595" rendtion="TextLine"/>
+        
+        <zone rend="160,411 619,411 619,470 160,470" rotate="0" xml:id="eSc_line_c3d9abe3" rendtion="TextLine"/>
+        
+        <zone rend="183,427 258,427 258,447 183,447" rotate="0" xml:id="eSc_line_6b258e97" rendtion="TextLine"/>
+        
+        <zone rend="164,435 630,435 630,501 164,501" rotate="0" xml:id="eSc_line_81392083" rendtion="TextLine"/>
+        
+        <zone rend="162,469 640,469 640,534 162,534" rotate="0" xml:id="eSc_line_a2d11e47" rendtion="TextLine"/>
+        
+        <zone rend="352,513 384,513 384,530 352,530" rotate="0" xml:id="eSc_line_92f8a181" rendtion="TextLine"/>
+        
+        <zone rend="163,505 638,505 638,565 163,565" rotate="0" xml:id="eSc_line_323d4364" rendtion="TextLine"/>
+        
+        <zone rend="340,545 351,545 351,557 340,557" rotate="0" xml:id="eSc_line_02c172f0" rendtion="TextLine"/>
+        
+        <zone rend="199,552 213,552 213,571 199,571" rotate="0" xml:id="eSc_line_d15b857d" rendtion="TextLine"/>
+        
+        <zone rend="236,548 291,548 291,566 236,566" rotate="0" xml:id="eSc_line_19e6f3e0" rendtion="TextLine"/>
+        
+        <zone rend="288,547 301,547 301,565 288,565" rotate="0" xml:id="eSc_line_58cf534b" rendtion="TextLine"/>
+        
+        <zone rend="420,539 455,539 455,554 420,554" rotate="0" xml:id="eSc_line_f0e8ff25" rendtion="TextLine"/>
+        
+        <zone rend="165,543 578,543 578,594 165,594" rotate="0" xml:id="eSc_line_8e28c96f" rendtion="TextLine"/>
+        
+        <zone rend="342,576 354,576 354,585 342,585" rotate="0" xml:id="eSc_line_b0db4f97" rendtion="TextLine"/>
+        
+        <zone rend="411,572 423,572 423,580 411,580" rotate="0" xml:id="eSc_line_d7ddf246" rendtion="TextLine"/>
+        
+        <zone rend="165,565 584,565 584,618 165,618" rotate="0" xml:id="eSc_line_5ed96d26" rendtion="TextLine"/>
+        
+        <zone rend="538,582 589,582 589,607 538,607" rotate="0" xml:id="eSc_line_c5717531" rendtion="TextLine"/>
+        
+        <zone rend="174,613 195,613 195,628 174,628" rotate="0" xml:id="eSc_line_ba50cf93" rendtion="TextLine"/>
+        
+        <zone rend="210,611 229,611 229,626 210,626" rotate="0" xml:id="eSc_line_ffa1b551" rendtion="TextLine"/>
+        
+        <zone rend="602,615 616,615 616,627 602,627" rotate="0" xml:id="eSc_line_4e55e5b5" rendtion="TextLine"/>
+        
+        <zone rend="166,594 646,594 646,650 166,650" rotate="0" xml:id="eSc_line_8489a3e0" rendtion="TextLine"/>
+        
+        <zone rend="167,627 645,627 645,677 167,677" rotate="0" xml:id="eSc_line_d9ec2095" rendtion="TextLine"/>
+        
+        <zone rend="259,665 272,665 272,685 259,685" rotate="0" xml:id="eSc_line_fa263f10" rendtion="TextLine"/>
+        
+        <zone rend="275,663 299,663 299,681 275,681" rotate="0" xml:id="eSc_line_ff0d9ce3" rendtion="TextLine"/>
+        
+        <zone rend="168,651 640,651 640,706 168,706" rotate="0" xml:id="eSc_line_0ff89bad" rendtion="TextLine"/>
+        
+        <zone rend="193,696 231,696 231,712 193,712" rotate="0" xml:id="eSc_line_16007385" rendtion="TextLine"/>
+        
+        <zone rend="244,693 276,693 276,715 244,715" rotate="0" xml:id="eSc_line_71cddbfa" rendtion="TextLine"/>
+        
+        <zone rend="169,681 637,681 637,744 169,744" rotate="0" xml:id="eSc_line_7a45e7c0" rendtion="TextLine"/>
+        
+        <zone rend="218,722 291,722 291,748 218,748" rotate="0" xml:id="eSc_line_a7f069a9" rendtion="TextLine"/>
+        
+        <zone rend="170,727 305,727 305,767 170,767" rotate="0" xml:id="eSc_line_6be5cefd" rendtion="TextLine"/>
+        
+        <zone rend="171,754 289,754 289,799 171,799" rotate="0" xml:id="eSc_line_c4198441" rendtion="TextLine"/>
+        
+        <zone rend="173,785 266,785 266,827 173,827" rotate="0" xml:id="eSc_line_941d0fc6" rendtion="TextLine"/>
+        
+        <zone rend="168,819 312,819 312,858 168,858" rotate="0" xml:id="eSc_line_9ffa939c" rendtion="TextLine"/>
+        
+        <zone rend="173,849 328,849 328,895 173,895" rotate="0" xml:id="eSc_line_bb20b112" rendtion="TextLine"/>
+        
+        <zone rend="550,833 576,833 576,898 550,898" rotate="0" xml:id="eSc_line_7f8d5a15" rendtion="TextLine"/>
+        
+        <zone rend="177,866 645,866 645,926 177,926" rotate="0" xml:id="eSc_line_51507ce6" rendtion="TextLine"/>
+        
+        <zone rend="177,897 630,897 630,965 177,965" rotate="0" xml:id="eSc_line_87b81a27" rendtion="TextLine"/></zone>
+        
+        <zone ulx="656" uly="137" lrx="838" lry="929" rend="656,137 838,137 838,929 656,929" rotate="0" xml:id="eSc_textblock_0636a876" rendtion="TextRegion">
+        
+        <zone rend="668,548 814,548 814,587 668,587" rotate="0" xml:id="eSc_line_42bd4bc8" rendtion="TextLine"/>
+        
+        <zone rend="663,587 750,587 750,602 663,602" rotate="0" xml:id="eSc_line_ddc77b9c" rendtion="TextLine"/></zone>
+        
+        <zone ulx="758" uly="62" lrx="797" lry="103" rend="758,62 797,62 797,103 758,103" rotate="0" xml:id="eSc_textblock_bc051249" rendtion="TextRegion">
+        
+        <zone rend="768,63 791,63 791,101 768,101" rotate="0" xml:id="eSc_line_696c4536" rendtion="TextLine"/></zone>
+        
+        <zone ulx="35" uly="930" lrx="833" lry="1143" rend="35,930 833,930 833,1143 35,1143" rotate="0" xml:id="eSc_textblock_a0e49888" rendtion="TextRegion"/>
+        
+        <zone ulx="22" uly="57" lrx="813" lry="146" rend="22,57 813,57 813,146 22,146" rotate="0" xml:id="eSc_textblock_aebba515" rendtion="TextRegion"/></surface>
+        <surface ulx="0" uly="0" lrx="1056" lry="1200" xml:id="facs_8">
+            <graphic url="14_cbf07_default.jpg" height="1200px" width="1056px" xml:id="IMAGE.8"/>
+        
+        <zone ulx="234" uly="138" lrx="414" lry="968" rend="234,138 414,138 414,968 234,968" rotate="0" xml:id="eSc_textblock_045f3389" rendtion="TextRegion">
+        
+        <zone rend="246,557 405,557 405,609 246,609" rotate="0" xml:id="eSc_line_b1c5d47c" rendtion="TextLine"/>
+        
+        <zone rend="240,585 415,585 415,633 240,633" rotate="0" xml:id="eSc_line_badd49e7" rendtion="TextLine"/>
+        
+        <zone rend="236,604 415,604 415,654 236,654" rotate="0" xml:id="eSc_line_6f5bc816" rendtion="TextLine"/>
+        
+        <zone rend="236,630 418,630 418,671 236,671" rotate="0" xml:id="eSc_line_c0266b13" rendtion="TextLine"/>
+        
+        <zone rend="324,871 336,871 336,902 324,902" rotate="0" xml:id="eSc_line_cf61dff7" rendtion="TextLine"/>
+        
+        <zone rend="319,871 402,871 402,920 319,920" rotate="0" xml:id="eSc_line_fd69fa5a" rendtion="TextLine"/></zone>
+        
+        <zone ulx="417" uly="135" lrx="930" lry="969" rend="417,135 930,135 930,969 417,969" rotate="0" xml:id="eSc_textblock_c5939833" rendtion="TextRegion">
+        
+        <zone rend="425,142 898,142 898,195 425,195" rotate="0" xml:id="eSc_line_bfc3d745" rendtion="TextLine"/>
+        
+        <zone rend="427,182 900,182 900,212 427,212" rotate="0" xml:id="eSc_line_e75f2d62" rendtion="TextLine"/>
+        
+        <zone rend="840,208 852,208 852,225 840,225" rotate="0" xml:id="eSc_line_8b2dce14" rendtion="TextLine"/>
+        
+        <zone rend="416,203 906,203 906,241 416,241" rotate="0" xml:id="eSc_line_aed738ae" rendtion="TextLine"/>
+        
+        <zone rend="418,234 912,234 912,263 418,263" rotate="0" xml:id="eSc_line_ca9e9f85" rendtion="TextLine"/>
+        
+        <zone rend="837,256 916,256 916,278 837,278" rotate="0" xml:id="eSc_line_806c8a59" rendtion="TextLine"/>
+        
+        <zone rend="422,262 908,262 908,296 422,296" rotate="0" xml:id="eSc_line_a06ea9e6" rendtion="TextLine"/>
+        
+        <zone rend="407,288 901,288 901,320 407,320" rotate="0" xml:id="eSc_line_494619aa" rendtion="TextLine"/>
+        
+        <zone rend="412,316 904,316 904,355 412,355" rotate="0" xml:id="eSc_line_1959cfd5" rendtion="TextLine"/>
+        
+        <zone rend="411,342 921,342 921,384 411,384" rotate="0" xml:id="eSc_line_15c7c9ce" rendtion="TextLine"/>
+        
+        <zone rend="418,372 902,372 902,404 418,404" rotate="0" xml:id="eSc_line_acad3348" rendtion="TextLine"/>
+        
+        <zone rend="421,395 906,395 906,443 421,443" rotate="0" xml:id="eSc_line_fdd7b9fb" rendtion="TextLine"/>
+        
+        <zone rend="420,424 901,424 901,475 420,475" rotate="0" xml:id="eSc_line_bb7409ef" rendtion="TextLine"/>
+        
+        <zone rend="420,456 906,456 906,507 420,507" rotate="0" xml:id="eSc_line_84b18195" rendtion="TextLine"/>
+        
+        <zone rend="421,491 904,491 904,539 421,539" rotate="0" xml:id="eSc_line_bffb455a" rendtion="TextLine"/>
+        
+        <zone rend="420,519 906,519 906,571 420,571" rotate="0" xml:id="eSc_line_500b4092" rendtion="TextLine"/>
+        
+        <zone rend="471,552 910,552 910,596 471,596" rotate="0" xml:id="eSc_line_e15c4d30" rendtion="TextLine"/>
+        
+        <zone rend="792,586 805,586 805,615 792,615" rotate="0" xml:id="eSc_line_ca53e0dd" rendtion="TextLine"/>
+        
+        <zone rend="819,587 831,587 831,615 819,615" rotate="0" xml:id="eSc_line_0cb42474" rendtion="TextLine"/>
+        
+        <zone rend="440,581 900,581 900,627 440,627" rotate="0" xml:id="eSc_line_76193ab3" rendtion="TextLine"/>
+        
+        <zone rend="718,614 730,614 730,623 718,623" rotate="0" xml:id="eSc_line_6dbf552f" rendtion="TextLine"/>
+        
+        <zone rend="431,608 894,608 894,654 431,654" rotate="0" xml:id="eSc_line_8b9e58b7" rendtion="TextLine"/>
+        
+        <zone rend="526,635 557,635 557,665 526,665" rotate="0" xml:id="eSc_line_cad014ed" rendtion="TextLine"/>
+        
+        <zone rend="499,634 517,634 517,663 499,663" rotate="0" xml:id="eSc_line_e0b0952f" rendtion="TextLine"/>
+        
+        <zone rend="427,634 911,634 911,684 427,684" rotate="0" xml:id="eSc_line_9bc972f9" rendtion="TextLine"/>
+        
+        <zone rend="466,665 484,665 484,679 466,679" rotate="0" xml:id="eSc_line_3bfb8189" rendtion="TextLine"/>
+        
+        <zone rend="886,668 914,668 914,701 886,701" rotate="0" xml:id="eSc_line_06a14aaf" rendtion="TextLine"/>
+        
+        <zone rend="431,665 910,665 910,705 431,705" rotate="0" xml:id="eSc_line_c4ad8486" rendtion="TextLine"/>
+        
+        <zone rend="629,694 697,694 697,714 629,714" rotate="0" xml:id="eSc_line_fbba4e42" rendtion="TextLine"/>
+        
+        <zone rend="438,692 613,692 613,714 438,714" rotate="0" xml:id="eSc_line_51a7f45a" rendtion="TextLine"/>
+        
+        <zone rend="763,699 804,699 804,719 763,719" rotate="0" xml:id="eSc_line_73a01cb9" rendtion="TextLine"/>
+        
+        <zone rend="438,697 898,697 898,758 438,758" rotate="0" xml:id="eSc_line_021c94a5" rendtion="TextLine"/>
+        
+        <zone rend="747,739 901,739 901,775 747,775" rotate="0" xml:id="eSc_line_f70ca8c9" rendtion="TextLine"/>
+        
+        <zone rend="786,768 915,768 915,804 786,804" rotate="0" xml:id="eSc_line_d0e3bce2" rendtion="TextLine"/>
+        
+        <zone rend="852,790 979,790 979,828 852,828" rotate="0" xml:id="eSc_line_164fd454" rendtion="TextLine"/>
+        
+        <zone rend="785,803 898,803 898,834 785,834" rotate="0" xml:id="eSc_line_138e85dc" rendtion="TextLine"/>
+        
+        <zone rend="763,834 907,834 907,868 763,868" rotate="0" xml:id="eSc_line_fe35d549" rendtion="TextLine"/>
+        
+        <zone rend="731,872 910,872 910,894 731,894" rotate="0" xml:id="eSc_line_620f1009" rendtion="TextLine"/>
+        
+        <zone rend="866,886 911,886 911,911 866,911" rotate="0" xml:id="eSc_line_b294f28e" rendtion="TextLine"/>
+        
+        <zone rend="424,885 903,885 903,931 424,931" rotate="0" xml:id="eSc_line_100cadd9" rendtion="TextLine"/>
+        
+        <zone rend="532,917 570,917 570,946 532,946" rotate="0" xml:id="eSc_line_a05e7e17" rendtion="TextLine"/>
+        
+        <zone rend="430,914 897,914 897,978 430,978" rotate="0" xml:id="eSc_line_24c440ab" rendtion="TextLine"/>
+        
+        <zone rend="776,923 854,923 854,939 776,939" rotate="0" xml:id="eSc_line_77ea35a5" rendtion="TextLine"/></zone>
+        
+        <zone ulx="905" uly="141" lrx="1010" lry="964" rend="905,141 1010,141 1010,964 905,964" rotate="0" xml:id="eSc_textblock_f1e050a0" rendtion="TextRegion">
+        
+        <zone rend="903,142 999,142 999,172 903,172" rotate="0" xml:id="eSc_line_dfca82b1" rendtion="TextLine"/>
+        
+        <zone rend="904,166 962,166 962,193 904,193" rotate="0" xml:id="eSc_line_b506f0c0" rendtion="TextLine"/>
+        
+        <zone rend="895,272 996,272 996,314 895,314" rotate="0" xml:id="eSc_line_2074f677" rendtion="TextLine"/></zone>
+        
+        <zone ulx="236" uly="975" lrx="1007" lry="1094" rend="236,975 1007,975 1007,1094 236,1094" rotate="0" xml:id="eSc_textblock_211fa602" rendtion="TextRegion">
+        
+        <zone rend="418,999 465,999 465,1058 418,1058" rotate="0" xml:id="eSc_line_1ae8be4d" rendtion="TextLine"/></zone>
+        
+        <zone ulx="234" uly="58" lrx="1005" lry="138" rend="234,58 1005,58 1005,138 234,138" rotate="0" xml:id="eSc_textblock_0f28140a" rendtion="TextRegion"/></surface>
+            </facsimile>
+            <text>
+            <body>
+            <div>
+        <pb facs="#IMAGE.1" corresp="7_1337a_default.jpg" n="fol. 1r"/><note type="progress" n="finished"/>
+            <gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_9778bc5f">c</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_5cdc5b55">§§</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_f56cd95d">§§§§§§§</gloss>
+            <gloss rendition="InterlinearLine:gloss" facs="#eSc_line_5e517533">die</gloss> <ab type="textline" facs="#eSc_line_da37bbec">cardinał aust̃ qͥ ⁊ nothuꝰ humidꝰ calidꝰ atq; fulmineꝰ ;</ab> <ab type="textline" facs="#eSc_line_aac37c14">huic a dęxtͥs euroausṫ calidꝰ a sinisti᷑ euronothuꝰ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_d28f5cd4">r§§§litate terre</gloss> <ab type="textline" facs="#eSc_line_41aa767d">tẽꝑatꝰ calidꝰ Venti austͣles ꝙ ex humili parte</ab> <ab type="textline" facs="#eSc_line_efb8ac39">flãt maiores in mari tempestateᷤ faciunt qͣ .uii</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_eb468dff">§§§§§§§§§§§</gloss> <ab type="textline" facs="#eSc_line_bfb8f867">tͥonaleᷤ. Id§§§§§pͥlu§ terremot ̓ .Qua</ab> <ab type="textline" facs="#eSc_line_62a44322">rtꝰ cardinal§§ §§§§§q ⁊ faboni §§§§§§§§ solues</ab> <ab type="textline" facs="#eSc_line_27532b34">floresq; ꝓducẽs Cu§ dext ̓ afͥcꝰ qͥ ⁊ lips tẽpestuosꝰ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_405a270e">§§§§ dr̃</gloss> <ab type="textline" facs="#eSc_line_f1b5d2d1">tonitrua geñãs ⁊ fulmĩa ad sinistͬ chor§ qͥ ⁊ ar</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_5961f467">∴</gloss> <ab type="textline" facs="#eSc_line_1d5525cb">gestis ĩ oriẽte nubila ĩ india faciẽs serena.</ab><gloss rendition="InterlinearLine:correction" facs="#eSc_line_ee97fc7d">b</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_41cf3a95">.i. speciales</gloss> <ab type="textline" facs="#eSc_line_6d8f425b">St̃ ḣ qͥdã peculiareᷤ qͥb; liụet gentib; uẽti ñ ultͣ</ab> <ab type="textline" facs="#eSc_line_a4dbb645">certũ ꝓcedẽteᷤ t ̓minũ; ut atheniẽsib; Sciron pau</ab><gloss rendition="InterlinearLine:correction" facs="#eSc_line_ef5922f1">∴</gloss> <ab type="textline" facs="#eSc_line_b8640c78">lo ab argeste deflexs ꝰ, Narbon §§§§§§ qͥ §§c ad</ab> <ab type="textline" facs="#eSc_line_45b8c22f">uiennã qͥdẽ eiꝰdẽ ꝓuincie urbe ꝑuenit . Duo s̃ h ̓</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_348a09c2">:</gloss> <ab type="textline" facs="#eSc_line_03371756">ultͣ hoͨ uͥq; sp̃s magiᷤ ꝗͣ uenti; aura ⁊ altan ̓ Aura</ab> <ab type="textline" facs="#eSc_line_412e61e6">enĩ ẽ leniᷤ motꝰ aeris ĩ terra. altañ ẽ ĩ pelago;</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_dab9b3f7">.i. filosofi</gloss><ab type="textline" subtype="heading" facs="#eSc_line_06dfc05e">ΤΟNΙΤRUΑ dñt ex frãgore nubiũ gen͛ari.,</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_c5a6be5d">⸫</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_f0694e9a">..</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_1e5e15e4">⸫</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_c8e96dc1">⸫</gloss> <ab type="textline" facs="#eSc_line_f8331542">cũ sp̃s uentoꝝ ear̃ sinu cõcepti sese ibidẽ</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_dcd7fc23">‥</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_49e1f72e">⸫</gloss> <ab type="textline" facs="#eSc_line_b9b1c217">ũsãdo ꝑerrãteᷤ. et uͥtutiᷤ sue mobilitate ĩꝗͣlibet</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_7986aba3">adũ</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_4b457121">.:.</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_b2859c6a">‥</gloss> <ab type="textline" facs="#eSc_line_4da36dcc">partẽ uiolẽtᷤ erũpenteᷤ; Magno murmure cõ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_9abc93f4">.i. ad</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_a4152a57">:</gloss> <ab type="textline" facs="#eSc_line_d9cbc5b6">crepãt ĩstar ex silensiũ de stabł qͣdigar̃ łue</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_b1ff1aab">.i. ꝗuis</gloss> <ab type="textline" facs="#eSc_line_ee063a0f">sice. q̃lib⁊ pauͬa magnũ tñ sonitũ displosa</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_38d0fcac">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_a5f2713f">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_832ef226">:</gloss> <ab type="textline" facs="#eSc_line_a6718162">emittit;  ũ silic̃ collisor̃ cõcurrẽte sĩmul</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_c9cfb530">.i. dñt</gloss><ab type="textline" subtype="heading" facs="#eSc_line_8d6857a5">Fulmina nubiũ atͥtu naci ĩmod</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_c364263d">⸪</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_63f0b0cb">dñt</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_99c98fc2">:</gloss> <ab type="textline" facs="#eSc_line_d823cd91">⁊ tonitru; S; sonitũ tardiꝰ ad aureᷤ ꝗͣ ful</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_8c13d284">./.</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_983ae776">.i. fulminis</gloss> <ab type="textline" facs="#eSc_line_17810191">gorẽ occuloᷤ pene cͣre. Ηã oĩm rr̃ collisio ig</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_fda777d9">..</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_7ac3bdb5">dñt</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_5c4e5d5e">‥</gloss> <ab type="textline" facs="#eSc_line_64212cd4">nẽ creat; Iđo ḣ fulmĩs ignẽ uĩ haƀe maiorẽ</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_08ccda50">:</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_d20dc459">⁊ aere</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_321e9d60">:</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_c195238b">.i. igene</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_1118fca1">.i. adurandum</gloss> <ab type="textline" facs="#eSc_line_3f237a3d">adpenetͣndũ  subtiliorib elem̃tiᷤ fc̃tꝰ ẽ quã</ab>
+            <fw type="folio-number" facs="eSc_textblock_0dd88e28">1</fw>
+            
+            
+            
+        <pb facs="#IMAGE.2" corresp="8_7c816_default.jpg" n="fol. 1v"/><note type="progress" n="finished"/>
+            <gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_8813cacc">b</gloss><gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_a9a687b1">pło</gloss>
+             <ab type="textline" facs="#eSc_line_41d82a45">qͥ noƀ ĩ usu ẽ. Quidã dñt dũ aer ĩse uapor</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_3a4b9286">.i. adũ</gloss> <ab type="textline" facs="#eSc_line_ba82d110">alit ̓ aqua deinuᷤ caumalit̃ de suꝑiorib; t ͣhat</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_e111873b">.i. aquaᷤ agre ̓</gloss> <ab type="textline" facs="#eSc_line_9fb789d9">ipsiᷤ coͧfligentib; orisonoᷤ tonitruor̃ crepitꝰ gig</ab> <ab type="textline" facs="#eSc_line_28b78794">ni; et si igniᷤ uicerit fructꝰ obeẽ. si aqͣ ꝓdisse;</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_e5ae8a5e">§§nocere</gloss><ab type="textline" subtype="heading" facs="#eSc_line_b2df676d">Hieme ⁊ estate rara fulmina  hieme gelidꝰaer</ab> <ab type="textline" facs="#eSc_line_6e04a07c">ignei uaporiᷤ qͥcqͥd accipit extĩguit; Estate</ab> <ab type="textline" facs="#eSc_line_55fcd599">calidi uapores raro tenuesq; densant᷑ ĩ nubes</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_cc1babee">.i. nubib;</gloss> <ab type="textline" facs="#eSc_line_14a10f11">sine qͥb; ñ fulgurat. qͣ ratio scithiã egiptũq; pᷤmu</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_6e4676b8">‥</gloss> <ab type="textline" facs="#eSc_line_3967920b">nit a fulmĩe. cui subicacet italia ĩmiciore hi</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_7a38e3ab"></gloss> <ab type="textline" facs="#eSc_line_3037c630">eme ⁊ estate nĩbosa sẽꝑ qͦdãimͦ ũnat ⁊ autũpnat;</ab><ab type="textline" subtype="heading" facs="#eSc_line_379e8b9f">Arcꝰ ĩ. aere qͣricolor ex sole adũso nubib; form</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_be1e810c">.i. luce</gloss> <ab type="textline" facs="#eSc_line_361499f0">at᷑; Dũ radiꝰ sol ̓inmissꝰ caue nubi repulsa acie</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_282b8315">§§§ad</gloss> <ab type="textline" facs="#eSc_line_8ad1980c">in solẽ refrĩgit᷑; Instar cere imaginẽ anuli re</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_b98e59ab">.i. rudliu</gloss> <ab type="textline" facs="#eSc_line_d0169b3d">dentis; Qui de cło igneũ de aqͥs purpureũ. de ae</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_e42781ce">.i. rudcoch</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_2747d2c5">.i. glas lius</gloss> <ab type="textline" facs="#eSc_line_2215ced7">re iacĩrtu de terra gͣmineũ tͣhit colorẽ. Et</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_4d24abd5">.i. guirdliu</gloss> <ab type="textline" facs="#eSc_line_6d365423">noctib raro nec nͥ ĩ plenilunio c̾nit᷑. uͭ pute de</ab> <ab type="textline" facs="#eSc_line_d923eedb">luna refulgẽs; mali leuitate uapores aqͣrũ</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_37242d5e">:</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_489bb31d">.i. congregentͣ</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_1c30eef3">:</gloss><ab type="textline" subtype="heading" facs="#eSc_line_92dd19bd">NUBES coacto aere guttatĩ cõglobãt᷑ qͥ fum</ab> <ab type="textline" facs="#eSc_line_215ebd2e">de terra mariq sustollẽs qͣndiu ĩ minutissi</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_61eae966">.i. eregit</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_7236eaf7">.i. ibi</gloss> <ab type="textline" facs="#eSc_line_b2d0926c">miꝰ stillis cõsist̃. sua ui suspẽdit ĩ altũ. qͣ ł soł</ab> <ab type="textline" facs="#eSc_line_dd184793">igne de quoqͥ ł aeriᷤ itin͛e mutati dulescut̃;</ab> <ab type="textline" facs="#eSc_line_bf25e361">ut marinã aꝗͣ humo ł dulcẽ mariniᷤ herbiᷤ ĩ fu</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_598fd9a7">.i. motare</gloss> <ab type="textline" facs="#eSc_line_bf429727">denteᷤ incõtͣriũ solemꝰ tͣn ferres apo</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_bee3dadf">adũ</gloss> <ab type="textline" facs="#eSc_line_416b0dce">drẽ; res stillas coeunt aeriᷤ ãpliꝰ ñ ferete natͣa</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_df3d10e7">‥</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_eb2ae180">..</gloss> <ab type="textline" facs="#eSc_line_8b07a764">IMBRes ex nubiũ cõcre ti guttuliᷤ dũ maio</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_2c4a8ae4">.i. hieme</gloss> <ab type="textline" facs="#eSc_line_b0e7ae5b">:</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_79e6db68">.i. estate</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_32f795b8">‥</gloss> <ab type="textline" facs="#eSc_line_008b9617">nc̃ uẽto impellete nc̃ disoluẽte sole pluui</ab> <ab type="textline" facs="#eSc_line_2e79c957">alit ̓ adtᷤras dilabuntͣ; S; pluias uocamꝰ lẽtas</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_06b539fb">:</gloss>
+            <gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_58aa4d63">fructib;</gloss>
+            
+            
+        <pb facs="#IMAGE.3" corresp="9_794c1_default.jpg" n="fol. 2r"/><note type="progress" n="finished"/>
+            <gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_32bb90ed">c</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_43bd5256">n</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_322e29b7">Luna</gloss>
+            <gloss rendition="InterlinearLine:gloss" facs="#eSc_line_3757fb10">uocamꝰ</gloss> <ab type="textline" facs="#eSc_line_7bb73ba3">⁊iuges; nĩb a̔ repẽtinos ⁊ p̓cipites   ⁊uenti ri</ab><ab type="textline" subtype="heading" facs="#eSc_line_ba2129e6">GRandinis lapilli exstillis pluuiae frigoris</ab> <ab type="textline" facs="#eSc_line_d6e46b0b">gore cõglatiati ĩaere coagulãt᷑. s. citiuꝰ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_31112ab4">die</gloss> <ab type="textline" facs="#eSc_line_913713d9">niue soluunt᷑ ⁊ ĩt ̓diu sepiꝰ q no§§§§ addit᷑;</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_a5900c70">⸫</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_c815b8d2">???</gloss><ab type="textline" subtype="heading" facs="#eSc_line_56920ea4">NIUes aqͣr̃ uapore necdũ dẽsata § gutta</ab> <ab type="textline" facs="#eSc_line_90371f50">s; gelu p̃ripiẽte formãt᷑ q §§ ĩ alto mari n</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_783fc7bd">.i filosofi.</gloss> <ab type="textline" facs="#eSc_line_6f4801c1">cad̶e ꝑhibet. Signa tẽpestatũ ł serenitatiᷤ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_391d235a">§§§§§§§</gloss><ab type="textline" subtype="heading" facs="#eSc_line_63526de9">Sol ĩortu suo maculus uel sub nube latẽs</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_659cbd77">die</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_883cd31b">s. sol</gloss> <ab type="textline" facs="#eSc_line_fb7af37f">pluuialẽ diẽ p ̔sagit Si rubeat siscr̃ . Si</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_7ee31b2d">.i. diẽ</gloss> <ab type="textline" facs="#eSc_line_5e88373d">palleat tẽpestuosu; si cõcauuꝰ uideat᷑ ita</ab> <ab type="textline" facs="#eSc_line_eeb7911e">uͭ ĩ medio fulgẽs radios ad austrũ ⁊ ad aqͥlõe</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_0ea91127">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_2e5d85d3">.:</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_e41333e3">psagit</gloss> <ab type="textline" facs="#eSc_line_84b9ccda">emittat tẽpestatẽ humidã ł uentuosã; Si</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_96cd930d">.i. sol</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_cb081584">ad</gloss> <ab type="textline" facs="#eSc_line_151facad">pallidꝰ ĩ nigͣas nubes occidat aqͥlone uentum</ab><ab type="textline" subtype="heading" facs="#eSc_line_4f5237d3">Celuoi si uesꝑe rubeat serenũ diẽ psagit;</ab><gloss rendition="InterlinearLine:correction" facs="#eSc_line_35fe22f8">i</gloss> <ab type="textline" facs="#eSc_line_60f6db08">̃si rubeat mͥ̃ane tẽpestuos̃ significat. aba</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_dc703e21">⁊</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_68458bc1">⁊</gloss> <ab type="textline" facs="#eSc_line_f599ba26">qͥlone fulgor ab euro tonitruuꝰ. tẽpestatẽ ab</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_b362dfa0">.i. calorẽ</gloss> <ab type="textline" facs="#eSc_line_5223ef68">austͦ. fiatꝰ estꝰ portẽdit. Luna.iiii.si rubeat qͣsi</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_47337799">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_fb542444">:</gloss> <ab type="textline" facs="#eSc_line_9c79420f">aur̃ uentoᷤ ostendit; sisũo in corniculo ma</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_895b721d">.i. p̃cigit</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_d8411108">‥</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_cbebbf14">/.</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_fb81206e">⸫</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_249218ab">‥</gloss> <ab type="textline" facs="#eSc_line_beca9372">culis nigresc̃ pluuidũ m̃siᷤ exordiũ.si ĩ medio</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_d31b388a">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_62bb692c">:</gloss> <ab type="textline" facs="#eSc_line_bfd92e2f">pleniluniũ serenũ; Itẽ cũ aqͣ ĩ noct᷑na nauiga</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_4cc79b42">⸪</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_94038f53">⸪</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_c1a30e41">:</gloss> <ab type="textline" facs="#eSc_line_7dd7427d">tiõe stillat ad remoᷤ tẽpestas erit. ⁊ cũ delfini</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_aca59152">:</gloss> <ab type="textline" facs="#eSc_line_a658c5a1">undis sepiꝰ exiliut̃ qͦ illi ferũtͣ iñuentꝰ exsur</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_af1ae3df">v</gloss><ab type="textline" subtype="heading" facs="#eSc_line_6b2e03f7">get.  ⁊ũde nubes excusse cłm aꝑiunt. pesti</ab><ab type="textline" subtype="heading" facs="#eSc_line_a2f66130">lẽtia nacitͣ aere ł siccitatiᷤ ł caloriᷤ ł pluuiar̃</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_e302d8f5">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_934cacc1">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_b115b79d">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_bcbd792c">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_90a329d4">‥</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_9a616d74">‥</gloss> <ab type="textline" facs="#eSc_line_a3bc0cc8">ĩ tẽꝑantia ꝓ meritiᷤ hõium corrupto. qͥ spirãdo</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_e62aea4a">.i. ĩtꝰ</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_c41857fd">adũ</gloss> <ab type="textline" facs="#eSc_line_f8021155">łedendo ꝑceptꝰ luẽ mortẽq genat: Uñ seꝑiꝰ oẽ</ab> <ab type="textline" facs="#eSc_line_e9e1bbcd">tẽpꝰ estatis ĩꝓcellas t᷑binesq; brumaleᷤ ũti cõspi</ab> <ab type="textline" facs="#eSc_line_5bb154bf">cimꝰ</ab>
+            <gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_79d44f34">de gͣndine</gloss><gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_8fa43379">Atuue</gloss><gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_691bc430">sumo</gloss><gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_45d05078">pestiłetia</gloss>
+            <fw type="folio-number" facs="eSc_textblock_3b15a9f3">2</fw>
+            
+            
+        <pb facs="#IMAGE.4" corresp="10_e7fde_default.jpg" n="fol. 2v"/><note type="progress" n="finished"/>
+            <gloss rendition="InterlinearLine:gloss" facs="#eSc_line_a7f0480c">dnr̃</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_197c4403">ħ</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_16d9f29e">§§</gloss> <ab type="textline" facs="#eSc_line_211d9ac2">s;cũ suo tẽpore ueniunt tẽpestates. cũ aliaᷤ ꝓdigia</ab> <ab type="textline" facs="#eSc_line_3befff47">ł signa dñr;  q̃ cernũt᷑ ĩ t̃ra oĩa nã ⁊ salse ag̃</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_4edc9d60">⸪</gloss> <ab type="textline" facs="#eSc_line_71b0880e">AQuar̃ nat᷑a duplici formantͣ ł reformãtͣ</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_df4c8080">⸪</gloss> <ab type="textline" facs="#eSc_line_f3623d7a">mari cõuenienteᷤ mortalib; fructꝰ nutͥ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_5f7ca64c">a???</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_0f8e02d8">adũ</gloss> <ab type="textline" facs="#eSc_line_69ef9573">unt interriᷤ ⁊ aere ducᷝes alẽdis aptiꝰ fructib;</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_405472c9">.i. aqua</gloss> <ab type="textline" facs="#eSc_line_85ef997b">scitiq; sedande cõgruunt. s; qͣ har̃ nat᷑ał sit q̃rit᷑;</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_9ab07fb8">???</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_73d7db0c">.i. dulcis aqua̓</gloss> <ab type="textline" facs="#eSc_line_d4ad1595">utͣq; dep̃hendit᷑ dũ in alt᷑utrũ refundi ħ ꝑ mari</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_4401b546">:</gloss> <ab type="textline" facs="#eSc_line_260153db">nor̃ holer̃ cineres. illa ꝑ humũ q̃ant.maris uͦ</ab> <ab type="textline" facs="#eSc_line_58a01dba">fretib; crebriᷤ t̃rar̃ spatia distigunt᷑; ⁊ut gentiũ</ab> <ab type="textline" facs="#eSc_line_c12c0d84">terminos ĩter cludant ⁊ altius opib; om̃s ꝓuĩciaᷤ</ab><gloss rendition="InterlinearLine:correction" facs="#eSc_line_66cbd938">en</gloss> <ab type="textline" facs="#eSc_line_30a4df4b">ꝑcõm̃tia ditat; de cõcordia mariᷤ ⁊ lũ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_26c42f4f">.i. lune</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_0641225c">.i. afluendo</gloss><ab type="textline" subtype="heading" facs="#eSc_line_303e81f5">aestͣ occeani lunã seqͥt᷑. tanꝗͣ eiꝰ aspiratiõe re</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_b00fcf4b">.i. mare???</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_64105290">.i. lune</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_3e2b6bba">.i. remeando</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_ba209dc1">.i. occianꝰ</gloss> <ab type="textline" facs="#eSc_line_506e7499">erchatͣ. Eiꝰq; impulsu retͣcto resundat᷑; Qui</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_bfe3896e">.i. ueniendo</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_04fdb4d5">.i. eundo</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_a7a6b6b5">.</gloss> <ab type="textline" facs="#eSc_line_6f94ec25">quotidie biᷤ afluere ⁊  remeare uniꝰ sẽꝑ horę dođãte</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_60a735ab">‥</gloss> <ab type="textline" facs="#eSc_line_69f684d2">⁊ semiuncia t̃nsmissa uidet᷑; Eiꝰq; om̃s cursꝰ ĩ ledo</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_babe6384">:</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_6b4bd7bd">.i.occeani</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_8dcf083d">⸫</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_e034e9a6">჻</gloss> <ab type="textline" facs="#eSc_line_a8f12832">nes ⁊malinas. i. ĩ minores estꝰ ⁊ maiores diuidit᷑;</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_ac5152d6">:</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_08bcfe17">.i. cindraid</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_e3c04522">.i. usq; adxiii</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_cac51a78">.i. usq adxxuiii</gloss> <ab type="textline" facs="#eSc_line_5940e3a1">S; ledona qͥnta ⁊ uigesima luna ĩchoãs qͦt horis</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_2f83ca1b">.i. ui</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_fe29bf7b">.i. ui horis</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_b00bc386">.i. riberthi</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_cf2354e1">usq xx</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_f77d74bc">.i. usq; ad qͥntã</gloss> <ab type="textline" facs="#eSc_line_3f28d9a8">occurit tot ⁊ recurit; Malina ħ axiii ⁊axx. auiii.</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_af66c7f3">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_e581a136">:</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_96586ffe">.i. a horis</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_6c395089">.i. sex horis</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_e399362e">⸪</gloss> <ab type="textline" facs="#eSc_line_cd38f0eb">ĩcipiẽs citior ĩ accessu s tardior ĩ recessu uii dieb</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_eb1da090">⸫</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_dcf464d1">.i. unius c̃sq; maline</gloss> <ab type="textline" facs="#eSc_line_9c954a6d">⁊xii horis ꝑseũat; In Medio sui sẽꝑ pͥmã ⁊qͥntã</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_65412373">.i. malina</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_ca11c780">‥</gloss> <ab type="textline" facs="#eSc_line_7c9e03c4">decĩam ostẽdens lunã ⁊ ꝑeqͥnoxia ł solsticia solito</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_17e1c6aa">‥</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_978326b5">.i. malina</gloss> <ab type="textline" facs="#eSc_line_0b947832">ualidiꝰ ȩxestuãs; ꝑ octonos qͦq; annos ad pͥncipia mo</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_5cc64abb">.i. geñ</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_af58f913">cãr</gloss> <ab type="textline" facs="#eSc_line_072f9d33">tus ⁊ paria ĩcrem̃ta centesimo lune reuocãt᷑. am</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_b91fa77c">:</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_bf5aa264">.i. estus</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_b508d7b7">:</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_e1be56a0">.i. luna</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_01bf8583">.i.  ibi itiundꝰ</gloss> <ab type="textline" facs="#eSc_line_387d2a51">bitu; illa sẽꝑ aqͥlonia tenete mitiores ꝗ᷑ cũ ĩ au</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_8b6fde2f">alcior ÷</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_a82e3303">estꝰ</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_eea88cf6">ł </gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_1ef46ef0">ibialtitudo lune ÷</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_64f66b04">.i. ĩtauro</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_a752b680">..</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_976a6306">‥</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_307d17f0">‥</gloss> <ab type="textline" facs="#eSc_line_efbb3bc9">stros deg̃ssa ꝓpiore nisu uim suã excercet; Qđ mare</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_72f56e9e">.i. mare</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_f17f4550">.i. </gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_2be7887e">/.</gloss> <ab type="textline" facs="#eSc_line_3c9227cd">fluuior̃ occursu ñ auget᷑; dicunt nat᷑alit͛ salsiᷤ un</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_561d7ee0">.i. riuus</gloss> <ab type="textline" facs="#eSc_line_b525189b">diᷤ fluentũ dulce cõsũi ł uẽtiᷤ ł uapore soł arripi</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_4568e491">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_045519ec">:</gloss>
+            
+            
+            
+            
+        <pb facs="#IMAGE.5" corresp="11_07e8d_default.jpg" n="fol. 3r"/><note type="progress" n="finished"/>
+            <gloss rendition="InterlinearLine:gloss" facs="#eSc_line_9bfacf42">Aug̃</gloss> <ab type="textline" facs="#eSc_line_e2a0b8cb">ut ĩl ͣcis lacuniᷤ q; ꝓbamꝰ ⁊ƀui mom̃to disicatiᷤ ł etĩ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_e7926bc6">dñt</gloss> <ab type="textline" facs="#eSc_line_81fb9ddc">occulto meatu ĩsuos refluere fontes; ⁊ solito ꝑ</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_9476bfcc">;</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_36c0451c">dñt</gloss> <ab type="textline" facs="#eSc_line_0d770fad">suos ãnes essu recurrere; Mariniᷤ ħ aqͥs dulces</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_2548ac32">.i.supra</gloss> <ab type="textline" facs="#eSc_line_091131ad">suꝑfũdi uͭpote leuioreᷤ. Ipsas uͦ ut g̃uioreᷤ nat᷑e</ab> <ab type="textline" facs="#eSc_line_0cf57547">magiᷤ sꝰtinere suꝑfusas;</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_f2df376f">holdo§§u</gloss><ab type="textline" subtype="heading" facs="#eSc_line_13dbe0dc">Mare icirco dicunt salsũ ꝑdurare tot flu</ab> <ab type="textline" facs="#eSc_line_db36ac44">minib ⁊pluuis irrigatũ qđ exhausto ã</ab> <ab type="textline" facs="#eSc_line_09ee1747">sole dulci tenuiq; liqͦre quẽ facillime tͣhit uis</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_6f575572">⸪</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_4f36bd13">:</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_70301d38">.i. licor</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_8f828d0b">n§mo</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_844a046d">dñt</gloss> <ab type="textline" facs="#eSc_line_ceb34822">ignea. oĩs asꝑior crassiorq; linqͣt᷑. Iđoq; eqͧr̃ sũ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_ff97f123">.i. mari</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_adebf428">dñt</gloss> <ab type="textline" facs="#eSc_line_205872ff">am aꝗͣ dulciorẽ eẽ ꝓfundo. S; ĩ dulcib; aqͥs lũe</ab> <ab type="textline" facs="#eSc_line_df6a22f7">eẽ alim̃tũ; sic̃ soł ĩ mari.  ñ natͣlit hab⁊. Sed</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_1ae7bd65">..</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_71648930">჻</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_a481dc31">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_d21e922b">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_e60d763a">‥</gloss><ab type="textline" subtype="heading" facs="#eSc_line_34a796f6">Mare rubrũ nom̃ ãroseo colore tͣhit quẽ tñ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_bd2a0fc4">mare</gloss> <ab type="textline" facs="#eSc_line_3ef85ff0">ͧuiciniᷤ lit̓orib q̓ͣ sanguineo colore rubent</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_bc645e61">.i. rubrũ</gloss> <ab type="textline" facs="#eSc_line_d8f32ff3">ĩficit᷑; Iđoq mineũ ⁊ alii coloreᷤ pict᷑ar̃ rubre</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_b49cd927">.i. mare rubr̃</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_ccac4079">???</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_382faa82">჻</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_f66c1524">.i. coligũt᷑</gloss> <ab type="textline" facs="#eSc_line_b6881119">q; gẽme legunt᷑. Scĩdit᷑ ħ ĩduos sinꝰ; qͦr̃ ꝑsicꝰ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_309170bf">.i. spacio</gloss> <ab type="textline" facs="#eSc_line_312e69e0">aqͥlonẽ. arabicꝰ petit occidentẽ qͥ cxũ pasum</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_4526fbed">:</gloss> <ab type="textline" facs="#eSc_line_5cb595e6">distat abegiptiaco mari; Nili fluuio qͥ ĩt̓</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_171c43c5">9</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_f2af2a0e">ꝰ</gloss> <ab type="textline" facs="#eSc_line_abcc16f7">ortũ soł ⁊austrũ nacit᷑. ꝓpluuiᷤ utit᷑</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_3398ef90">‥</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_9ae6e744">‥</gloss> <ab type="textline" facs="#eSc_line_b87c4027">egiptꝰ ꝓbt͛ soł calorẽ imbres ⁊nubila respuẽs</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_cdba7719">‥</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_c2e6fe7e">჻</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_8b876759">჻</gloss> <ab type="textline" facs="#eSc_line_461e73ec">ĩm̃se maio enĩ dũ septẽ hostia eiꝰ qͥb ĩmare ĩ</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_3568b790">⸪</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_cc1cd579">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_a5895919">./.</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_4902bec6">ꝯ</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_6a7d9255">./.</gloss> <ab type="textline" facs="#eSc_line_b4d346d8">fluit zefiro flãte undis eiectis arenar̃ cum</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_94da1fb0">/.</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_2ab33ada">:</gloss> <ab type="textline" facs="#eSc_line_625e2159">ulo ꝑstruũt᷑ paulatĩ intumesces ac retͦ re</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_5c900ae8">⸪</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_c91565f4">.i. nilus</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_3f427eda">/.</gloss> <ab type="textline" facs="#eSc_line_07ef85ca">pulsꝰ plana irrigat egipti; Uento ħ cessante.</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_f6c2ab44">.i. nilus</gloss> <ab type="textline" facs="#eSc_line_9644ecdb">ruptisq: harenar̃ cumuliᷤ suo redit᷑ alueo;</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_f1150f4b">.i. maris</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_51dd171b">ab</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_9c08a7ac">.i. ds̃</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_22309f0c">.i. t̃re</gloss><ab type="textline" subtype="heading" facs="#eSc_line_44b3def8">Aqua creator orbẽ medio ambitu p͛cinx̃;</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_92092671">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_ceeb01d5">‥</gloss> <ab type="textline" facs="#eSc_line_49acb0cd">Q̃ ex oĩ parte ĩ centrũ t ̓re ũgit : et ĩt͛</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_aef8fc12">:</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_18f3fadb">.i. aqua</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_45abab4c">‥</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_f684b6e2">.i.t̃ra</gloss> <ab type="textline" facs="#eSc_line_a566472b">iora iutẽs deceđe ñ posset. ut cũ terra arida</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_3e491df2">჻</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_146da443">.i.t̃re</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_a9134f6d">:</gloss>
+            <gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_eb68b4f4">n</gloss>
+            <fw type="folio-number" facs="eSc_textblock_d0ed90c1">3</fw>
+            
+            
+            
+        <pb facs="#IMAGE.6" corresp="12_eaa9e_default.jpg" n="fol. 3v"/><note type="progress" n="finished"/>
+            <gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_70e59439">t</gloss><gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_95024351">c</gloss>
+            <gloss rendition="InterlinearLine:gloss" facs="#eSc_line_cb720086">posset</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_353801c7">჻</gloss> <ab type="textline" facs="#eSc_line_c2b54466">⁊ sicca cõstare ꝑ se siñ humore niqͥret; Nec ru</ab> <ab type="textline" facs="#eSc_line_7a580e57">rsꝰ stare aq̃ nͥ sustinẽte t ̓ra mutuo ãplexu</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_2807d4da">.i. t̃r̃a ⁊ aqua</gloss> <ab type="textline" facs="#eSc_line_32249b1d">iungerẽt᷑. hac sinꝰ pandẽte illa ꝑmeãte to</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_3699ab71">tra</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_5a89883c">§§§§§</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_031cd5a7">.i. aqua</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_dee18ec9">.i. t̃rã</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_4a22a707">..</gloss> <ab type="textline" facs="#eSc_line_f1b7f36c">tã ĩtͣ extͣ supͣ ĩfͣ ueniᷤ ut uĩculis discurrẽti</ab> <ab type="textline" facs="#eSc_line_f6178515">b; atq; etĩ ĩ sũis iugis erũpente;</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_1ace8cf7">.i. aqua</gloss><gloss rendition="InterlinearLine:correction" facs="#eSc_line_682bb87e">r</gloss><ab type="textline" subtype="heading" facs="#eSc_line_8ed9bc7f">Tetia fundata ẽ suꝑ stabilitatẽ suã ab</ab><gloss rendition="InterlinearLine:correction" facs="#eSc_line_62eb5e7a">tre</gloss><gloss rendition="InterlinearLine:correction" facs="#eSc_line_cc74c7a1">i</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_0c559483">:</gloss> <ab type="textline" facs="#eSc_line_65c72346">issꝰ ẽ sic̃ palluĩ ãictꝰ ẽ; sic enĩ igneͥũ se</ab> <ab type="textline" facs="#eSc_line_8d9ba4ae">dis ñ ẽ in ignib; aq̃r nͥ iaqͥs sp̃s nͥ ĩsp̃u</ab> <ab type="textline" facs="#eSc_line_ba523d71">Sic t͛re coerẽtib; ciuiti nͥ ĩ se locꝰ ñ ẽ nat᷑a coib</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_565f252b">.i. creatura</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_5559ab11">.i. adque loc᷑</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_f6acd1fd">.i. tra</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_afa6c097">./.</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_1568245b">⸫</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_8c09e599">‥</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_c5c8de17">‥</gloss> <ab type="textline" facs="#eSc_line_03b358e2">ẽte ⁊ qͦ cadit negãte q̃ incentͦ ł ĩ cardine mũdi</ab> <ab type="textline" facs="#eSc_line_22262b4a">sita humillimũ in creat᷑is ac mediũ tanꝗͣ gͣui</ab> <ab type="textline" facs="#eSc_line_dbee673e">ssima loc̃ tenet cũ aqͣ ⁊ aer ⁊ ignis ut leui</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_26c6bd61">st</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_5dd7a939">.i. spacia</gloss> <ab type="textline" facs="#eSc_line_a3c755fa">tate natͣe. ita ⁊ situ se ad altiora ꝑueniẽt.</ab><ab type="textline" subtype="heading" facs="#eSc_line_32d87da0">ORBEM t̃re dcimꝰ ñ  ab soluti orbiᷤ sit</ab> <ab type="textline" facs="#eSc_line_e9390d5a">forma ĩtanta mõtiũ cãpor̃q disparili</ab> <ab type="textline" facs="#eSc_line_443f0de5">tate. s; cuiꝰ ãplexus si cuncta linear̃ com</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_74d1753d">.i. t̃re</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_56a3ff2b">.i. loca t̃re</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_e1b1d4af">჻</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_55fb14cd">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_ad136afe">჻</gloss> <ab type="textline" facs="#eSc_line_c637bbe9">p ̓hẽdant᷑ ambitu figurã absoluti orbiᷤ efficiat;</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_5becac0d">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_4d3957d1">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_9ab410d2">/.</gloss> <ab type="textline" facs="#eSc_line_b544d2d8">Iñ enĩ fit ut uiitͥonał plage siđa noƀ seꝑ app</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_9fd16af4">‥</gloss> <ab type="textline" facs="#eSc_line_09ec7e85">areãt. Meridiane nũꝗͣ. Rursꝰq ħ illis ñ cernã</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_c9622e50">‥</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_4ab3e3e8">.i. plage</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_c2295d33">.i. sidera</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_4c4ff0ed">‥</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_2faebdbc">/.</gloss> <ab type="textline" facs="#eSc_line_ee36889d">t᷑ obstãte globo t͛rar̃. septẽtͥones ñ cernit tͣgodi</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_f284fbf0">.i. nom̃ reogonis</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_41a204e6">.i. illi regioneᷤ</gloss> <ab type="textline" facs="#eSc_line_648e99af">ce ⁊ꝰ finiᷤ egiptꝰ. Nec canopũ italia ꝗͣuis eiꝰdẽ or</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_06aa6910">nom̃ siđris</gloss> <ab type="textline" facs="#eSc_line_ae538236">bis pene demeͥdio maior pars ab oriẽte ad oc</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_2383ab44">:</gloss> <ab type="textline" facs="#eSc_line_927ceb35">cas̃ ꝗͣ ameridie ad septẽtͥonẽ habitet᷑; hic calo</ab><gloss rendition="InterlinearLine:correction" facs="#eSc_line_b0461556">i</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_119437fd">.i.</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_af19807f">.i. ĩ illo loco</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_dfa60d7e">ĩegipto</gloss> <ab type="textline" facs="#eSc_line_ed6a6993">re illic fgore accessũ ꝓhibẽte;</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_5f5bf191">.i. ĩ scithia</gloss><ab type="textline" subtype="heading" facs="#eSc_line_33e1ea5d">Octo circuliᷤ ṫra ꝓdier̃ uarietate distĩgiͧt᷑.</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_92925bc5">‥</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_72c17e30">.i. circulus</gloss> <ab type="textline" facs="#eSc_line_1c78c7b9">pͥmus ab ĩdie parte austͣli ꝑrubri ma</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_9d32017c">,</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_c6c85fe1">,</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_165ffc5b">,</gloss> <ab type="textline" facs="#eSc_line_18cada37">ris accolas ⁊africe maritima ad colũnaᷤ her</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_b1e1c1eb">.i. loca</gloss>
+            
+            
+            
+        <pb facs="#IMAGE.7" corresp="13_634e7_default.jpg" n="fol. 4r"/><note type="progress" n="finished"/>
+            <gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_e66a2e25">xxxuiii. uncieS̃</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_718d7b3c">ĩũƀa. duduͦ hore</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_8a575180">⁊ dimidaͥ cũ xxxͣ</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_37eff9b8">parte uniꝰ horȩ</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_554a56eb">supͣ eqͥnoxii nat᷑a</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_67cf66c6">qͥb; colligit᷑ qͦtꝰ</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_b1c5ae0f">sit ũbilicꝰ nã .ii.</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_c06e2f1c">septĩe partes ũbi</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_243b96be">lici horȩ respõdẽt;</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_b40e1039">Diuide gͦ ũbrã ꝑ uii.</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_6765279f">septies additiᷤ .xuiͥ</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_3c7ef5d6">unciᷤ adeã .q̃ oĩa lui</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_d7b63174">pesteᷤ ⁊ t ̓tiã uniꝰ ex</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_14c93aca">sere dt̃ cũ xii unciẽ</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_7f80abef">sit̃ ĩpedit</gloss>
+             <ab type="textline" facs="#eSc_line_db06d60b">culiᷤ ꝑuenit. qͦ eqͥnoxii die medio gnom̃ septem</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_ca4db0e1">.i. glo§§</gloss> <ab type="textline" facs="#eSc_line_099c5ca2">pedũ ũbrã iiii pedes lõgã rediit dies uͦ lõgi</ab> <ab type="textline" facs="#eSc_line_80007c01">ssimꝰ xiiii horis eqͥnoxialeᷤ ht̃ §§ ab occasu</ab> <ab type="textline" facs="#eSc_line_57b768dc">indie ꝑmedos uadit ⁊ ꝑsas arabia</ab> <ab type="textline" facs="#eSc_line_19d194f5">cretũ lilibeũ ⁊ septͥonalia afric §§§§§ges ũbi</ab> <ab type="textline" facs="#eSc_line_bd40c0aa">ucꝰ eqͥnoxtio .xxxu pedũ §§§§ pedes lo</ab> <ab type="textline" facs="#eSc_line_ac611a4c">am facit. Dies ħ maxima xiiii §§§§§§ accede</ab> <ab type="textline" facs="#eSc_line_52451ede">te bis qͥnta parte unius §§§§ oritur ab ĩ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_7576f883">.i. mant</gloss> <ab type="textline" facs="#eSc_line_0b68b479">dis imai ꝓximis ⁊ tendit ꝑ caspias portas tau §§§§</ab> <ab type="textline" facs="#eSc_line_e13b1595">piliã rodũ cicladaᷤ siracusaᷤ catinã gadeᷤ. gnomĩ</ab> <ab type="textline" facs="#eSc_line_c3d9abe3">is cuncte ũbrã xxxuiii unciar̃ faciunt lõgi</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_6b258e97">.i. mensure</gloss> <ab type="textline" facs="#eSc_line_81392083">ssimꝰ dieᷤ horar̃ xiiii atq; demi §§§§§im ̓ hore</ab> <ab type="textline" facs="#eSc_line_a2d11e47">parte. Quartꝰ ab alṫo laṫe imaui ꝑ efes̃ mi</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_92f8a181">.i. loca</gloss> <ab type="textline" facs="#eSc_line_323d4364">re cicladiũ septẽtͥonalia cicilie narbon§§§</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_02c172f0">⸪</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_d15b857d">‥</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_19e6f3e0">.i. pͥncipia</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_58cf534b">‥</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_f0e8ff25">.i. lac§§§</gloss> <ab type="textline" facs="#eSc_line_8e28c96f">gallie exortiua africe maritima tendit</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_b0db4f97">:</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_d7ddf246">:</gloss> <ab type="textline" facs="#eSc_line_5ed96d26">ad occas̃; gnomũ xxi pedũ respodet ũbre</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_c5717531">i. partes</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_ba50cf93">‥_</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_ffa1b551">.._</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_4e55e5b5">/.:</gloss> <ab type="textline" facs="#eSc_line_8489a3e0">xui pedũ logissimꝰ dies hora h§§§§iii ⁊ tertiaᷤ dua</ab> <ab type="textline" facs="#eSc_line_d9ec2095">uniꝰ horȩ. Quinto cͥculo cõtinẽt̃ ab intͦitu caspii</ab><gloss rendition="InterlinearLine:correction" facs="#eSc_line_fa263f10">c</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_ff0d9ce3">łri</gloss> <ab type="textline" facs="#eSc_line_0ff89bad">maris batiu armeniẹa macdonia tarentum</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_16007385">.i. mare</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_71cddbfa">.i. ĩsole</gloss> <ab type="textline" facs="#eSc_line_7a45e7c0">tuᷤc baleareᷤ hispania media gnomĩs .uii. pedeᷤ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_a7f069a9">.i. respondent</gloss> <ab type="textline" facs="#eSc_line_6be5cefd">ũbriᷤ.ui pedũ</ab> <ab type="textline" facs="#eSc_line_c4198441">maximꝰ dieᷤ  ẽ</ab> <ab type="textline" facs="#eSc_line_941d0fc6">horar̃ xu;</ab> <ab type="textline" facs="#eSc_line_9ffa939c">Sextꝰ ãplecti</ab> <ab type="textline" facs="#eSc_line_bb20b112">t᷑ ꝑcaᷤpiaᷤ gentes</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_7f8d5a15">m</gloss> <ab type="textline" facs="#eSc_line_51507ce6">caucas̃ samot᷑ciã ilirios cãpaniã eqͥriã asiliã hiᷤ</ab> <ab type="textline" facs="#eSc_line_87b81a27">paniã terraaconẽsẽ m ediã. ⁊iñ ꝑlusitaniã;</ab>
+            <gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_42bd4bc8">.i. xx momenta .i. ui ⁊ bisse</gloss><gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_ddc77b9c">uniꝰ momenti</gloss>
+            <fw type="folio-number" facs="eSc_textblock_bc051249">4</fw>
+            
+            
+        <pb facs="#IMAGE.8" corresp="14_cbf07_default.jpg" n="fol. 4v"/><note type="progress" n="finished"/>
+            <gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_b1c5d47c">.i. uiii dies st̃ sñ nocte</gloss><gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_badd49e7">ĩ solstitio estiualie ⁊ uiii</gloss><gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_6f5bc816">noctes sñ dieb; ĩ solstitio</gloss><gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_c0266b13">hiemalium nõie pse§§</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_cf61dff7">⸫</gloss><gloss rendition="OuterMarginalLine:gloss" facs="#eSc_line_fd69fa5a">.i. ad aqionẽ</gloss>
+             <ab type="textline" facs="#eSc_line_bfc3d745">§§§§§§§§ ẽ horar̃ xu.</ab> <ab type="textline" facs="#eSc_line_e75f2d62">§§§§§§§§§§§§§§ ab alt̓a</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_8b2dce14">:</gloss> <ab type="textline" facs="#eSc_line_aed738ae">§§§§§§§§§ ꝑ tͣcie adũsa</ab> <ab type="textline" facs="#eSc_line_ca9e9f85">§§§§§ t᷑nsalpinã galliam</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_806c8a59">.i. respondent</gloss> <ab type="textline" facs="#eSc_line_a06ea9e6">§§§ xxxu. umbre xxx</ab> <ab type="textline" facs="#eSc_line_494619aa">§§§§ qͥntar̃ partiũ§§§</ab> <ab type="textline" facs="#eSc_line_1959cfd5">§§§§§§§§§§§§§§§§§</ab> <ab type="textline" facs="#eSc_line_15c7c9ce">§§§§§§§ galliã ĩgredit᷑.</ab> <ab type="textline" facs="#eSc_line_acad3348">lõgissi §§§§§§ antiqͥ</ab> <ab type="textline" facs="#eSc_line_fdd7b9fb">duos ꝓponunt §§§§ ĩsolã meroen ⁊ ꝑtoloma</ab> <ab type="textline" facs="#eSc_line_bb7409ef">idã rubri mariᷤ urbẽ urbẽ uͥ lõgissimꝰ dieᷤ xii</ab> <ab type="textline" facs="#eSc_line_84b18195">horarũ ??? ãplior. et alt̓ũ ꝑsienen eg</ab> <ab type="textline" facs="#eSc_line_bffb455a">ipti qͥ ẽ horar̃ xiiii duosq; subiciunt. pͥmũ ꝑ hiꝑ</ab> <ab type="textline" facs="#eSc_line_500b4092">ẽ dieᷤ logissimꝰ horar̃ xuii;</ab> <ab type="textline" facs="#eSc_line_e15c4d30">§§§§§§§§§§pheis iugis ĩtilẽn ĩ qͦ dies cõ</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_ca53e0dd">‥</gloss><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_0cb42474">‥</gloss> <ab type="textline" facs="#eSc_line_76193ab3">inet᷑ noctesq; ꝑuices; Umbilici quẽ gno</ab><gloss rendition="InterlinearLine:signe_de_renvoi" facs="#eSc_line_6dbf552f">:</gloss> <ab type="textline" facs="#eSc_line_8b9e58b7">mon apellat̃ ũbra ĩ egipto meridiano tẽpore</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_cad014ed">.i. ĩd.</gloss><gloss rendition="MarginalLine:gloss" facs="#eSc_line_e0b0952f">//</gloss> <ab type="textline" facs="#eSc_line_9bc972f9">eqͥnaxii die paulo plꝗ̃ demediã gnomĩs mẽsurã</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_3bfb8189">:</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_06a14aaf">.i. ab</gloss> <ab type="textline" facs="#eSc_line_c4ad8486">efficit. In urbe roma nona pars gnomĩs đẽ ũbra</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_fbba4e42">.i. umbra</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_51a7f45a">.i. maior ÷ ũbra ꝗ gnom̃</gloss><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_73a01cb9">pars</gloss> <ab type="textline" facs="#eSc_line_021c94a5">IN opidio anchora suꝑẽ qͥnta tͥgesima. In par</ab> <ab type="textline" facs="#eSc_line_f70ca8c9">te italiȩ q̃uene</ab> <ab type="textline" facs="#eSc_line_d0e3bce2">tia appellat᷑</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_164fd454">.i. ĩ solistitio estuiuali</gloss> <ab type="textline" facs="#eSc_line_138e85dc">hiᷤdẽ horis</ab> <ab type="textline" facs="#eSc_line_fe35d549">ũbra gnomũ</ab> <ab type="textline" facs="#eSc_line_620f1009">par sit. Similimꝰ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_b294f28e">estutis</gloss> <ab type="textline" facs="#eSc_line_100cadd9">ꝙ ẽ supͣ alaxandia qͥnq; milib; staduĩ solsticii</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_a05e7e17">.i. dñt</gloss> <ab type="textline" facs="#eSc_line_24c440ab">die medio nullã ũbrã i aci; Sic̃ ⁊ĩ india supͣ</ab><gloss rendition="InterlinearLine:gloss" facs="#eSc_line_77ea35a5">.i. ñiaci umƀ</gloss>
+            <gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_dfca82b1">.i. no uncia ⁊t̃cia</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_b506f0c0">pars uncie</gloss><gloss rendition="InnerMarginalLine:gloss" facs="#eSc_line_2074f677">cuiiii momenta</gloss>
+            <gloss rendition="LowerMarginalLine:gloss" facs="#eSc_line_1ae8be4d">pma</gloss>
+            </div></body>
+            </text>
+            </TEI>
