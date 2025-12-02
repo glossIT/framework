@@ -67,10 +67,10 @@ content:
 }
 
 Page {
+display:block;
     padding-top: 2em;
-    border-left: 5px double #ffaa9f;
     content:
-    oxy_label(text,'Reading Text', styles, 'font-size:xx-large;font-weight:bold;')
+    oxy_label(text,'Reading Text \a', styles, 'font-size:xx-large;font-weight:bold;')
     
 }
 PcGts {
@@ -85,17 +85,41 @@ Coords, Baseline {
 }
 
 Unicode:before {
-
+font-size: small; 
     content: 
-    '|        '
+    '   |   Type: '
+        oxy_label(text, oxy_xpath('substring-before(substring-after(./parent::TextEquiv/parent::TextLine//@type, "type:"), ";}")'))
+    '   |   '
 }
-TextRegion{
-    padding:0;
-}
+/*TextRegion, TextLine, TextEquiv{
+    padding:0 0 0 0;
+    margin: 0 0 0 0; 
+    line-height: 2px;
+}*/
+
+
 Unicode {
-border-bottom: 1px solid #ccc;
-  text-indent: 25px;
-    display: block;
+padding: 0 0 0 0; 
+/*border-bottom: 1px solid #ccc;*/
+font-size: 25px;
+text-indent: 25px;
+text-align: left;
+
+
+}
+
+
+
+Unicode:after {
+content:
+'      '
+    oxy_editor(type, button, actionID, 'release_dörte', fontInherit, true)
+    ' \a '
+
+ 
+}
+TextLine{
+    padding: 0 0 0 0;
 }
 /*
 TextRegion > TextLine > TextEquiv > Unicode {
