@@ -21,7 +21,7 @@
         background-color: white;
         -oxy-display-tags: none !important;
         color: black;
-        font-family: 'Junicode', 'Arial', 'Helvetica', 'Arial Unicode MS', sans-serif;
+    
         font-size: 14pt;
         border: 1px solid grey;
         background-color: #f5f5f5;
@@ -46,7 +46,7 @@
 
 Metadata:before {
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
     display:block;
     content:
@@ -59,6 +59,7 @@ Metadata:before {
 Metadata {
 border-bottom: solid grey 3px;
 padding-bottom: 2em;
+visibility: -oxy-collapse-text; 
 content: 
 
     oxy_label(text, oxy_concat("File created:  ", oxy_xpath("substring-before(//Created[1], 'T')")))
@@ -70,7 +71,7 @@ Page {
 display:block;
     padding-top: 2em;
     content:
-    oxy_label(text,'Reading Text \a', styles, 'font-size:xx-large;font-weight:bold;')
+    oxy_label(text,'Reading Text \a \a', styles, 'font-size:xx-large;font-weight:bold;')
     
 }
 PcGts {
@@ -80,30 +81,32 @@ PcGts {
 
 }
 
+
+
 Coords, Baseline {
     display:none;
 }
 
-Unicode:before {
+/*Unicode:before {
 font-size: small; 
     content: 
     '   |   Type: '
         oxy_label(text, oxy_xpath('substring-before(substring-after(./parent::TextEquiv/parent::TextLine//@type, "type:"), ";}")'))
-    '   |   '
-}
-/*TextRegion, TextLine, TextEquiv{
-    padding:0 0 0 0;
-    margin: 0 0 0 0; 
-    line-height: 2px;
+    '   |                                                       '
 }*/
 
 
+
 Unicode {
+visibility: -oxy-collapse-text;  /* gets rid of the text display */
 padding: 0 0 0 0; 
 /*border-bottom: 1px solid #ccc;*/
 font-size: 25px;
 text-indent: 25px;
 text-align: left;
+content:
+ ' '
+    oxy_textArea(edit, '#text', fontInherit, true, width, 1000px)
 
 
 }
@@ -112,29 +115,24 @@ text-align: left;
 
 Unicode:after {
 content:
-'      '
+'                         '
     oxy_editor(type, button, actionID, 'release_dörte', fontInherit, true)
-    ' \a '
-
+   oxy_label(text,  '                              |   Type: ', styles, 'font-size:small;')  
+   oxy_label(text, oxy_xpath('substring-before(substring-after(./parent::TextEquiv/parent::TextLine//@type, "type:"), ";}")'),  styles, 'font-size:small;')
+   oxy_label(text,  '   |   ', styles, 'font-size:small;')
+ '\a '
  
 }
 TextLine{
     padding: 0 0 0 0;
 }
-/*
-TextRegion > TextLine > TextEquiv > Unicode {
 
-    content: 
-    oxy_editor(type, text, edit, '#content')
-    " \a"
-}*/
-/*
-TextLine {
-    Content: 
-    'Text'
+
+
+TextLine[type='structure {type:HeadingLine:title;}'] > TextEquiv > Unicode {
+    font-weight: bold; 
+    padding-top: 1em;
+   
+    
 }
 
-TextRegion {
-     Content: 
-    'Text'
-}*/
