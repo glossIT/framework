@@ -95,7 +95,12 @@ font-size: small;
     '   |                                                       '
 }*/
 
-
+Unicode:before {
+    content: 
+   oxy_label(text,  'ID: ', styles, 'font-size:small;')  
+   oxy_label(text, oxy_xpath('./parent::TextEquiv/parent::TextLine//@id'),  styles, 'font-size:small;')
+   oxy_label(text,  '   |   ', styles, 'font-size:small;')
+}
 
 Unicode {
 visibility: -oxy-collapse-text;  /* gets rid of the text display */
@@ -106,7 +111,7 @@ text-indent: 25px;
 text-align: left;
 content:
  ' '
-    oxy_textArea(edit, '#text', fontInherit, true, width, 1000px)
+    oxy_textArea(edit, '#text', fontInherit, true, width, 1200px)
 
 
 }
@@ -117,7 +122,7 @@ Unicode:after {
 content:
 '                         '
     oxy_editor(type, button, actionID, 'release_dörte', fontInherit, true)
-   oxy_label(text,  '                              |   Type: ', styles, 'font-size:small;')  
+   oxy_label(text,  '                     |   Type: ', styles, 'font-size:small;')  
    oxy_label(text, oxy_xpath('substring-before(substring-after(./parent::TextEquiv/parent::TextLine//@type, "type:"), ";}")'),  styles, 'font-size:small;')
    oxy_label(text,  '   |   ', styles, 'font-size:small;')
  '\a '
@@ -136,3 +141,12 @@ TextLine[type='structure {type:HeadingLine:title;}'] > TextEquiv > Unicode {
     
 }
 
+TextRegion  {
+    content:
+
+   '\a '
+   oxy_label(text,'Region: ', styles, 'padding:10px; font-size:x-large; font-weight:bold;')  
+    oxy_label(text, oxy_xpath('substring-before(substring-after(@type, "type:"), ";}")'), styles, 'padding:10px; font-size:x-large; font-weight:bold;')
+     '\a '
+      '\a '
+}
