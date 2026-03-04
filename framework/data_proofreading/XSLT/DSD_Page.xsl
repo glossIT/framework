@@ -161,7 +161,7 @@
                         <div class="head">
                             <p class="brand"> GlossIT DSD</p>
                             <p class="img">
-                                <img src="../../FW-satellite/Detective.png" height="130px"
+                                <img src="../FW-satellite/Detective.png" height="130px"
                                     width="130px"/>
                             </p>
                             <!-- Change path to correct nextcloud path -->

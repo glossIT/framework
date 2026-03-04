@@ -121,9 +121,10 @@ content:
 Unicode:after {
 content:
 '                         '
-    oxy_editor(type, button, actionID, 'release_dörte', fontInherit, true)
+   oxy_editor(type, button, actionID, 'release_dörte', fontInherit, true)
    oxy_label(text,  '                     |   Type: ', styles, 'font-size:small;')  
    oxy_label(text, oxy_xpath('substring-before(substring-after(./parent::TextEquiv/parent::TextLine//@type, "type:"), ";}")'),  styles, 'font-size:small;')
+   oxy_label(text, oxy_xpath('substring-before(substring-after(./parent::TextEquiv/parent::TextLine//@custom, "type:"), ";}")'),  styles, 'font-size:small;') /* for errorless files */
    oxy_label(text,  '   |   ', styles, 'font-size:small;')
  '\a '
  
@@ -145,8 +146,11 @@ TextRegion  {
     content:
 
    '\a '
+   oxy_editor(type, button, actionID, 'release_dörte', fontInherit, true)
    oxy_label(text,'Region: ', styles, 'padding:10px; font-size:x-large; font-weight:bold;')  
     oxy_label(text, oxy_xpath('substring-before(substring-after(@type, "type:"), ";}")'), styles, 'padding:10px; font-size:x-large; font-weight:bold;')
+    oxy_label(text, oxy_xpath('substring-before(substring-after(@custom, "type:"), ";}")'), styles, 'padding:10px; font-size:x-large; font-weight:bold;')
+   
      '\a '
       '\a '
 }
