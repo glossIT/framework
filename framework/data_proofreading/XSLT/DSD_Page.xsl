@@ -196,7 +196,7 @@
                         </svg>
                     </div>
                
-                    <script src="../../FW-satellite/DSD.js">
+                    <script src="../FW-satellite/DSD.js">
                  
                     </script>
                 </body>

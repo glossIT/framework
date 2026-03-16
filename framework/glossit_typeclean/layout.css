@@ -110,17 +110,26 @@ TextRegion[sanity][type^='structure']
  {display:block;
  padding-bottom: 2em;
 content:
+ oxy_editor(type, button, actionID, 'delete', styles, "height:20px; width:20px;", fontInherit, true)
      oxy_label(text, oxy_local-name(), styles, "font-Family: Consolas; font-weight:bold")    
      "  "
      oxy_label(text, oxy_xpath("@id"), styles, "font-Family: Consolas; font-weight:bold")
      ":"
-            oxy_editor(type, button, actionID, 'delete', styles, "height:20px; width:20px;", fontInherit, true)
-
-         oxy_label(text, " \a ")  
-    oxy_label(text, " \a ")  
+           
         oxy_label(text, '   Type:   ')
-    oxy_combobox(edit,'@type', editable, false, labels, "Illustration, Mainzone, Mainzone Column A, Mainzone Column B, Mainzone Column C, Mainzone Column D, Mainzone intercolumnar, Margintextzone Inner, Margintextzone Outer, Margintextzone Upper, Margintextzone Lower, Numbering Page, Numbering Folio ", values, "structure {type:Illustration;}, structure {type:MainZone;}, structure {type:MainZone:column#a;}, structure {type:MainZone:column#b;}, structure {type:MainZone:column#c;}, structure {type:MainZone:column#d;}, structure {type:MainZone:intercolumnar;}, structure {type:MarginTextZone:inner;}, structure {type:MarginTextZone:outer;}, structure {type:MarginTextZone:upper;}, structure {type:MarginTextZone:lower;}, structure {type:NumberingZone:page;}, structure {type:NumberingZone:folio;}")
-
+    oxy_combobox(edit,
+    '@type',
+    editable,
+    false,
+    labels,
+    "Illustration, Mainzone, Mainzone Column Left, Mainzone Column Right,  Mainzone Column A, Mainzone Column B, Mainzone Column C, Mainzone Column D, Mainzone intercolumnar, Margintextzone Inner, Margintextzone Outer, Margintextzone Upper, Margintextzone Lower, Numbering Page, Numbering Folio",
+    values,
+    "structure {type:Illustration;},  structure {type:MainZone;}, structure {type:MainZone:column_left;}, structure {type:MainZone:column_right;}, structure {type:MainZone:column#a;}, structure {type:MainZone:column#b;}, structure {type:MainZone:column#c;}, structure {type:MainZone:column#d;}, structure {type:MainZone:intercolumnar;},structure {type:MarginTextZone:inner;}, structure {type:MarginTextZone:outer;}, structure {type:MarginTextZone:upper;}, structure {type:MarginTextZone:lower;}, structure {type:NumberingZone:page;}, structure {type:NumberingZone:folio;}", fontInherit, true)
+     
+      oxy_editor(type, button, actionID, 'release_Dörte', styles, "height:20px; width:20px;", fontInherit, true)
+    
+    oxy_label(text, " \a ")  
+    oxy_label(text, " \a ")  
 }
 
 
