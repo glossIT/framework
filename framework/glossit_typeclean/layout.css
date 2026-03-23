@@ -57,6 +57,10 @@ Metadata:before {
     content:
     oxy_label(text, "Sanity Check Correction on Page No. ")
     oxy_label(text, oxy_xpath("substring-before(//Page/@imageFilename, 'jpg')"))
+    '(PageNo.:  '
+     oxy_label(text,  oxy_xpath("//Page//TextRegion[contains(@type, 'NumberingZone')]//Unicode/text()"))
+      oxy_label(text,  oxy_xpath("//Page//TextRegion[contains(@custom, 'NumberingZone')]//Unicode/text()"))
+    ')'
    
     
 }
@@ -69,11 +73,19 @@ content:
     oxy_label(text, oxy_concat("File created:  ", oxy_xpath("substring-before(//Created[1], 'T')")))
     oxy_label(text, oxy_concat(" \a File last changed:  ", oxy_xpath("substring-before(//LastChange[1], 'T')")))   
     oxy_label(text, oxy_concat(" \a Associated Image File:  ", oxy_xpath("//Page/@imageFilename")))
+        '\a Pagenumber:  '
+    oxy_label(text,  oxy_xpath("//Page//TextRegion[contains(@type, 'NumberingZone')]//Unicode/text()"))
+    oxy_label(text, oxy_xpath("//Page//TextRegion[contains(@custom, 'NumberingZone')]//Unicode/text()"))
     oxy_label(text, oxy_concat(" \a Amount of errors:  ", oxy_xpath("count(//*/@sanity)")))  
 }
 
 Page {
     padding-top: 2em;
+    Content:
+    oxy_label(text,oxy_xpath(" if (count(//*/@sanity) = 0 and //*/@custom) then 'No Errors found. Please start the Framework and switch to Proofreading.' else ()"))
+    oxy_label(text,oxy_xpath(" if (count(//*/@sanity) = 0 and //*/@type) then 'No Errors found. Switch to Proofreading.' else ()"))
+    oxy_label(text,oxy_xpath(" if (count(//*/@sanity) > 0 and //*/@custom) then 'Please start the Framework and correct the errors.' else ()"))
+   
 }
 
 PcGts {
@@ -86,10 +98,10 @@ PcGts:after{
 display:block;
 text-align:right;
     content:
-    oxy_label(text, "Start Correction: ")
+    oxy_label(text, "Start Framework: ")
     oxy_editor(type, button, actionID, 'starter', fontInherit, true)
     "         "
-    oxy_label(text, "Finish Correction:  ")
+    oxy_label(text, "Finish Framework:  ")
     oxy_editor(type, button, actionID, 'finisher', fontInherit, true)
 }
 TextRegion[sanity][type=" "] {
@@ -182,6 +194,7 @@ Unicode:empty{
     content:
      oxy_label(text, '      Text:       ')
      oxy_label(text, ' No Text found ', styles, "color:red; font-weight:bold;")
+     oxy_textArea(edit, '#content', fontInherit, true)
     
 }
 

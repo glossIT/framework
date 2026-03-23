@@ -81,7 +81,7 @@
 											<actionMode-array>
 												<actionMode>
 													<field name="xpathCondition">
-														<String>not(//TextLine/@type) and (//*/@sanity)</String>
+														<String>not(//TextLine/@type)</String>
 													</field>
 													<field name="argValues">
 														<serializableOrderedMap>
@@ -172,7 +172,7 @@
 											<actionMode-array>
 												<actionMode>
 													<field name="xpathCondition">
-														<String>not(//TextLine/@custom) and (//*/@sanity)</String>
+														<String>not(//TextLine/@custom) </String>
 													</field>
 													<field name="argValues">
 														<serializableOrderedMap>

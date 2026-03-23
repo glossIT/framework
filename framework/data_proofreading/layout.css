@@ -52,8 +52,10 @@ Metadata:before {
     content:
     oxy_label(text, "Proofreading of  ")
     oxy_label(text, oxy_xpath("substring-before(//Page/@imageFilename, 'jpg')"))
-   
-    
+   '(PageNo.:  '
+     oxy_label(text,  oxy_xpath("//Page//TextRegion[contains(@type, 'NumberingZone')]//Unicode/text()"))
+      oxy_label(text,  oxy_xpath("//Page//TextRegion[contains(@custom, 'NumberingZone')]//Unicode/text()"))
+    ')'   
 }
 
 Metadata {
@@ -65,6 +67,9 @@ content:
     oxy_label(text, oxy_concat("File created:  ", oxy_xpath("substring-before(//Created[1], 'T')")))
     oxy_label(text, oxy_concat(" \a File last changed:  ", oxy_xpath("substring-before(//LastChange[1], 'T')")))   
     oxy_label(text, oxy_concat(" \a Associated Image File:  ", oxy_xpath("//Page/@imageFilename")))
+    '\a Pagenumber:  '
+    oxy_label(text,  oxy_xpath("//Page//TextRegion[contains(@type, 'NumberingZone')]//Unicode/text()"))
+    oxy_label(text, oxy_xpath("//Page//TextRegion[contains(@custom, 'NumberingZone')]//Unicode/text()"))
 }
 
 Page {
@@ -111,18 +116,15 @@ text-indent: 25px;
 text-align: left;
 content:
  ' '
-    oxy_textArea(edit, '#text', fontInherit, true, width, 1200px)
-
+    oxy_textArea(edit, '#content', fontInherit, true, width, 1000px)
 
 }
-
-
 
 Unicode:after {
 content:
 '                         '
    oxy_editor(type, button, actionID, 'release_dörte', fontInherit, true)
-   oxy_label(text,  '                     |   Type: ', styles, 'font-size:small;')  
+   oxy_label(text,  '             |   Type: ', styles, 'font-size:small;')  
    oxy_label(text, oxy_xpath('substring-before(substring-after(./parent::TextEquiv/parent::TextLine//@type, "type:"), ";}")'),  styles, 'font-size:small;')
    oxy_label(text, oxy_xpath('substring-before(substring-after(./parent::TextEquiv/parent::TextLine//@custom, "type:"), ";}")'),  styles, 'font-size:small;') /* for errorless files */
    oxy_label(text,  '   |   ', styles, 'font-size:small;')
