@@ -1,0 +1,121 @@
+/* Plus sign Icon: <a href="https://www.flaticon.com/de/kostenlose-icons/ui" title="ui Icons">Ui Icons erstellt von Smashicons - Flaticon</a>*/
+
+
+@namespace oxy "http://www.oxygenxml.com/extensions/author";
+@namespace xi url('http://www.w3.org/2001/XInclude');
+
+
+@media oxygen 
+{
+    oxy|document {
+        background-color: white;
+    }
+    TEI {
+        border: 1px solid grey;
+        background-color: white;
+        padding-top: 1em;
+        padding-right: 0.5em;
+        padding-left: 1em;
+        padding-bottom: 1em;
+        -oxy-display-tags: none !important;
+        color: black;
+        font-family: 'Junicode', 'Arial', 'Helvetica', 'Arial Unicode MS', sans-serif;
+        font-size: 14pt;
+    }
+    * {
+            -oxy-display-tags: none !important;    
+    }
+}
+ 
+teiHeader {
+    display: none;
+}
+
+oxy|comment {
+    display:none  !important;
+}
+/*  Base Layout  ABBR*/
+
+
+item {
+    display:block;
+}
+
+label {
+    display: inline-block;
+}
+
+
+/* In depth Layout  ABBR*/
+
+body {
+text-align: center;
+content:
+    oxy_label(text,'List of expansions and the used abbreviations', styles, 'font-weight:bold; font-size: 30pt;')
+}
+
+item {
+text-align: left;
+border-bottom: 1px solid grey;
+padding-top: 0.2em;
+content: 
+    oxy_label(text, '🐾  ' )
+    oxy_label(text, oxy_xpath('@xml:id'), styles, 'font-weight:bold; font-size: 18pt;')
+    ':'
+    
+    
+    /* Function  */
+    oxy_label(text, " \a ") 
+    oxy_label(text, 'Add a new abbreviation  ', styles, 'font-size: small; font-style: italic;')
+    oxy_button( actionID, "add_label", fontInherit, true)
+}
+
+label {
+
+    padding-top: 0.2em;
+    padding-left: 4em;
+    
+    content:
+    
+    oxy_label(text, " \a ") 
+    oxy_label(text, oxy_concat('Abbr.', oxy_xpath('count(preceding-sibling::label) + 1'), '           ' ), styles, 'font-style: italic; font-size:small;')
+}
+
+/* Functions */
+
+label:empty {
+    padding-top: 0.2em;
+    padding-left: 4em;   
+    content:
+    oxy_label(text, " \a ") 
+    oxy_label(text, oxy_concat('Abbr.', oxy_xpath('count(preceding-sibling::label) + 1'), '           ' ), styles, 'font-style: italic; font-size:small;')
+    oxy_editor(type,text, edit, '#text', width, 80px)
+}
+
+label:last-child {
+    padding-bottom: 0.2em;
+}
+
+
+list:before {
+
+    padding-top: 1em;
+    border-left: 3px dotted black; 
+    border-right: 3px dotted black; 
+    content:
+    oxy_label(text, '      🐾 Add a new expansion field    ')
+     oxy_button( actionID, "add_expansion", fontInherit, true)
+     '      '
+}
+
+
+item[*|id = '']{
+    content:
+    oxy_label(text, '!!!   ', styles, "color: red;")
+    oxy_label(text, '🐾  ' )   
+    oxy_label(text, 'Add the expansion here → ', styles, 'font-size: small; font-style: italic')
+    oxy_editor(type,text,edit,'@xml:id', fontInherit, true, width, 100px)
+    ':'
+    
+}
+
