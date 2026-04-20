@@ -1,6 +1,10 @@
 /* Plus sign Icon: <a href="https://www.flaticon.com/de/kostenlose-icons/ui" title="ui Icons">Ui Icons erstellt von Smashicons - Flaticon</a>*/
 
 
+
+/* ToDo: 
+ * Alphabetical sorting after new entry */
+
 @namespace oxy "http://www.oxygenxml.com/extensions/author";
 @namespace xi url('http://www.w3.org/2001/XInclude');
 
@@ -50,8 +54,6 @@ label {
 
 body {
 text-align: center;
-content:
-    oxy_label(text,'List of expansions and the used abbreviations', styles, 'font-weight:bold; font-size: 30pt;')
 }
 
 item {
@@ -100,12 +102,13 @@ label:last-child {
 list:before {
 
     padding-top: 1em;
-    border-left: 3px dotted black; 
-    border-right: 3px dotted black; 
+
     content:
-    oxy_label(text, '      🐾 Add a new expansion field    ')
+    oxy_label(text,'List of expansions and the used abbreviations', styles, 'font-weight:bold; font-size: 30pt;')
+    oxy_label(text, " \a ") 
+    oxy_label(text, '|     🐾 Add a new expansion field    ')
      oxy_button( actionID, "add_expansion", fontInherit, true)
-     '      '
+     '      |'
 }
 
 
