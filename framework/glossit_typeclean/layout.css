@@ -159,7 +159,7 @@ TextLine[sanity][type=""]{
     oxy_label(text, " \a ")  
      oxy_label(text, '    Typing is missing. Select a type or delete the Element!' ,styles, "font-size:small;")
     oxy_label(text, '   Type:   ')
-   oxy_combobox(edit,'@type', editable, false, labels, "Title, DefaultLine, Default, InterlinearLine Gloss, IntercolumnarLine Gloss, MarginalLine Gloss, InterlinearLine Correction, InterlinearLine Sign de renvoi, InterlinearLine Number, Reference Sign", values, "structure {type:HeadingLine:title;}, structure {type:DefaultLine;}, structure {type:default;}, structure {type:InterlinearLine:gloss;}, structure {type:IntercolumnarLine:gloss;}, structure {type:MarginalLine:gloss;}, structure {type:InterlinearLine:correction;}, structure {type:InterlinearLine:signe_de_renvoi;}, structure {type:InterlinearLine:number;}, structure {type:Reference_sign;}", fontInherit, true)     
+   oxy_combobox(edit,'@type', editable, false, labels, "Title, DefaultLine, Default, InterlinearLine Gloss, IntercolumnarLine Gloss, MarginalLine Gloss, InterlinearLine Correction, InterlinearLine Signe de renvoi, InterlinearLine Number, Reference Sign", values, "structure {type:HeadingLine:title;}, structure {type:DefaultLine;}, structure {type:default;}, structure {type:InterlinearLine:gloss;}, structure {type:IntercolumnarLine:gloss;}, structure {type:MarginalLine:gloss;}, structure {type:InterlinearLine:correction;}, structure {type:InterlinearLine:signe_de_renvoi;}, structure {type:InterlinearLine:number;}, structure {type:Reference_sign;}", fontInherit, true)     
         oxy_editor(type, button, actionID, 'create_dörte', styles, "height:20px; width:20px;", fontInherit, true)
     
 
@@ -176,7 +176,7 @@ TextLine[sanity][type] {
     oxy_label(text, " \a ")  
     oxy_label(text, " \a ")  
     oxy_label(text, '   Type:   ')
-   oxy_combobox(edit,'@type', editable, false, labels, "Title, DefaultLine, Default, InterlinearLine Gloss, IntercolumnarLine Gloss, MarginalLine Gloss, InterlinearLine Correction, InterlinearLine Sign de renvoi, InterlinearLine Number, Reference Sign", values, "structure {type:HeadingLine:title;}, structure {type:DefaultLine;}, structure {type:default;}, structure {type:InterlinearLine:gloss;}, structure {type:IntercolumnarLine:gloss;}, structure {type:MarginalLine:gloss;}, structure {type:InterlinearLine:correction;}, structure {type:InterlinearLine:signe_de_renvoi;}, structure {type:InterlinearLine:number;}, structure {type:Reference_sign;}", fontInherit, true, width, 300px)    
+   oxy_combobox(edit,'@type', editable, false, labels, "Title, DefaultLine, Default, InterlinearLine Gloss, IntercolumnarLine Gloss, MarginalLine Gloss, InterlinearLine Correction, InterlinearLine Signe de renvoi, InterlinearLine Number, Reference Sign", values, "structure {type:HeadingLine:title;}, structure {type:DefaultLine;}, structure {type:default;}, structure {type:InterlinearLine:gloss;}, structure {type:IntercolumnarLine:gloss;}, structure {type:MarginalLine:gloss;}, structure {type:InterlinearLine:correction;}, structure {type:InterlinearLine:signe_de_renvoi;}, structure {type:InterlinearLine:number;}, structure {type:Reference_sign;}", fontInherit, true, width, 300px)    
         oxy_editor(type, button, actionID, 'release_Dörte', styles, "height:20px; width:20px;", fontInherit, true)
 
 
