@@ -158,6 +158,60 @@
 											<Boolean>false</Boolean>
 										</field>
 									</action>
+									<action>
+										<field name="id">
+											<String>ask_url</String>
+										</field>
+										<field name="name">
+											<String>Add Lila Url</String>
+										</field>
+										<field name="description">
+											<String>Opens an input field, where users can add the LiLa Lemma url</String>
+										</field>
+										<field name="largeIconPath">
+											<String></String>
+										</field>
+										<field name="smallIconPath">
+											<String>${framework}/img/link.png</String>
+										</field>
+										<field name="accessKey">
+											<String></String>
+										</field>
+										<field name="accelerator">
+											<null/>
+										</field>
+										<field name="actionModes">
+											<actionMode-array>
+												<actionMode>
+													<field name="xpathCondition">
+														<String>not(./ref)</String>
+													</field>
+													<field name="argValues">
+														<serializableOrderedMap>
+															<entry>
+																<String>fragment</String>
+																<String>&lt;ref xmlns="http://www.tei-c.org/ns/1.0" >${ask('Enter LiLa URL:', input_type, 'default_value')}&lt;/ref></String>
+															</entry>
+															<entry>
+																<String>insertLocation</String>
+																<String>.</String>
+															</entry>
+															<entry>
+																<String>insertPosition</String>
+																<String>Inside as last child</String>
+															</entry>
+														</serializableOrderedMap>
+													</field>
+													<field name="operationID">
+														<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+													</field>
+												</actionMode>
+											</actionMode-array>
+										</field>
+										<field name="enabledInReadOnlyContext">
+											<Boolean>false</Boolean>
+										</field>
+									</action>
 								</action-array>
 							</field>
 							<field name="menubarDescriptor">

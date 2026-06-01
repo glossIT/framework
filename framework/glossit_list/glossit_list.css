@@ -1,5 +1,5 @@
 /* Plus sign Icon: <a href="https://www.flaticon.com/de/kostenlose-icons/ui" title="ui Icons">Ui Icons erstellt von Smashicons - Flaticon</a>*/
-
+/* Link Icon: <a href="https://www.flaticon.com/free-icons/backlink" title="backlink icons">Backlink icons created by Uniconlabs - Flaticon</a> */
 
 
 /* ToDo: 
@@ -41,7 +41,7 @@ oxy|comment {
 /*  Base Layout  ABBR*/
 
 
-item {
+item{
     display:block;
 }
 
@@ -52,7 +52,7 @@ label {
 
 /* In depth Layout  ABBR*/
 
-body {
+body  > list {
 text-align: center;
 }
 
@@ -83,7 +83,6 @@ label {
     oxy_label(text, oxy_concat('Abbr.', oxy_xpath('count(preceding-sibling::label) + 1'), '           ' ), styles, 'font-style: italic; font-size:small;')
 }
 
-/* Functions */
 
 label:empty {
     padding-top: 0.2em;
@@ -99,8 +98,8 @@ label:last-child {
 }
 
 
-list:before {
-
+list[*|id = 'abbreviation_list']:before {
+  
     padding-top: 1em;
 
     content:
@@ -122,3 +121,76 @@ item[*|id = '']{
     
 }
 
+
+/*  in depth layout Lemm */
+
+
+
+div[*|id = 'lemmata_list']:before {
+text-align: center;
+    display: block;
+    padding-top: 1em;
+
+    content:
+    oxy_label(text,'List of Lemmata', styles, 'font-weight:bold; font-size: 30pt;')
+    oxy_label(text, " \a ") 
+    oxy_label(text, '|     🐾 Add a new Lemma   ')
+     oxy_button( actionID, "meh", fontInherit, true)
+     '      |'
+}
+
+
+entry {
+text-align: left;
+content: 
+oxy_label(text, " \a ")
+    oxy_label(text, " \a ")
+    oxy_label(text, '🐾  ' )
+    oxy_label(text, oxy_xpath('@xml:id'), styles, 'font-weight:bold; font-size: 18pt;')
+':'
+ /* Function  */
+oxy_label(text, " \a ") 
+    oxy_label(text, 'Add a Lila Url: ', styles, 'font-size: small; font-style: italic;')
+    oxy_button(actionID, "ask_url", fontInherit, true)
+  
+}
+
+
+
+
+pos {
+display: inline-block;
+content:
+     oxy_label(text, " \a ")
+     oxy_label(text, 'POS  ')
+     oxy_combobox(edit,'#text', editable, false, fontInherit, true)
+}
+
+lang {
+
+display: inline-block;
+
+    content:
+    oxy_label(text, " \a ")
+     oxy_label(text, 'LANG ')
+     oxy_combobox(edit,'#text', editable, false, fontInherit, true)
+
+}
+
+ref:empty {
+    padding-top: 0.2em;
+
+    content:
+      oxy_label(text, " \a ")
+     oxy_label(text, 'LiLa Entry ')
+      oxy_textfield(edit, '#text', fontInherit, true)
+
+}
+
+ref{
+    padding-top: 0.2em;
+    content:
+      oxy_label(text, " \a ")
+     oxy_label(text, 'LiLa Entry ')
+    
+}
