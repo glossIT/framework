@@ -180,7 +180,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div type="dump"> ... &lt;/div></String>
+																<String>&lt;div type="dump" xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"> ... &lt;/div></String>
 															</entry>
 															<entry>
 																<String>insertPosition</String>
@@ -230,7 +230,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>elementLocation</String>
-																<String>//*[namespace-uri()='' and local-name()='div']</String>
+																<String>//div[@type="dump"]</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
@@ -346,7 +346,7 @@
 															</entry>
 															<entry>
 																<String>targetLocation</String>
-																<String>//*[namespace-uri()='' and local-name() = 'div']</String>
+																<String>//div[@type="dump"]</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>

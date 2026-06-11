@@ -336,7 +336,7 @@
 															</entry>
 															<entry>
 																<String>script</String>
-																<String>${framework}/XSLT/DSD_Page.xsl</String>
+																<String>${frameworkDir}/XSLT/DSD_Page.xsl</String>
 															</entry>
 															<entry>
 																<String>sourceLocation</String>
@@ -344,7 +344,7 @@
 															</entry>
 															<entry>
 																<String>targetLocation</String>
-																<String>//*[namespace-uri()='' and local-name()='div']</String>
+																<String>//div[@type='dump']</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
@@ -390,7 +390,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div type="dump">...&lt;/div></String>
+																<String>&lt;div type="dump" xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15">...&lt;/div></String>
 															</entry>
 															<entry>
 																<String>insertPosition</String>
@@ -440,7 +440,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>elementLocation</String>
-																<String>//*[namespace-uri()='' and local-name()='div']</String>
+																<String>//div[@type='dump']</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
@@ -544,7 +544,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>actionIDs</String>
-																<String>add_ana, add_dump, create_dörte, delete_ana, delete_dump, open_browser
+																<String>add_ana
 </String>
 															</entry>
 														</serializableOrderedMap>

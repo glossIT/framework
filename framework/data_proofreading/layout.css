@@ -117,13 +117,15 @@ text-align: left;
 content:
  ' '
     oxy_textArea(edit, '#content', fontInherit, true, width, 1000px)
+    oxy_editor(type, button, actionID, 'release_dörte', fontInherit, true)
+    
 
 }
 
 Unicode:after {
 content:
 '                         '
-   oxy_editor(type, button, actionID, 'release_dörte', fontInherit, true)
+   
    oxy_label(text,  '             |   Type: ', styles, 'font-size:small;')  
    oxy_label(text, oxy_xpath('substring-before(substring-after(./parent::TextEquiv/parent::TextLine//@type, "type:"), ";}")'),  styles, 'font-size:small;')
    oxy_label(text, oxy_xpath('substring-before(substring-after(./parent::TextEquiv/parent::TextLine//@custom, "type:"), ";}")'),  styles, 'font-size:small;') /* for errorless files */
