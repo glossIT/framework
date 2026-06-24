@@ -25,7 +25,7 @@
     <xsl:template match="*[@ana = 'view']">
         <!-- Content Variables  -->
 
-            <xsl:variable name="lineID" select="./parent::pg:TextEquiv/parent::pg:TextLine/@id"/>
+        <xsl:variable name="lineID" select="./parent::pg:TextEquiv/parent::pg:TextLine/@id"/>
         <xsl:variable name="lineType" select="./parent::pg:TextEquiv/parent::pg:TextLine/@type"/>
        <!-- <xsl:if test="current() = TextLine">
             <xsl:variable name="lineID" select="@id"/>

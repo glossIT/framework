@@ -117,7 +117,7 @@ text-align: left;
 content:
  ' '
     oxy_textArea(edit, '#content', fontInherit, true, width, 1000px)
-    oxy_editor(type, button, actionID, 'release_dörte', fontInherit, true)
+    
     
 
 }
@@ -131,10 +131,11 @@ content:
    oxy_label(text, oxy_xpath('substring-before(substring-after(./parent::TextEquiv/parent::TextLine//@custom, "type:"), ";}")'),  styles, 'font-size:small;') /* for errorless files */
    oxy_label(text,  '   |   ', styles, 'font-size:small;')
  '\a '
- 
+ oxy_editor(type, button, actionID, 'release_dörte', fontInherit, true)
 }
 TextLine{
     padding: 0 0 0 0;
+
 }
 
 

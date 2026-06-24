@@ -544,7 +544,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>actionIDs</String>
-																<String>add_ana
+																<String>add_ana, add_dump, create_dörte, delete_ana, delete_dump, open_browser
 </String>
 															</entry>
 														</serializableOrderedMap>
